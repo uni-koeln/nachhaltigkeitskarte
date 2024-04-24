@@ -1,6 +1,10 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <h1>Impressum</h1>
+
+    <h2>
+      TODO: Wer ist verantwortlich für die Inhalte? Erklärung, was ist die Nachhaltigkeitskarte?
+    </h2>
   </div>
 </template>
 
