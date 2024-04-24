@@ -1,6 +1,4 @@
 <script setup lang="ts">
-import TheWelcome from '../components/TheWelcome.vue'
-
 import { onMounted } from 'vue'
 
 import 'leaflet/dist/leaflet.css'
@@ -40,6 +38,5 @@ onMounted(() => {
     <div>
       <div id="map" style="height: 60vh"></div>
     </div>
-    <TheWelcome />
   </main>
 </template>
