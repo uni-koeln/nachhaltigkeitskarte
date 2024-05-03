@@ -88,8 +88,6 @@ git pull --rebase
 npm install
 ```
 
-TODO!!!
-
 #### Lokal entwickeln
 
 ```sh
