@@ -76,7 +76,7 @@ Starte VSCode.
 
 Öffne das Terminal (Menü -> Terminal -> New Terminal) und gib die Konsolenbefehle dort ein.
 
-#### Neuesten Stand von GitHub download
+#### Neuesten Stand von GitHub downloaden
 
 ```sh
 git pull --rebase
