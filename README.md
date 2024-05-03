@@ -33,7 +33,7 @@ FOO BAR Bar
 npm run build
 ```
 
-### Run Unit Tests with [Vitest](https://vitest.dev/)
+### Run Unit Tests with [Vitest](https://vitest.dev/) - foo
 
 ```sh
 npm run test:unit
