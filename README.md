@@ -29,7 +29,7 @@ Speichere das Access Token an einer sicheren Stelle, am besten in einem Passwort
 
 Öffne die Anwendung Terminal (MacOS) bzw. TODO (Windows) und gib folgende Befehle ein:
 
-##### OPTIONAL: [oh-my-zsh](https://ohmyz.sh/#install)
+##### Nur MacOS und OPTIONAL: [oh-my-zsh](https://ohmyz.sh/#install)
 
 Dieser Befehl installiert dir ein schöneres Layout im Terminal:
 
@@ -42,7 +42,7 @@ Du musst vermutlich das Passwort für deinen Computer eingeben, um die Installat
 ##### Download des GitHub Repositories
 
 ```sh
-git clone https://github.com/MilenaMMay/sustainability-walk.git
+git clone https://github.com/uni-koeln/nachhaltigkeitskarte.git
 ```
 
 Wenn du nach Usernamen und Passwort gefragt wirst, gibst du deinen euren GitHub Usernamen und das Access Token als Passwort an.
