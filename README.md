@@ -8,17 +8,17 @@ TODO Studis: mehr Informationen über dieses Projekt hinzufügen.
 - Luca - NEIN
 - Stefan - NEIN
 
-## Informationen zur Entwicklung
+## Grundlagen
 
-Dieses Projekt ist mit [Vue 3](https://vuejs.org/), [Vite](https://vitejs.dev/config/) und [Leaflet](https://leafletjs.com/) entwickelt. Es folgen Informationen für die Entwicklung:
+Dieses Projekt ist mit [Vue 3](https://vuejs.org/), [Vite](https://vitejs.dev/config/) und [Leaflet](https://leafletjs.com/) entwickelt.
 
-### Setup (einmalig)
+## Setup (einmalig)
 
 Führe die folgenden Schritte aus, um die Entwicklung vorzubereiten.
 
 Öffne die Anwendung Terminal (MacOS) bzw. TODO (Windows) und gib folgende Befehle ein:
 
-##### Nur MacOS und OPTIONAL: [oh-my-zsh](https://ohmyz.sh/#install)
+### Nur MacOS und OPTIONAL: [oh-my-zsh](https://ohmyz.sh/#install)
 
 Dieser Befehl installiert dir ein schöneres Layout im Terminal:
 
@@ -28,13 +28,21 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 
 Du musst vermutlich das Passwort für deinen Computer eingeben, um die Installation zu authorisieren.
 
-##### Download des GitHub Repositories
+### Download des GitHub Repositories
 
 ```sh
 git clone https://github.com/uni-koeln/nachhaltigkeitskarte.git
 ```
 
-#### Entwicklungsumgebung installieren
+### GitHub Account einrichten
+
+Führe folgende Befehle mit deiner Emailadresse, die du für GitHub verwendest und deinem Namen durch:
+```sh
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+```
+
+### Entwicklungsumgebung installieren
 
 [VSCode](https://code.visualstudio.com/download) herunterladen und installieren.
 
@@ -54,7 +62,7 @@ Auf die Frage “Do you want to install the recommended extensions from Prettier
 
 Dann installierst du das Plugin [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar).
 
-##### Autoformatierung einschalten
+### Autoformatierung einschalten
 
 Gehe im Menü auf Code -> Settings und suche “format”.
 
@@ -62,18 +70,7 @@ Wähle “Text Editor” und setze “Default Formatter” auf “Prettier - Cod
 
 Wähle “Text Editor -> Formatting” und setze den Haken bei “Editor: Format on Save”.
 
-### Erstellung eines GitHub Access Tokens (einmalig)
-
-Erstelle ein GitHub Personal Access Token Classic:
-
-- [GitHub Dokumentation zu den Tokens](https://docs.github.com/de/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#erstellen-eines-personal-access-token-classic)
-- [Hier erstellst du das Token](https://github.com/settings/tokens/new)
-  - Expiration: custom
-  - Scope: public_repo
-
-Speichere das Access Token an einer sicheren Stelle, am besten in einem Passwort Manager.
-
-### Entwicklung (kontinuierlich)
+## Entwicklung (kontinuierlich)
 
 Führe die folgenden Schritte aus, um die Webanwendung weiterzuentwickeln.
 Für jede Änderung wiederholen.
@@ -82,19 +79,19 @@ Starte VSCode.
 
 Öffne das Terminal (Menü -> Terminal -> New Terminal) und gib die Konsolenbefehle dort ein.
 
-#### Neuesten Stand von GitHub downloaden
+### Neuesten Stand von GitHub downloaden
 
 ```sh
 git pull --rebase
 ```
 
-#### Bibliotheken (Dependencies) aktualisieren
+### Bibliotheken (Dependencies) aktualisieren
 
 ```sh
 npm install
 ```
 
-#### Lokal entwickeln
+### Lokal entwickeln
 
 ```sh
 npm run dev
@@ -104,7 +101,7 @@ Mit Taste "Cmd" (Mac) bzw. "Ctrl" (Windows) und Klick auf die URL öffnest du di
 
 Jetzt kannst du den Code ändern. Bei jedem Speichern siehst du die Auswirkung in eurer lokalen Instanz. Achte bei jeder Datei darauf, sie zu speichern (mit der Tastenkombination "Cmd" bzw. "Ctrl" und "s"). Ein Punkt neben dem Dateinamen signalisiert ungespeicherte Änderungen.
 
-#### Änderung hochladen
+### Änderung hochladen
 
 Stelle sicher, dass alle Änderungen gespeichert sind und die Webanwendung lokal im Browser läuft. Dann führe aus:
 
@@ -112,6 +109,8 @@ Stelle sicher, dass alle Änderungen gespeichert sind und die Webanwendung lokal
 git add .
 git commit -m "Change / Add / Configure this"
 ```
+
+Anschließend führst du den Commit Befehl erneut aus.
 
 Die Commit Message beginnt mit einem großgeschriebenem Verb und fasst eine Änderung zusammen. Mehrere Änderungen sollten auf mehrere Commits aufgeteilt werden, damit sie einfacher nachzuvolllziehen sind.
 
@@ -146,17 +145,32 @@ Steht im Terminal "Successfully rebased and updated refs/heads/main.", kannst du
 git push
 ```
 
-Wenn du nach Usernamen und Passwort gefragt wirst, gibst du deinen euren GitHub Usernamen und das Access Token als Passwort an.
+Wenn du nach Usernamen und Passwort gefragt wirst, benötigst du deinen GitHub Usernamen und ein Access Token als Passwort (siehe unten).
 
-### Weiterführende Hinweise (noch unwichtig)
+Wenn stattdessen die GitHub Erweiterung dich fragt, ob sie zur Authorisierung genutzt werden darf, klicke auf "Allow" und logge dich mit Usernamen, Passwort und zweitem Faktor ein.
 
-#### Run Unit Tests with [Vitest](https://vitest.dev/)
+Beides ist nur einmalig beim ersten Push.
+
+#### Eventuell nur MacOS: Erstellung eines GitHub Access Tokens (einmalig)
+
+Erstelle ein GitHub Personal Access Token Classic:
+
+- [GitHub Dokumentation zu den Tokens](https://docs.github.com/de/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#erstellen-eines-personal-access-token-classic)
+- [Hier erstellst du das Token](https://github.com/settings/tokens/new)
+  - Expiration: custom
+  - Scope: public_repo
+
+Speichere das Access Token an einer sicheren Stelle, am besten in einem Passwort Manager.
+
+## Weiterführende Hinweise (noch unwichtig)
+
+### Run Unit Tests with [Vitest](https://vitest.dev/)
 
 ```sh
 npm run test:unit
 ```
 
-#### Run End-to-End Tests with [Playwright](https://playwright.dev)
+### Run End-to-End Tests with [Playwright](https://playwright.dev)
 
 ```sh
 # Install browsers for the first run
