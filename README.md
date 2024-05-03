@@ -8,7 +8,7 @@ Dieses Projekt ist mit [Vue 3](https://vuejs.org/), [Vite](https://vitejs.dev/co
 
 ### Recommended IDE Setup
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) and foo bar.
 
 ### Type Support for `.vue` Imports in TS
 
