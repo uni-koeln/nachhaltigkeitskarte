@@ -51,7 +51,15 @@ Wenn du nach Usernamen und Passwort gefragt wirst, gibst du deinen euren GitHub 
 
 [VSCode](https://code.visualstudio.com/download) herunterladen und installieren.
 
-Starte VSCode und klicke auf File -> Open Folder...
+Starte VSCode.
+
+NUR WINDOWS:
+
+- Öffne ein Terminal vom Typ "Ubuntu WSL"
+- Du wirst gefragt ob du das [Plugin für WSL](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl) installieren möchtest, bestätige das.
+- Nach der Installation klicke auf die Ecke links unten. Oben bekommst du mehrere Vorschläge, wähle den ersten "Connect to WSL".
+
+Klicke auf File -> Open Folder...
 Wähle den Dateiordner "nachhaltigkeitskarte" aus.
 
 Wähle “Yes I trust the authors”.
