@@ -39,7 +39,6 @@ npm install
 
 ```sh
 npm run dev
-FOO BAR Bar
 ```
 
 Mit Taste "Cmd" (Mac) bzw. "Ctrl" (Windows) und Klick auf die URL öffnest du die lokale Instanz der Webanwendung im Browser. Sie wird bei jeder Änderung im Code aktualisiert.
@@ -72,10 +71,18 @@ Prüfe in deiner lokalen Instanz im Browser, ob die Webanwendung noch funktionie
 Dann führe aus:
 
 ```sh
-git commit
+git add .
+git rebase --continue
 ```
 
 Im Terminal wird dir nun deine Commit Message angezeigt, die du verändern könntest.
+Um es einfach zu halten, schließt du die Ansicht einfach, indem du die Zeichen ":", "w", "q" und "Enter" eingibst.
+
+Steht im Terminal "Successfully rebased and updated refs/heads/main.", kannst du den Code hochladen:
+
+```sh
+git push
+```
 
 ### Weiterführende Hinweise (noch unwichtig)
 
