@@ -87,7 +87,7 @@ sudo apt update && sudo apt upgrade
 
 Die Frage "Do you want to continue" beantwortest du mit "Y" und "Enter".
 
-Installiere dann den [Node Version Manager](https://github.com/nvm-sh/nvm)
+Installiere dann den [Node Version Manager](https://github.com/nvm-sh/nvm):
 ```sh
 wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
 ```
