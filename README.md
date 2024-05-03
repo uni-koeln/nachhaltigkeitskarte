@@ -16,17 +16,6 @@ Dieses Projekt ist mit [Vue 3](https://vuejs.org/), [Vite](https://vitejs.dev/co
 
 Führe die folgenden Schritte aus, um die Entwicklung vorzubereiten.
 
-#### Verbindung mit dem Versionskontrollsystem GitHub
-
-Erstelle ein GitHub Personal Access Token Classic:
-
-- [GitHub Dokumentation zu den Tokens](https://docs.github.com/de/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#erstellen-eines-personal-access-token-classic)
-- [Hier erstellst du das Token](https://github.com/settings/tokens/new)
-  - Expiration: custom
-  - Scope: public_repo
-
-Speichere das Access Token an einer sicheren Stelle, am besten in einem Passwort Manager.
-
 Öffne die Anwendung Terminal (MacOS) bzw. TODO (Windows) und gib folgende Befehle ein:
 
 ##### Nur MacOS und OPTIONAL: [oh-my-zsh](https://ohmyz.sh/#install)
@@ -44,8 +33,6 @@ Du musst vermutlich das Passwort für deinen Computer eingeben, um die Installat
 ```sh
 git clone https://github.com/uni-koeln/nachhaltigkeitskarte.git
 ```
-
-Wenn du nach Usernamen und Passwort gefragt wirst, gibst du deinen euren GitHub Usernamen und das Access Token als Passwort an.
 
 #### Entwicklungsumgebung installieren
 
@@ -74,6 +61,17 @@ Gehe im Menü auf Code -> Settings und suche “format”.
 Wähle “Text Editor” und setze “Default Formatter” auf “Prettier - Code formatter”.
 
 Wähle “Text Editor -> Formatting” und setze den Haken bei “Editor: Format on Save”.
+
+### Erstellung eines GitHub Access Tokens (einmalig)
+
+Erstelle ein GitHub Personal Access Token Classic:
+
+- [GitHub Dokumentation zu den Tokens](https://docs.github.com/de/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#erstellen-eines-personal-access-token-classic)
+- [Hier erstellst du das Token](https://github.com/settings/tokens/new)
+  - Expiration: custom
+  - Scope: public_repo
+
+Speichere das Access Token an einer sicheren Stelle, am besten in einem Passwort Manager.
 
 ### Entwicklung (kontinuierlich)
 
@@ -147,6 +145,8 @@ Steht im Terminal "Successfully rebased and updated refs/heads/main.", kannst du
 ```sh
 git push
 ```
+
+Wenn du nach Usernamen und Passwort gefragt wirst, gibst du deinen euren GitHub Usernamen und das Access Token als Passwort an.
 
 ### Weiterführende Hinweise (noch unwichtig)
 
