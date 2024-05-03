@@ -17,7 +17,7 @@ Dann das Plugin [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.
 
 ### Entwicklung (kontinuierlich)
 
-Führe die folgenden Schritte aus, um die Software weiterzuentwickeln.
+Führe die folgenden Schritte aus, um die Webanwendung weiterzuentwickeln.
 Für jede Änderung wiederholen.
 
 Starte VSCode.
@@ -42,13 +42,13 @@ npm run dev
 FOO BAR Bar
 ```
 
-Mit Taste "Cmd" (Mac) bzw. "Ctrl" (Windows) und Klick auf die URL öffnest du die lokale Instanz der Software im Browser. Sie wird bei jeder Änderung im Code aktualisiert.
+Mit Taste "Cmd" (Mac) bzw. "Ctrl" (Windows) und Klick auf die URL öffnest du die lokale Instanz der Webanwendung im Browser. Sie wird bei jeder Änderung im Code aktualisiert.
 
 Jetzt kannst du den Code ändern. Bei jedem Speichern siehst du die Auswirkung in eurer lokalen Instanz. Achte bei jeder Datei darauf, sie zu speichern (mit der Tastenkombination "Cmd" bzw. "Ctrl" und "s"). Ein Punkt neben dem Dateinamen signalisiert ungespeicherte Änderungen.
 
 #### Änderung hochladen
 
-Stelle sicher, dass alle Änderungen gespeichert sind und die Software lokal im Browser läuft. Dann führe aus:
+Stelle sicher, dass alle Änderungen gespeichert sind und die Webanwendung lokal im Browser läuft. Dann führe aus:
 
 ```sh
 git add .
@@ -66,6 +66,16 @@ git pull --rebase
 Hierbei können Konflikte auftreten, wenn andere Leute die gleichen Dateien verändert haben, wie du.
 
 Die entsprechenden Dateien werden markiert.
+Ändere die Dateien so, dass du die Konflikte auflöst und die Änderungen zusammen führst.
+Prüfe in deiner lokalen Instanz im Browser, ob die Webanwendung noch funktioniert.
+
+Dann führe aus:
+
+```sh
+git commit
+```
+
+Im Terminal wird dir nun deine Commit Message angezeigt, die du verändern könntest.
 
 ### Weiterführende Hinweise (noch unwichtig)
 
