@@ -16,7 +16,20 @@ Dieses Projekt ist mit [Vue 3](https://vuejs.org/), [Vite](https://vitejs.dev/co
 
 Führe die folgenden Schritte aus, um die Entwicklung vorzubereiten.
 
-Öffne die Anwendung Terminal (MacOS) bzw. TODO (Windows) und gib folgende Befehle ein:
+### Nur Windows: installiere das [Windows Subsystem for Linux](https://learn.microsoft.com/de-de/windows/wsl/about)
+
+Öffne die App "Terminal" und gib ein:
+```sh
+wsl --install
+```
+
+Der Computer muss während der Installation einfach oder mehrfach neu gestartet werden.
+
+Suche nach der App “Ubuntu” - das ist jetzt dein neues Terminal.
+
+### Terminal öffnen
+
+Öffne die Anwendung Terminal (MacOS) bzw. Ubuntu (Windows) und gib folgende Befehle ein:
 
 ### Nur MacOS und OPTIONAL: [oh-my-zsh](https://ohmyz.sh/#install)
 
@@ -27,6 +40,15 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 ```
 
 Du musst vermutlich das Passwort für deinen Computer eingeben, um die Installation zu authorisieren.
+
+### Installiere [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+
+Überprüfe, ob git installiert ist mit folgendem Befehl:
+```sh
+git –version
+```
+
+Auf Windows sollte es im Ubuntu WSL bereits installiert sein, auf MacOS wird dadurch die Installation gestartet, dieser stimmst du zu.
 
 ### Download des GitHub Repositories
 
@@ -41,6 +63,47 @@ Führe folgende Befehle mit deiner Emailadresse, die du für GitHub verwendest u
 git config --global user.email "you@example.com"
 git config --global user.name "Your Name"
 ```
+
+### Node und NPM installieren
+
+Überprüfe, ob beides installiert ist. Wenn ja, gibt es nichts zu tun. Wenn nein, führe die unten stehenden Schritte für dein System aus und wiederhole die Prüfung.
+```sh
+node –version
+```
+... muss mindestens Version 20 sein.
+
+```sh
+npm –version
+```
+... muss mindestens Version 10 sein.
+
+#### Windows
+
+Führe zunächst ein Update deines Ubuntu WSL durch:
+
+```sh
+sudo apt update && sudo apt upgrade
+```
+
+Die Frage "Do you want to continue" beantwortest du mit "Y" und "Enter".
+
+Installiere dann den [Node Version Manager](https://github.com/nvm-sh/nvm)
+```sh
+wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+```
+
+Und anschließend node inklusive npm:
+```sh
+nvm install node
+```
+
+#### MacOS
+
+Du kannst auch die obigen Schritte für Windows befolgen, da die Befehle fürs Windows Subsystem for Linux nahezu identisch sind mit denen, die das Terminal in MacOS akzeptiert. 
+
+Oder du machst es dir einfach, lädst node hier runter und installierst es:
+https://nodejs.org/en/download
+
 
 ### Entwicklungsumgebung installieren
 
