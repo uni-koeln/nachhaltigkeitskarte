@@ -6,40 +6,76 @@ TODO Studis: mehr Informationen über dieses Projekt hinzufügen.
 
 Dieses Projekt ist mit [Vue 3](https://vuejs.org/), [Vite](https://vitejs.dev/config/) und [Leaflet](https://leafletjs.com/) entwickelt. Es folgen Informationen für die Entwicklung:
 
-### Recommended IDE Setup
+### Setup (einmalig)
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) and foo bar.
+Führe die folgenden Schritte aus, um die Entwicklung vorzubereiten.
 
-### Type Support for `.vue` Imports in TS
+#### Entwicklungsumgebung installieren
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+[VSCode](https://code.visualstudio.com/) herunterladen und installieren.
+Dann das Plugin [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) installieren.
 
-## Project Setup
+### Entwicklung (kontinuierlich)
+
+Führe die folgenden Schritte aus, um die Software weiterzuentwickeln.
+Für jede Änderung wiederholen.
+
+Starte VSCode.
+Öffne das Terminal (Menü -> Terminal -> New Terminal) und gib die Konsolenbefehle dort ein.
+
+#### Neuesten Stand von GitHub holen
+
+```sh
+git pull --rebase
+```
+
+#### Bibliotheken (Dependencies) aktualisieren
 
 ```sh
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+#### Lokal entwickeln
 
 ```sh
 npm run dev
 FOO BAR Bar
 ```
 
-### Type-Check, Compile and Minify for Production
+Mit Taste "Cmd" (Mac) bzw. "Ctrl" (Windows) und Klick auf die URL öffnest du die lokale Instanz der Software im Browser. Sie wird bei jeder Änderung im Code aktualisiert.
+
+Jetzt kannst du den Code ändern. Bei jedem Speichern siehst du die Auswirkung in eurer lokalen Instanz. Achte bei jeder Datei darauf, sie zu speichern (mit der Tastenkombination "Cmd" bzw. "Ctrl" und "s"). Ein Punkt neben dem Dateinamen signalisiert ungespeicherte Änderungen.
+
+#### Änderung hochladen
+
+Stelle sicher, dass alle Änderungen gespeichert sind und die Software lokal im Browser läuft. Dann führe aus:
 
 ```sh
-npm run build
+git add .
+git commit -m "Change / Add / Configure this"
 ```
 
-### Run Unit Tests with [Vitest](https://vitest.dev/) - foo
+Die Commit Message beginnt mit einem großgeschriebenem Verb und fasst eine Änderung zusammen. Mehrere Änderungen sollten auf mehrere Commits aufgeteilt werden, damit sie einfacher nachzuvolllziehen sind.
+
+Als nächstes stellst du sicher, dass du den aktuellen Stand hast:
+
+```sh
+git pull --rebase
+```
+
+Hierbei können Konflikte auftreten, wenn andere Leute die gleichen Dateien verändert haben, wie du.
+
+Die entsprechenden Dateien werden markiert.
+
+### Weiterführende Hinweise (noch unwichtig)
+
+#### Run Unit Tests with [Vitest](https://vitest.dev/)
 
 ```sh
 npm run test:unit
 ```
 
-### Run End-to-End Tests with [Playwright](https://playwright.dev)
+#### Run End-to-End Tests with [Playwright](https://playwright.dev)
 
 ```sh
 # Install browsers for the first run
@@ -56,10 +92,4 @@ npm run test:e2e -- --project=chromium
 npm run test:e2e -- tests/example.spec.ts
 # Runs the tests in debug mode
 npm run test:e2e -- --debug
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
 ```
