@@ -24,7 +24,7 @@ npm install
 
 ```sh
 npm run dev
-FOO BAR
+FOO BAR Bar
 ```
 
 ### Type-Check, Compile and Minify for Production
