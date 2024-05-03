@@ -22,8 +22,8 @@ Erstelle ein GitHub Personal Access Token Classic:
 
 - [GitHub Dokumentation zu den Tokens](https://docs.github.com/de/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#erstellen-eines-personal-access-token-classic)
 - [Hier erstellst du das Token](https://github.com/settings/tokens/new)
-  ** Expiration: custom
-  ** Scope: public_repo
+  - Expiration: custom
+  - Scope: public_repo
 
 Speichere das Access Token an einer sicheren Stelle, am besten in einem Passwort Manager.
 
@@ -62,7 +62,9 @@ Dann installierst du das Plugin [Volar](https://marketplace.visualstudio.com/ite
 ##### Autoformatierung einschalten
 
 Gehe im Menü auf Code -> Settings und suche “format”.
+
 Wähle “Text Editor” und setze “Default Formatter” auf “Prettier - Code formatter”.
+
 Wähle “Text Editor -> Formatting” und setze den Haken bei “Editor: Format on Save”.
 
 ### Entwicklung (kontinuierlich)
@@ -71,6 +73,7 @@ Führe die folgenden Schritte aus, um die Webanwendung weiterzuentwickeln.
 Für jede Änderung wiederholen.
 
 Starte VSCode.
+
 Öffne das Terminal (Menü -> Terminal -> New Terminal) und gib die Konsolenbefehle dort ein.
 
 #### Neuesten Stand von GitHub download
@@ -117,7 +120,9 @@ git pull --rebase
 Hierbei können Konflikte auftreten, wenn andere Leute die gleichen Dateien verändert haben, wie du.
 
 Die entsprechenden Dateien werden markiert.
+
 Ändere die Dateien so, dass du die Konflikte auflöst und die Änderungen zusammen führst.
+
 Prüfe in deiner lokalen Instanz im Browser, ob die Webanwendung noch funktioniert.
 
 Dann führe aus:
@@ -128,6 +133,7 @@ git rebase --continue
 ```
 
 Im Terminal wird dir nun deine Commit Message angezeigt, die du verändern könntest.
+
 Um es einfach zu halten, schließt du die Ansicht einfach, indem du die Zeichen ":", "w", "q" und "Enter" eingibst.
 
 Steht im Terminal "Successfully rebased and updated refs/heads/main.", kannst du den Code hochladen:
