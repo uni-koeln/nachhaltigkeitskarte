@@ -1,6 +1,6 @@
 # nachhaltigkeitskarte
 
-TODO: mehr Informationen über dieses Projekt hinzufügen.
+TODO Studis: mehr Informationen über dieses Projekt hinzufügen.
 
 ## Informationen zur Entwicklung
 
@@ -24,6 +24,7 @@ npm install
 
 ```sh
 npm run dev
+FOO BAR
 ```
 
 ### Type-Check, Compile and Minify for Production
