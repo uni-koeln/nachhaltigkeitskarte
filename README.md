@@ -4,7 +4,7 @@ TODO Studis: mehr Informationen über dieses Projekt hinzufügen.
 
 ## Entwicklungsumgebung bereit?
 
-- Arthur - NEIN
+- Arthur - JA
 - Luca - NEIN
 - Stefan - NEIN
 
