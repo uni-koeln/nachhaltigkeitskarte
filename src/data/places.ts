@@ -12,7 +12,11 @@ const stefansPlaces: Place[] = [{ name: 'Stefan', coordinates: L.latLng(50.9283,
 
 export const places: Place[] = [
   { name: 'Phil Café, Uni Köln', coordinates: L.latLng(50.92814086076388, 6.92777104434133) },
-  { name: 'Bistro Uni E-Raum', coordinates: L.latLng(50.928439764085766, 6.929710116076665) }
+  { name: 'Bistro Uni E-Raum', coordinates: L.latLng(50.928439764085766, 6.929710116076665) },
+  {
+    name: 'Beispiel: mehr Möglichkeiten<br>Neuer Absatz<br><a href="https://www.uni-koeln.de/" target="_blank">Uni Köln</a>',
+    coordinates: L.latLng(50.9285, 6.928)
+  }
 ]
   .concat(arthursPlaces)
   .concat(lucasPlaces)
