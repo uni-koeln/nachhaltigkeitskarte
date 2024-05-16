@@ -4,7 +4,6 @@ import { RouterLink, RouterView } from 'vue-router'
 
 <template>
   <header>
-    <!-- TODO: Logo University Cologne -->
     <img alt="Logo of the University Cologne" class="logo" src="@/assets/logo.png" height="150" />
 
     <div class="wrapper">
