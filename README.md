@@ -6,7 +6,7 @@ TODO Studis: mehr Informationen über dieses Projekt hinzufügen.
 
 - Arthur - JA
 - Luca - JA
-- Stefan - NEIN
+- Stefan - JA
 
 ## Grundlagen
 
