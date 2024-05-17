@@ -2,6 +2,12 @@
 
 TODO Studis: mehr Informationen über dieses Projekt hinzufügen.
 
+## Lust mitzuwirken?
+
+
+Möchtest du an unserem Projekt mitarbeiten? 
+Dann meld dich bei der folgende Adresse![Nachhhaltigkeitsbüro](nachhaltigkeitSpamProtectionverw.uni-koeln.de)
+
 ## Entwicklungsumgebung bereit?
 
 - Arthur - JA
