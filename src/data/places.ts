@@ -9,7 +9,13 @@ export interface Place {
 }
 
 const arthursPlaces: Place[] = [
-  { text: 'Arthur', url: '', type: '', coordinates: L.latLng(50.9283, 6.928) }
+  { text: 'Arthur', url: '', type: '', coordinates: L.latLng(50.9283, 6.928) },
+  {
+    text: 'Meteorologische Messstation (Wetter-, Klima- und Umweltmessgrößen)<br>Ort<br>Prof. Dr. Ulrich Löhnert<br>Zülpicher Wall 5<br>50674 Köln<br>Telefon: +49 221 470 1779',
+    type: 'Forschung',
+    url: 'https://geomet.uni-koeln.de/forschung/aktuelle-beobachtungen/wetterstation-gruenguertel',
+    coordinates: L.latLng(50.92972, 6.93249)
+  }
 ]
 const lucasPlaces: Place[] = [
   {
