@@ -21,7 +21,12 @@ const lucasPlaces: Place[] = [
   { text: 'Luca', url: '', type: '', coordinates: L.latLng(50.9282, 6.929) }
 ]
 const stefansPlaces: Place[] = [
-  { text: 'Stefan', url: '', type: '', coordinates: L.latLng(50.9283, 6.927) }
+  {
+    text: 'MESH<br>Research HUB<br>info-mesh@uni-koeln.de<br>Weyertal 59<br>50937 Köln<br>Telefon: +49 221 470 1293',
+    url: 'https://mesh.uni-koeln.de/',
+    type: 'Lehre',
+    coordinates: L.latLng(50.92473, 6.92638)
+  }
 ]
 
 export const places: Place[] = [
@@ -54,8 +59,7 @@ export const places: Place[] = [
     type: 'Forschung, grüner Campus',
     url: 'https://biologiedidaktik.uni-koeln.de/forschungsprojekte/aktuelle-forschungsprojekte/klimawandel-und-gruene-fassaden/billy-green',
     coordinates: L.latLng(50.934474105639715, 6.92146466818036)
-  },
-
+  }
 ]
   .concat(arthursPlaces)
   .concat(lucasPlaces)
