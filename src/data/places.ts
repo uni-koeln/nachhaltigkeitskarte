@@ -24,7 +24,13 @@ const lucasPlaces: Place[] = [
     url: 'https://gssc.uni-koeln.de/',
     coordinates: L.latLng(50.93127760930519, 6.921190240125787)
   },
-  { text: 'Luca', url: '', type: '', coordinates: L.latLng(50.9282, 6.929) }
+
+  {
+    text: 'Autonomes Queerreferat der Universität zu Köln (AQUK)<br>queerreferatunikoeln@gmail.com<br>Universitätsstraße 16<br>50937 Köln',
+    url: 'https://aquk.uni-koeln.de/home',
+    type: 'Soziale Nachhaltigkeit',
+    coordinates: L.latLng(50.92394560726894, 6.931505538342777)
+  }
 ]
 const stefansPlaces: Place[] = [
   {
@@ -34,9 +40,9 @@ const stefansPlaces: Place[] = [
     coordinates: L.latLng(50.92473, 6.92638)
   },
   {
-    text: "Enactus<br>Initiative (intern/extern)<br>teamvorstand@koeln.enactus.team<br>weyertal 109<br>50931 Köln",
-    url: "https://www.enactus.de",
-    type: "Transfer und Engagement",
+    text: 'Enactus<br>Initiative (intern/extern)<br>teamvorstand@koeln.enactus.team<br>weyertal 109<br>50931 Köln',
+    url: 'https://www.enactus.de',
+    type: 'Transfer und Engagement',
     coordinates: L.latLng(50.92560876307702, 6.925581265345831)
   }
 ]
