@@ -32,6 +32,12 @@ const stefansPlaces: Place[] = [
     url: 'https://mesh.uni-koeln.de/',
     type: 'Lehre',
     coordinates: L.latLng(50.92473, 6.92638)
+  },
+  {
+    text: "Enactus<br>Initiative (intern/extern)<br>teamvorstand@koeln.enactus.team<br>weyertal 109<br>50931 Köln",
+    url: "https://www.enactus.de",
+    type: "Transfer und Engagement",
+    coordinates: L.latLng(50.92560876307702, 6.925581265345831)
   }
 ]
 
