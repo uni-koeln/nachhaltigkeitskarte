@@ -12,8 +12,9 @@ import SupportIcon from '../components/icons/IconSupport.vue'
     <h1>Impressum</h1>
 
     <h2>
-      TODO: Wer ist verantwortlich für die Inhalte? Erklärung, was ist die Nachhaltigkeitskarte?
+      Das Nachhaltigkeitsbüro der Universität zu Köln
     </h2>
+    <a href="https://nachhaltigkeit.uni-koeln.de" target="_blank">Link zum Nachhaltigkeitsbüro</a>
   </div>
 
   <WelcomeItem>
@@ -21,7 +22,7 @@ import SupportIcon from '../components/icons/IconSupport.vue'
       <DocumentationIcon />
     </template>
     <template #heading>Foo</template>
-    Lorem Ipsum dolor sit amat.
+    erster Text
   </WelcomeItem>
 
   <WelcomeItem>
