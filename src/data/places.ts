@@ -12,6 +12,12 @@ const arthursPlaces: Place[] = [
   { text: 'Arthur', url: '', type: '', coordinates: L.latLng(50.9283, 6.928) }
 ]
 const lucasPlaces: Place[] = [
+  {
+    text: 'GSCC<br>Center<br>contact-gssc@uni-koeln.de<br>Classen-Kappelmann-Str. 24<br>50931 Köln<br>Telefon: +49 221 470 76645',
+    type: 'Forschung',
+    url: 'https://gssc.uni-koeln.de/',
+    coordinates: L.latLng(50.93127760930519, 6.921190240125787)
+  },
   { text: 'Luca', url: '', type: '', coordinates: L.latLng(50.9282, 6.929) }
 ]
 const stefansPlaces: Place[] = [
@@ -48,7 +54,8 @@ export const places: Place[] = [
     type: 'Forschung, grüner Campus',
     url: 'https://biologiedidaktik.uni-koeln.de/forschungsprojekte/aktuelle-forschungsprojekte/klimawandel-und-gruene-fassaden/billy-green',
     coordinates: L.latLng(50.934474105639715, 6.92146466818036)
-  }
+  },
+
 ]
   .concat(arthursPlaces)
   .concat(lucasPlaces)
