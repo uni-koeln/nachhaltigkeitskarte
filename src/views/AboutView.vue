@@ -11,9 +11,7 @@ import SupportIcon from '../components/icons/IconSupport.vue'
   <div class="about">
     <h1>Impressum</h1>
 
-    <h2>
-      Das Nachhaltigkeitsbüro der Universität zu Köln
-    </h2>
+    <h2>Das Nachhaltigkeitsbüro der Universität zu Köln</h2>
     <a href="https://nachhaltigkeit.uni-koeln.de" target="_blank">Link zum Nachhaltigkeitsbüro</a>
   </div>
 

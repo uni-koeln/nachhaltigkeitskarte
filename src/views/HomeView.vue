@@ -23,7 +23,8 @@ onMounted(() => {
       place.text +
         (place.url != ''
           ? '<br><a href="' + place.url + '" target="_blank">' + place.url + '</a>'
-          : '')
+          : '') +
+        (place.type != '' ? '<br>' + place.type : '')
     )
   })
 })
