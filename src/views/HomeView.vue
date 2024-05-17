@@ -19,7 +19,12 @@ onMounted(() => {
 
   places.forEach((place) => {
     const marker = L.marker(place.coordinates).addTo(sustainabilityMap)
-    marker.bindPopup(place.name)
+    marker.bindPopup(
+      place.text +
+        (place.url != ''
+          ? '<br><a href="' + place.url + '" target="_blank">' + place.url + '</a>'
+          : '')
+    )
   })
 })
 </script>
