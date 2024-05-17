@@ -42,6 +42,12 @@ export const places: Place[] = [
     type: 'Handlungsfeld: Übergeordnet',
     url: 'https://medfak.uni-koeln.de/fakultaet/ag-nachhaltigkeit',
     coordinates: L.latLng(50.92431554159669, 6.920873052344106)
+  },
+  {
+    text: 'Institut für Biologiedidaktik: Forschungsprojekt Klimawandel und grüne Fassaden<br>Institut, Ort<br>IBW-Gebäude<br>Herbert-Lewin-Straße 2<br>50931 Köln',
+    type: 'Forschung, grüner Campus',
+    url: 'https://biologiedidaktik.uni-koeln.de/forschungsprojekte/aktuelle-forschungsprojekte/klimawandel-und-gruene-fassaden/billy-green',
+    coordinates: L.latLng(50.934474105639715, 6.92146466818036)
   }
 ]
   .concat(arthursPlaces)
