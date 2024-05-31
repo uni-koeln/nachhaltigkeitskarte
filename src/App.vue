@@ -4,8 +4,18 @@ import { RouterLink, RouterView } from 'vue-router'
 
 <template>
   <header>
-    <img alt="Logo der Universität zu Köln" class="logo" src="@/assets/logo_uzk.png" width="200" />
-    <img alt="Logo des Nachhaltigkeitsbüros" class="logo" src="@/assets/logo_nhb.png" width="300" />
+    <a href="https://www.uni-koeln.de/" target="_blank"
+      ><img alt="Logo der Universität zu Köln" class="logo" src="@/assets/logo_uzk.png" width="200"
+    /></a>
+    <a
+      href="https://portal.uni-koeln.de/universitaet/universitaet-auf-einen-blick/nachhaltigkeit"
+      target="_blank"
+      ><img
+        alt="Logo des Nachhaltigkeitsbüros"
+        class="logo"
+        src="@/assets/logo_nhb.png"
+        width="300"
+    /></a>
 
     <div class="wrapper">
       Nachhaltigkeitskarte Universitat zu Köln
