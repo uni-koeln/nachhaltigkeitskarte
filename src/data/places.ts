@@ -66,7 +66,7 @@ const stefansPlaces: Place[] = [
   {
     text: 'MESH<br>Research HUB<br>info-mesh@uni-koeln.de<br>Weyertal 59<br>50937 Köln<br>Telefon: +49 221 470 1293',
     url: 'https://mesh.uni-koeln.de/',
-    type: PlaceType.Forschung, //['Lehre'],
+    type: PlaceType.LehreUndWeiterbildung,
     coordinates: L.latLng(50.92473, 6.92638)
   },
   {
