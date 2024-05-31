@@ -4,7 +4,7 @@ import type { LatLng } from 'leaflet'
 export enum PlaceType {
   Forschung,
   SozialeNachhaltigkeit,
-  Uebergeordnet
+  ZentraleEinrichtungen
 }
 
 export const getTypeName = (type: PlaceType): string => {
@@ -15,8 +15,8 @@ export const getTypeName = (type: PlaceType): string => {
 
     case PlaceType.SozialeNachhaltigkeit:
       return 'Soziale Nachhaltigkeit'
-    case PlaceType.Uebergeordnet:
-      return 'Übergeordnet'
+    case PlaceType.ZentraleEinrichtungen:
+      return 'Zentrale Einrichtungen'
     default:
       return ''
   }
@@ -89,7 +89,7 @@ export const places: Place[] = [
   },
   {
     text: 'AG Nachhaltigkeit der Med.<br>Initiative (intern)<br>tomo.saric@uni-koeln.de<br>Joseph-Stelzmann-Straße 20<br>50931 Köln',
-    type: PlaceType.Uebergeordnet,
+    type: PlaceType.ZentraleEinrichtungen,
     url: 'https://medfak.uni-koeln.de/fakultaet/ag-nachhaltigkeit',
     coordinates: L.latLng(50.92431554159669, 6.920873052344106)
   },
