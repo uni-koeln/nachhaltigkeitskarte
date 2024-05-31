@@ -4,7 +4,10 @@ import type { LatLng } from 'leaflet'
 export enum PlaceType {
   Forschung,
   SozialeNachhaltigkeit,
-  ZentraleEinrichtungen
+  ZentraleEinrichtungen,
+  LehreUndWeiterbildung,
+  InitiativenEngagementAngebote,
+  NachhaltigerCampus
 }
 
 export const getTypeName = (type: PlaceType): string => {
@@ -17,6 +20,12 @@ export const getTypeName = (type: PlaceType): string => {
       return 'Soziale Nachhaltigkeit'
     case PlaceType.ZentraleEinrichtungen:
       return 'Zentrale Einrichtungen'
+    case PlaceType.InitiativenEngagementAngebote:
+      return 'Studentische Initiativen, Engagement und Angebote'
+    case PlaceType.LehreUndWeiterbildung:
+      return 'Lehre und Weiterbildung'
+    case PlaceType.NachhaltigerCampus:
+      return 'Nachhaltiger Campus'
     default:
       return ''
   }
