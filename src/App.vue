@@ -4,7 +4,8 @@ import { RouterLink, RouterView } from 'vue-router'
 
 <template>
   <header>
-    <img alt="Logo of the University Cologne" class="logo" src="@/assets/logo.png" height="150" />
+    <img alt="Logo der Universität zu Köln" class="logo" src="@/assets/logo_uzk.png" width="200" />
+    <img alt="Logo des Nachhaltigkeitsbüros" class="logo" src="@/assets/logo_nhb.png" width="300" />
 
     <div class="wrapper">
       Nachhaltigkeitskarte Universitat zu Köln
