@@ -9,8 +9,8 @@ import { getTypeName, places } from '../data/places'
 // TODO: Dies ist der Startpunkt der Karte - setzt ihn so, dass er mittig ist
 const universityCologne: LatLng = L.latLng(50.928489708499356, 6.929532458566885)
 // TODO: Dies ist das Start Zoom Level - setzt es so groß, dass alle Orte zu sehen sind
-// Info: Je kleiner, desto weiter weg (14 bis 18)
-const zoomLevel = 16.3 // maximum zoom level so that we start as close as possible
+// Info: Je kleiner, desto weiter weg (14 (minZoom) bis 18)
+const zoomLevel = 16.3
 const minZoom = 14 // avoids that users zoom out of the relevant space
 
 onMounted(() => {
