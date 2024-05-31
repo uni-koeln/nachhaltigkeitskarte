@@ -4,7 +4,7 @@ import { onMounted } from 'vue'
 import 'leaflet/dist/leaflet.css'
 import * as L from 'leaflet'
 import type { LatLng } from 'leaflet'
-import { places } from '../data/places'
+import { getTypeName, places } from '../data/places'
 
 const universityCologne: LatLng = L.latLng(50.928489708499356, 6.929532458566885)
 const zoomLevel = 18 // maximum zoom level so that we start as close as possible
@@ -24,7 +24,7 @@ onMounted(() => {
         (place.url != ''
           ? '<br><a href="' + place.url + '" target="_blank">' + place.url + '</a>'
           : '') +
-        (place.type != '' ? '<br>' + place.type : '')
+        (place.type != undefined ? '<br>' + getTypeName(place.type) : '')
     )
   })
 })

@@ -1,18 +1,36 @@
 import * as L from 'leaflet'
 import type { LatLng } from 'leaflet'
 
+export enum PlaceType {
+  Forschung,
+  SozialeNachhaltigkeit
+}
+
+export const getTypeName = (type: PlaceType): string => {
+  console.log(type)
+  switch (type) {
+    case PlaceType.Forschung:
+      return 'Forschung'
+
+    case PlaceType.SozialeNachhaltigkeit:
+      return 'Soziale Nachhaltigkeit'
+    default:
+      return ''
+  }
+}
+
 export interface Place {
   text: string
-  type: string
+  type: PlaceType
   url: string
   coordinates: LatLng
 }
 
 const arthursPlaces: Place[] = [
-  { text: 'Arthur', url: '', type: '', coordinates: L.latLng(50.9283, 6.928) },
+  { text: 'Arthur', url: '', type: PlaceType.Forschung, coordinates: L.latLng(50.9283, 6.928) },
   {
     text: 'Meteorologische Messstation (Wetter-, Klima- und Umweltmessgrößen)<br>Ort<br>Prof. Dr. Ulrich Löhnert<br>Zülpicher Wall 5<br>50674 Köln<br>Telefon: +49 221 470 1779',
-    type: 'Forschung',
+    type: PlaceType.Forschung,
     url: 'https://geomet.uni-koeln.de/forschung/aktuelle-beobachtungen/wetterstation-gruenguertel',
     coordinates: L.latLng(50.92972, 6.93249)
   }
@@ -20,7 +38,7 @@ const arthursPlaces: Place[] = [
 const lucasPlaces: Place[] = [
   {
     text: 'GSCC<br>Center<br>contact-gssc@uni-koeln.de<br>Classen-Kappelmann-Str. 24<br>50931 Köln<br>Telefon: +49 221 470 76645',
-    type: 'Forschung',
+    type: PlaceType.Forschung,
     url: 'https://gssc.uni-koeln.de/',
     coordinates: L.latLng(50.93127760930519, 6.921190240125787)
   },
@@ -28,7 +46,7 @@ const lucasPlaces: Place[] = [
   {
     text: 'Autonomes Queerreferat der Universität zu Köln (AQUK)<br>queerreferatunikoeln@gmail.com<br>Universitätsstraße 16<br>50937 Köln',
     url: 'https://aquk.uni-koeln.de/home',
-    type: 'Soziale Nachhaltigkeit',
+    type: PlaceType.SozialeNachhaltigkeit,
     coordinates: L.latLng(50.92394560726894, 6.931505538342777)
   }
 ]
@@ -36,13 +54,13 @@ const stefansPlaces: Place[] = [
   {
     text: 'MESH<br>Research HUB<br>info-mesh@uni-koeln.de<br>Weyertal 59<br>50937 Köln<br>Telefon: +49 221 470 1293',
     url: 'https://mesh.uni-koeln.de/',
-    type: 'Lehre',
+    type: PlaceType.Forschung, //['Lehre'],
     coordinates: L.latLng(50.92473, 6.92638)
   },
   {
     text: 'Enactus<br>Initiative (intern/extern)<br>teamvorstand@koeln.enactus.team<br>weyertal 109<br>50931 Köln',
     url: 'https://www.enactus.de',
-    type: 'Transfer und Engagement',
+    type: PlaceType.Forschung, //['Transfer und Engagement'],
     coordinates: L.latLng(50.92560876307702, 6.925581265345831)
   }
 ]
@@ -51,30 +69,30 @@ export const places: Place[] = [
   {
     text: 'Phil Café, Uni Köln',
     url: '',
-    type: '',
+    type: PlaceType.Forschung,
     coordinates: L.latLng(50.92814086076388, 6.92777104434133)
   },
   {
     text: 'Bistro Uni E-Raum',
     url: '',
-    type: '',
+    type: PlaceType.Forschung,
     coordinates: L.latLng(50.928439764085766, 6.929710116076665)
   },
   {
     text: 'Beispiel: mehr Möglichkeiten<br>Neuer Absatz',
     url: 'https://www.uni-koeln.de/',
-    type: '',
+    type: PlaceType.Forschung,
     coordinates: L.latLng(50.9285, 6.928)
   },
   {
     text: 'AG Nachhaltigkeit der Med.<br>Initiative (intern)<br>tomo.saric@uni-koeln.de<br>Joseph-Stelzmann-Straße 20<br>50931 Köln',
-    type: 'Handlungsfeld: Übergeordnet',
+    type: PlaceType.Forschung, // ['Handlungsfeld: Übergeordnet'],
     url: 'https://medfak.uni-koeln.de/fakultaet/ag-nachhaltigkeit',
     coordinates: L.latLng(50.92431554159669, 6.920873052344106)
   },
   {
     text: 'Institut für Biologiedidaktik: Forschungsprojekt Klimawandel und grüne Fassaden<br>Institut, Ort<br>IBW-Gebäude<br>Herbert-Lewin-Straße 2<br>50931 Köln',
-    type: 'Forschung, grüner Campus',
+    type: PlaceType.Forschung, //['Forschung, grüner Campus'],
     url: 'https://biologiedidaktik.uni-koeln.de/forschungsprojekte/aktuelle-forschungsprojekte/klimawandel-und-gruene-fassaden/billy-green',
     coordinates: L.latLng(50.934474105639715, 6.92146466818036)
   }
