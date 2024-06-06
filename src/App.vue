@@ -4,8 +4,9 @@ import { RouterLink, RouterView } from 'vue-router'
 
 <template>
   <header>
+    <div class="image-header">
     <a href="https://www.uni-koeln.de/" target="_blank"
-      ><img alt="Logo der Universität zu Köln" class="logo" src="@/assets/logo_uzk.png" width="200"
+      ><img alt="Logo der Universität zu Köln" class="logo" src="@/assets/logo_uzk.png"
     /></a>
     <a
       href="https://portal.uni-koeln.de/universitaet/universitaet-auf-einen-blick/nachhaltigkeit"
@@ -14,9 +15,8 @@ import { RouterLink, RouterView } from 'vue-router'
         alt="Logo des Nachhaltigkeitsbüros"
         class="logo"
         src="@/assets/logo_nhb.png"
-        width="300"
     /></a>
-
+  </div>
     <div class="wrapper">
       Nachhaltigkeitskarte Universitat zu Köln
 
@@ -36,11 +36,21 @@ header {
   max-height: 100vh;
 }
 
+.image-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .logo {
   display: block;
   margin: 0 auto 2rem;
+  max-width: 250px;
 }
 
+.image-header a:hover {
+  background: rgba(0,0,0,0);
+}
 nav {
   width: 100%;
   font-size: 12px;
