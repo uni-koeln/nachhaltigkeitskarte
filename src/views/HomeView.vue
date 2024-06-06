@@ -27,6 +27,7 @@ onMounted(() => {
         (place.url != ''
           ? '<br><a href="' + place.url + '" target="_blank">' + place.url + '</a>'
           : '') +
+          (place.address != '' ? '<br>' + place.address : '') +
         (place.type != undefined ? '<br>' + getTypeName(place.type) : '')
     )
   })
