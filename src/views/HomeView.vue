@@ -22,7 +22,8 @@ onMounted(() => {
 
   places.forEach((place) => {
     const marker = L.marker(place.coordinates).addTo(sustainabilityMap)
-    marker.bindTooltip(
+    marker.bindTooltip(place.title ? '<b>' + place.title + '</b>' + '<br>' : place.text)
+    marker.bindPopup(
       (place.title ? '<b>' + place.title + '</b>' + '<br>' : '') +
         place.text +
         (place.url != ''
