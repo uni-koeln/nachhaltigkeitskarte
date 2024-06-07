@@ -14,6 +14,10 @@ a {
   padding: 3px;
 }
 
+b {
+  font-weight: bold;
+}
+
 @media (hover: hover) {
   a:hover {
     background-color: var(--color-link-hover);
