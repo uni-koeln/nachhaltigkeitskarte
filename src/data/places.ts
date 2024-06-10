@@ -108,21 +108,24 @@ export const places: Place[] = [
     coordinates: L.latLng(50.928439764085766, 6.929710116076665)
   },
   {
-    text: 'Beispiel: mehr Möglichkeiten<br>Neuer Absatz',
+    title: 'Beispiel: mehr Möglichkeiten<br>Neuer Absatz',
+    text: "",
     url: 'https://www.uni-koeln.de/',
     types: [PlaceType.Forschung],
     address: '',
     coordinates: L.latLng(50.9285, 6.928)
   },
   {
-    text: 'AG Nachhaltigkeit der Med.<br>Initiative (intern)<br>tomo.saric@uni-koeln.de',
+    title: 'AG Nachhaltigkeit der Med.<br>Initiative (intern)<br>tomo.saric@uni-koeln.de',
+    text: "",
     types: [PlaceType.ZentraleEinrichtungen],
     url: 'https://medfak.uni-koeln.de/fakultaet/ag-nachhaltigkeit',
     address: 'Joseph-Stelzmann-Straße 20<br>50931 Köln',
     coordinates: L.latLng(50.92431554159669, 6.920873052344106)
   },
   {
-    text: 'Institut für Biologiedidaktik: Forschungsprojekt Klimawandel und grüne Fassaden<br>Institut, Ort',
+    title: 'Institut für Biologiedidaktik: Forschungsprojekt Klimawandel und grüne Fassaden<br>Institut, Ort',
+    text: "",
     types: [PlaceType.Forschung], //['Forschung, grüner Campus'],
     url: 'https://biologiedidaktik.uni-koeln.de/forschungsprojekte/aktuelle-forschungsprojekte/klimawandel-und-gruene-fassaden/billy-green',
     address: 'Herbert-Lewin-Straße 2<br>50931 Köln',
