@@ -42,7 +42,8 @@ export interface Place {
 
 const arthursPlaces: Place[] = [
   {
-    text: 'Meteorologische Messstation (Wetter-, Klima- und Umweltmessgrößen)<br>Ort<br>Prof. Dr. Ulrich Löhnert<br>Telefon: +49 221 470 1779',
+    title: 'Meteorologische Messstation (Wetter-, Klima- und Umweltmessgrößen)<br>Ort<br>Prof. Dr. Ulrich Löhnert<br>Telefon: +49 221 470 1779',
+    text: "",
     types: [PlaceType.Forschung],
     url: 'https://geomet.uni-koeln.de/forschung/aktuelle-beobachtungen/wetterstation-gruenguertel',
     address: 'Zülpicher Wall 5<br>50674 Köln',
@@ -60,7 +61,8 @@ const lucasPlaces: Place[] = [
   },
 
   {
-    text: 'Autonomes Queerreferat der Universität zu Köln (AQUK)<br>queerreferatunikoeln@gmail.com',
+    title: 'Autonomes Queerreferat der Universität zu Köln (AQUK)<br>queerreferatunikoeln@gmail.com',
+    text: "",
     url: 'https://aquk.uni-koeln.de/home',
     types: [PlaceType.SozialeNachhaltigkeit],
     address: 'Universitätsstraße 16<br>50937 Köln',
