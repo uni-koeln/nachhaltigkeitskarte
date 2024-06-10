@@ -79,24 +79,29 @@ const stefansPlaces: Place[] = [
     coordinates: L.latLng(50.92473, 6.92638)
   },
   {
-    text: 'Enactus<br>Initiative (intern/extern)<br>teamvorstand@koeln.enactus.team',
+    title:'Enactus<br>Initiative (intern/extern)<br>teamvorstand@koeln.enactus.team',
+    text: "",
     url: 'https://www.enactus.de',
     types: [PlaceType.Forschung], //['Transfer und Engagement'],
     address: 'Weyertal 109<br>50931 Köln',
     coordinates: L.latLng(50.92560876307702, 6.925581265345831)
-  }
+  },
+
+
 ]
 
 export const places: Place[] = [
   {
-    text: 'Phil Café, Uni Köln',
+    title: 'Phil Café, Uni Köln',
+    text: "",
     url: '',
     types: [PlaceType.Forschung],
     address: '',
-    coordinates: L.latLng(50.92814086076388, 6.92777104434133)
+    coordinates: L.latLng(50.92812, 6.92776)
   },
   {
-    text: 'Bistro Uni E-Raum',
+    title: 'Bistro Uni E-Raum',
+    text: "",
     url: '',
     types: [PlaceType.Forschung],
     address: '',
