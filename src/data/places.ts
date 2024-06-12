@@ -130,7 +130,47 @@ export const places: Place[] = [
     url: 'https://biologiedidaktik.uni-koeln.de/forschungsprojekte/aktuelle-forschungsprojekte/klimawandel-und-gruene-fassaden/billy-green',
     address: 'Herbert-Lewin-Straße 2<br>50931 Köln',
     coordinates: L.latLng(50.934474105639715, 6.92146466818036)
-  }
+  },
+  {
+    title: 'ASTA-Fahrradwerkstatt',
+    text: "",
+    url: 'https://www.asta.uni-koeln.de/?tab=angebote-tt-asta-fahrradwerkstatt-mitschraubgelegenheit#angebote',
+    types: [PlaceType.InitiativenEngagementAngebote],
+    address: 'Zülpicher Wall Hinterhof der Hauptmensa',
+    coordinates: L.latLng(50.92791453704527, 6.93377283134142)
+  },
+  {
+    title: 'Bachelor of Science in Management, Economics and Social Sciences -Driving Sustainable Change',
+    text: "",
+    url: "https://wiso.uni-koeln.de/de/studium/bachelor/bachelor-management-economics-social-sciences",
+    types: [PlaceType.LehreUndWeiterbildung],
+    address: 'Universitätsstraße 24<br>50931 Köln',
+    coordinates: L.latLng(50.93021817443361, 6.928134068519783)
+  },
+  {
+    title: 'Begrünung der Mensa: Hochbeete und Blühwiese',
+    text: "",
+    url: "https://www.asta.uni-koeln.de/?tab=angebote-tt-mensa-begruenung#angebote",
+    types: [PlaceType.InitiativenEngagementAngebote],
+    address: 'Hauptmensa<br>Zülpicherstr.70<br>50931 Köln<br>green-office@uni-koeln.de, m.wiggers@kstw.de',
+    coordinates: L.latLng(50.92772769481757, 6.9332704838606904)
+  },
+  {
+    title: 'Campus Garten',
+    text: "",
+    url: "https://www.asta.uni-koeln.de/?tab=angebote-tt-campus-garten#angebote",
+    types: [PlaceType.InitiativenEngagementAngebote],
+    address: 'Gyrhofstraße 19<br>50931 Köln<br>h.daniels@asta.uni-koeln.de',
+    coordinates: L.latLng(50.92713127134471, 6.922999455025401)
+  },
+  {
+    title: 'Earth System Sciences',
+    text: "",
+    url: "https://computationalsciences.uni-koeln.de/contents/curriculum/earth-system-sciences",
+    types: [PlaceType.Forschung],
+    address: 'Pohligstr.3<br>50969 Köln<br>h.daniels@asta.uni-koeln.de<br>info-compscie@uni-koeln.de',
+    coordinates: L.latLng(50.917139942250294, 6.940774168519168)
+  },
 ]
   .concat(arthursPlaces)
   .concat(lucasPlaces)
