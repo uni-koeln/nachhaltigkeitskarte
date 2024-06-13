@@ -162,9 +162,121 @@ export const places: Place[] = [
   {
     title: 'Earth System Sciences',
     text: "",
+    url:"https://computationalsciences.uni-koeln.de/contents/curriculum/earth-system-sciences",
+    types: [PlaceType.Forschung, PlaceType.LehreUndWeiterbildung],
+    address:'Pohligstr.3<br>50969 Köln<br>h.daniels@asta.uni-koeln.de<br>info-compscie@uni-koeln.de',
+    coordinates: L.latLng(50.917139942250294, 6.940774168519168)
+  },
+  {
+    title: 'Institutsteam des Institut für Allgemeinmedizin<br> der Universitätsklinik und der UzK, Schwerpunkt: Allgemeinmedizin im Klimawandel',
+    text: "",
     url: "https://computationalsciences.uni-koeln.de/contents/curriculum/earth-system-sciences",
     types: [PlaceType.Forschung],
-    address: 'Pohligstr.3<br>50969 Köln<br>h.daniels@asta.uni-koeln.de<br>info-compscie@uni-koeln.de',
+    address: 'Kerpener Str. 62<br>50937 Köln<br>Prof.Dr. Beate Müller,<br> Assitenz: Karin Plate, karin.plate@uk-koeln.de',
+    coordinates: L.latLng(50.92372629166638, 6.917043502390615)
+  },
+  {
+    title: 'Nachhaltigkeitsbüro',
+    text: "",
+    url: "https://portal.uni-koeln.de/universitaet/universitaet-auf-einen-blick/nachhaltigkeit/team-und-kontakt",
+    types: [PlaceType.NachhaltigerCampus],
+    address: 'Weyertal 109<br>50931 Köln<br>nachhaltigkeit@verw.uni-koeln.de',
+    coordinates: L.latLng(50.92558720842824, 6.925659999998462)
+  },
+  {
+    title: 'Weiterbildung Nachhaltigkeitsmanager*in',
+    text: "",
+    url: "https://professionalcenter.uni-koeln.de/lehre/nachhaltigkeitsmanagerin-ihk",
+    types: [PlaceType.LehreUndWeiterbildung],
+    address: 'Universitätsstraße 22a<br>50937 Köln<br>carina.goffart@uni-koeln.de',
+    coordinates: L.latLng(50.917139942250294, 6.940774168519168)
+  },
+  {
+    title: 'USB: CLIMATE CLOCK und AGENDA 2030',
+    text: "",
+    url: "https://ub.uni-koeln.de/die-usb/ueber-uns/agenda2030",
+    types: [PlaceType.InitiativenEngagementAngebote],
+    address: 'Universitätsstraße 33<br>50931 Köln<br>schrempp@ub.uni-koeln.de',
+    coordinates: L.latLng(50.9255580440606, 6.9295179423223034)
+  },
+  {
+    title: 'Sustainability Initiative University Cologne',
+    text: "",
+    url: "https://sustainability.uni-koeln.de/",
+    types: [PlaceType.LehreUndWeiterbildung],
+    address: 'Greinstraße 4-6<br>50939 Köln<br>be-sustainable@uni-koeln.de',
+    coordinates: L.latLng(50.92370072234999, 6.934937713454496)
+  },
+  {
+    title: 'Public Climate School (Students For Future)',
+    text: "",
+    url: "https://sites.google.com/view/sff-koelnde/startseite",
+    types: [PlaceType.LehreUndWeiterbildung],
+    address: 'Universitätsstraße 37<br>50931 Köln',
+    coordinates: L.latLng(50.927059612448645, 6.927190657687529)
+  },
+  {
+    title: 'Projekt Food_Fair (Food Saving und Sharing Projekt)',
+    text: "",
+    url: "https://www.asta.uni-koeln.de/?tab=angebote-tt-food_fair#angebote",
+    types: [PlaceType.SozialeNachhaltigkeit],
+    address: 'Universitätsstraße 16<br>50935 Köln<br>food-fair@asta.uni-koeln.de',
+    coordinates: L.latLng(50.92385551851312, 6.931574971165858)
+  },
+  {
+    title: 'Professional Center: Service Learning',
+    text: "",
+    url: "https://professionalcenter.uni-koeln.de/lehre/service-learning",
+    types: [PlaceType.LehreUndWeiterbildung],
+    address: 'Universitätsstraße 22a,<br>50937 Köln<br>meike.bredendiek@uni-koeln.de',
+    coordinates: L.latLng(50.927274325921985, 6.929685889347173)
+  },
+  {
+    title: 'Ökologische Rheinstation der Universität zu Köln',
+    text: "",
+    url: "https://rheinstation.uni-koeln.de/",
+    types: [PlaceType.LehreUndWeiterbildung, PlaceType.LehreUndWeiterbildung],
+    address: 'Ober­län­der Werft<br>Rhein­ki­lo­me­ter 684,5<br>50968 Köln',
+    coordinates: L.latLng(50.907020577583175, 6.978733907813633)
+  },
+  {
+    title: 'Ökologiereferat',
+    text: "",
+    url: "https://www.asta.uni-koeln.de/?tab=ueber-uns-tt-referat-fuer-oekologie-und-infrastruktur#ueber-uns",
+    types: [PlaceType.NachhaltigerCampus],
+    address: 'Universitätsstraße 16,<br>50937 Köln<br>oekologie@asta.uni-koeln.de',
+    coordinates: L.latLng(50.92385551851312, 6.931574971165858)
+  },
+  {
+    title: 'Modularer Modellgarten',
+    text: "",
+    url: "https://ub.uni-koeln.de/die-usb/ueber-uns/agenda2030",
+    types: [PlaceType.LehreUndWeiterbildung, PlaceType.LehreUndWeiterbildung],
+    address: 'Melaten,<br>50931 Köln<br>schrempp@ub.uni-koeln.de',
+    coordinates: L.latLng(50.934806, 6.919861)
+  },
+  {
+    title: 'MINT-Bildungsprojekt: unserWaldKlima',
+    text: "",
+    url: "https://waldklima.uni-koeln.de/",
+    types: [PlaceType.LehreUndWeiterbildung],
+    address: 'Herbert-Lewin-Str. 2 <br>50931 Köln',
+    coordinates: L.latLng(50.934303923601476, 6.921470676116717)
+  },
+  {
+    title: 'Lastenrad-Ausleihe',
+    text: "",
+    url: "https://ub.uni-koeln.de/die-usb/ueber-uns/agenda2030",
+    types: [PlaceType.InitiativenEngagementAngebote],
+    address: 'Universitätsstraße 41<br>50931 Köln<br>servicepoint@asta.uni-koeln.de',
+    coordinates: L.latLng(50.917139942250294, 6.940774168519168)
+  },
+  {
+    title: 'Kstw: Gastronomie',
+    text: "",
+    url: "https://www.kstw.de/ueber-uns/nachhaltigkeit",
+    types: [PlaceType.NachhaltigerCampus],
+    address: 'Universitätsstraße 16<br>50937 Köln',
     coordinates: L.latLng(50.917139942250294, 6.940774168519168)
   },
 ]
