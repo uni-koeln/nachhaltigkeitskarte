@@ -15,7 +15,6 @@ export const getTypeName = (type: PlaceType): string => {
   switch (type) {
     case PlaceType.Forschung:
       return 'Forschung'
-
     case PlaceType.SozialeNachhaltigkeit:
       return 'Soziale Nachhaltigkeit'
     case PlaceType.ZentraleEinrichtungen:
@@ -32,7 +31,7 @@ export const getTypeName = (type: PlaceType): string => {
 }
 
 export interface Place {
-  title?: string
+  title: string
   text: string
   types: PlaceType[]
   url: string
@@ -49,7 +48,7 @@ const arthursPlaces: Place[] = [
     address: 'Zülpicher Wall 5<br>50674 Köln',
     coordinates: L.latLng(50.92972, 6.93249)
   }
-]
+];
 const lucasPlaces: Place[] = [
   {
     title: 'GSCC',
@@ -59,7 +58,6 @@ const lucasPlaces: Place[] = [
     address: 'Classen-Kappelmann-Str. 24<br>50931 Köln',
     coordinates: L.latLng(50.93127760930519, 6.921190240125787)
   },
-
   {
     title: 'Autonomes Queerreferat der Universität zu Köln (AQUK)<br>queerreferatunikoeln@gmail.com',
     text: "",
@@ -68,7 +66,7 @@ const lucasPlaces: Place[] = [
     address: 'Universitätsstraße 16<br>50937 Köln',
     coordinates: L.latLng(50.92394560726894, 6.931505538342777)
   }
-]
+];
 const stefansPlaces: Place[] = [
   {
     title: "Mesh",
@@ -85,10 +83,8 @@ const stefansPlaces: Place[] = [
     types: [PlaceType.Forschung], //['Transfer und Engagement'],
     address: 'Weyertal 109<br>50931 Köln',
     coordinates: L.latLng(50.92560876307702, 6.925581265345831)
-  },
-
-
-]
+  }
+];
 
 export const places: Place[] = [
   {
