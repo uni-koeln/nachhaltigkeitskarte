@@ -251,7 +251,7 @@ export const places: Place[] = [
     title: 'Modularer Modellgarten',
     text: "",
     url: "https://ub.uni-koeln.de/die-usb/ueber-uns/agenda2030",
-    types: [PlaceType.LehreUndWeiterbildung, PlaceType.LehreUndWeiterbildung],
+    types: [PlaceType.LehreUndWeiterbildung, PlaceType.Forschung],
     address: 'Melaten,<br>50931 Köln<br>schrempp@ub.uni-koeln.de',
     coordinates: L.latLng(50.934806, 6.919861)
   },
