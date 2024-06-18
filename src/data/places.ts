@@ -173,10 +173,57 @@ export const places: Place[] = [
     coordinates: L.latLng(50.917139942250294, 6.940774168519168)
   },
   {
-    title:
-      'Institutsteam des Institut für Allgemeinmedizin<br> der Universitätsklinik und der UzK, Schwerpunkt: Allgemeinmedizin im Klimawandel',
-    text: '',
-    url: 'https://computationalsciences.uni-koeln.de/contents/curriculum/earth-system-sciences',
+    title: 'Förderprojekt durch das BMU',
+    text: "",
+    url:"https://portal.uni-koeln.de/universitaet/universitaet-auf-einen-blick/nachhaltigkeit/was-unternimmt-die-uni/foerderprojekte-bmu",
+    types: [PlaceType.ZentraleEinrichtungen],
+    address:'Robert-Koch-Str.46-50<br>50931 Köln<br>',
+    coordinates: L.latLng(50.928187445629725, 6.921146368519648)
+  },
+  {
+    title: 'Health For Future Köln',
+    text: "",
+    url:"https://www.instagram.com/healthforfuturekoeln/?hl=de",
+    types: [PlaceType.NachhaltigerCampus],
+    address:'',
+    coordinates: L.latLng(50.928187445629725, 6.921146368519648)
+  },
+  {
+    title: 'Information Systems for Sustainable Society',
+    text: "",
+    url:"https://is3.uni-koeln.de/en/",
+    types: [PlaceType.Forschung],
+    address:'Pohligstr.1<br>50696 Köln',
+    coordinates: L.latLng(50.91695747081302, 6.941158610848678)
+  },
+  {
+    title: 'Institut für Biologiedidaktik: Forschungsprojekt Klimawandel und grüne Fassaden ',
+    text: "",
+    url:"https://biologiedidaktik.uni-koeln.de/forschungsprojekte/aktuelle-forschungsprojekte/klimawandel-und-gruene-fassaden/billy-green",
+    types: [PlaceType.Forschung, PlaceType.NachhaltigerCampus],
+    address:'Zülpicherstr.70<br>50937 Köln',
+    coordinates: L.latLng(50.92791358709717, 6.933130995594881)
+  },
+  {
+    title: 'Institut für Geologie und Mineralogie',
+    text: "",
+    url:"https://geologie.uni-koeln.de/",
+    types: [PlaceType.Forschung, PlaceType.LehreUndWeiterbildung],
+    address:'Zülpicherstr.49a<br>50674 Köln',
+    coordinates: L.latLng(50.92746015755058, 6.934370939684416)
+  },
+  {
+    title: 'Institute for International Peace and Security Law',
+    text: "",
+    url:"https://iipsl.jura.uni-koeln.de/",
+    types: [PlaceType.Forschung, PlaceType.LehreUndWeiterbildung, PlaceType.SozialeNachhaltigkeit],
+    address:'Hauptgebäude<br>50923 Köln',
+    coordinates: L.latLng(50.92798593682843, 6.929006924343601)
+  },
+  {
+    title: 'Institutsteam des Institut für Allgemeinmedizin<br> der Universitätsklinik und der UzK, Schwerpunkt: Allgemeinmedizin im Klimawandel',
+    text: "",
+    url: "https://computationalsciences.uni-koeln.de/contents/curriculum/earth-system-sciences",
     types: [PlaceType.Forschung],
     address:
       'Kerpener Str. 62<br>50937 Köln<br>Prof.Dr. Beate Müller,<br> Assitenz: Karin Plate, karin.plate@uk-koeln.de',
