@@ -221,6 +221,46 @@ export const places: Place[] = [
     coordinates: L.latLng(50.92798593682843, 6.929006924343601)
   },
   {
+    title: 'Junge Forschungsgruppe Nachhaltigkeit',
+    text: "",
+    url:"https://jfg-nachhaltigkeit.jura.uni-koeln.de/",
+    types: [PlaceType.Forschung],
+    address:'',
+    coordinates: L.latLng(50.92798593682843, 6.929006924343601)
+  },
+  {
+    title: 'M.A. Culture and Environment In Africa',
+    text: "",
+    url:"https://ethnologie.phil-fak.uni-koeln.de/content.php?kid=111",
+    types: [PlaceType.LehreUndWeiterbildung],
+    address:'',
+    coordinates: L.latLng(50.92798593682843, 6.929006924343601)
+  },
+  {
+    title: 'Physics of Earth and Atmosphere',
+    text: "",
+    url:"https://geomet.uni-koeln.de/studium/master-program",
+    types: [PlaceType.LehreUndWeiterbildung],
+    address:'Pohligstraße 3<br>50969 Köln',
+    coordinates: L.latLng(50.917133178323624, 6.940784897354426)
+  }, 
+  {
+    title: 'Sammelstelle leere Batterien',
+    text: "",
+    url:"https://portal.uni-koeln.de/universitaet/universitaet-auf-einen-blick/nachhaltigkeit/was-unternimmt-die-uni/nachhaltigkeitsstrategie/nachhaltigkeit-in-organisation-betrieb/nachhaltigkeit-auf-dem-campus-bisherige-erfolge",
+    types: [PlaceType.InitiativenEngagementAngebote],
+    address:'Hauptgebäude<br>50923 Köln',
+    coordinates: L.latLng(50.92798593682843, 6.929006924343601)
+  }, 
+  {
+    title: 'zdi-Schülerlabor',
+    text: "",
+    url:"https://zdi-schuelerlabor.uni-koeln.de/",
+    types: [PlaceType.InitiativenEngagementAngebote],
+    address:'Herbert-Lewin-Str.2<br>50931 Köln',
+    coordinates: L.latLng(50.9344482229511, 6.921448639684721)
+  }, 
+  {
     title: 'Institutsteam des Institut für Allgemeinmedizin<br> der Universitätsklinik und der UzK, Schwerpunkt: Allgemeinmedizin im Klimawandel',
     text: "",
     url: "https://computationalsciences.uni-koeln.de/contents/curriculum/earth-system-sciences",
