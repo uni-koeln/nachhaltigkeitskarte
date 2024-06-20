@@ -11,7 +11,6 @@ export enum PlaceType {
 }
 
 export const getTypeName = (type: PlaceType): string => {
-  console.log(type)
   switch (type) {
     case PlaceType.Forschung:
       return 'Forschung'

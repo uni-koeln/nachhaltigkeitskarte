@@ -4,7 +4,8 @@ import { onMounted } from 'vue'
 import 'leaflet/dist/leaflet.css'
 import * as L from 'leaflet'
 import type { LatLng } from 'leaflet'
-import { getTypeName, places } from '../data/places'
+import { PlaceType, getTypeName, places, type Place } from '../data/places'
+import { getPlaceTypes } from './utils'
 
 // TODO: Dies ist der Startpunkt der Karte - setzt ihn so, dass er mittig ist
 const universityCologne: LatLng = L.latLng(50.928489708499356, 6.929532458566885)
@@ -12,6 +13,8 @@ const universityCologne: LatLng = L.latLng(50.928489708499356, 6.929532458566885
 // Info: Je kleiner, desto weiter weg (14 (minZoom) bis 18)
 const zoomLevel = 16.3
 const minZoom = 14 // avoids that users zoom out of the relevant space
+
+const placeTypes = getPlaceTypes()
 
 onMounted(() => {
   var sustainabilityMap = L.map('map').setView(universityCologne, zoomLevel)
@@ -41,7 +44,11 @@ onMounted(() => {
 <template>
   <main>
     <div class="grid-container">
-      <div class="grid-item-filter">Foo</div>
+      <div class="grid-item-filter">
+        <div class="filter" v-for="placeType in placeTypes" :key="placeType">
+          {{ getTypeName(placeType as PlaceType) }}
+        </div>
+      </div>
       <div class="grid-item-map" id="map"></div>
     </div>
   </main>

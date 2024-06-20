@@ -102,3 +102,12 @@ b {
 .grid-item-map {
   grid-area: map;
 }
+
+.filter {
+  background-color: red;
+  color: white;
+  margin: 5px;
+  padding: 3px;
+  border-radius: 5px;
+  cursor: pointer;
+}
