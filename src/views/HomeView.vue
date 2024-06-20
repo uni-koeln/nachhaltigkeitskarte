@@ -4,7 +4,7 @@ import { onMounted } from 'vue'
 import 'leaflet/dist/leaflet.css'
 import * as L from 'leaflet'
 import type { LatLng } from 'leaflet'
-import { PlaceType, getTypeName, places, type Place } from '../data/places'
+import { PlaceType, getTypeName, places } from '../data/places'
 import { getPlaceTypes } from './utils'
 
 // TODO: Dies ist der Startpunkt der Karte - setzt ihn so, dass er mittig ist
@@ -16,15 +16,15 @@ const minZoom = 14 // avoids that users zoom out of the relevant space
 
 const placeTypes = getPlaceTypes()
 
-onMounted(() => {
-  var sustainabilityMap = L.map('map').setView(universityCologne, zoomLevel)
-  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
-    minZoom: minZoom
-  }).addTo(sustainabilityMap)
+let sustainabilityMap: L.Map
+let filteredPlaces = places
+let markers: L.LayerGroup<any>
 
-  places.forEach((place) => {
-    const marker = L.marker(place.coordinates).addTo(sustainabilityMap)
+const addMarkers = () => {
+  markers = L.layerGroup().addTo(sustainabilityMap)
+
+  filteredPlaces.forEach((place) => {
+    const marker = L.marker(place.coordinates).addTo(markers)
     marker.bindTooltip(place.title ? '<b>' + place.title + '</b>' + '<br>' : place.text)
     marker.bindPopup(
       (place.title ? '<b>' + place.title + '</b>' + '<br>' : '') +
@@ -38,6 +38,25 @@ onMounted(() => {
         })
     )
   })
+}
+
+const filterPlaces = (placeType: PlaceType): void => {
+  filteredPlaces = places.filter((place) => {
+    return place.types.includes(placeType)
+  })
+
+  markers.clearLayers()
+  addMarkers()
+}
+
+onMounted(() => {
+  sustainabilityMap = L.map('map').setView(universityCologne, zoomLevel)
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+    minZoom: minZoom
+  }).addTo(sustainabilityMap)
+
+  addMarkers()
 })
 </script>
 
@@ -45,7 +64,12 @@ onMounted(() => {
   <main>
     <div class="grid-container">
       <div class="grid-item-filter">
-        <div class="filter" v-for="placeType in placeTypes" :key="placeType">
+        <div
+          class="filter"
+          v-for="placeType in placeTypes"
+          :key="placeType"
+          @click="filterPlaces(placeType)"
+        >
           {{ getTypeName(placeType as PlaceType) }}
         </div>
       </div>
