@@ -73,5 +73,6 @@ nav a:first-of-type {
 }
 #title {
   text-align: center;
+  font-size: x-large;
 }
 </style>
