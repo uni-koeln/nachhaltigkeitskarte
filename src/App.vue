@@ -14,9 +14,8 @@ import { RouterLink, RouterView } from 'vue-router'
         ><img alt="Logo des Nachhaltigkeitsbüros" class="logo" src="@/assets/logo_nhb.png"
       /></a>
     </div>
-    <div class="wrapper">
+    <div id="title" class="wrapper">
       Nachhaltigkeitskarte Universitat zu Köln
-
       <nav>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
@@ -42,7 +41,7 @@ header {
 .logo {
   display: block;
   margin: 0 auto 2rem;
-  max-width: 250px;
+  max-width: 15.625em;
 }
 
 .image-header a:hover {
@@ -71,5 +70,8 @@ nav a {
 
 nav a:first-of-type {
   border: 0;
+}
+#title {
+  text-align: center;
 }
 </style>
