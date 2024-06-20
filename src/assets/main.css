@@ -87,3 +87,18 @@ b {
     background-color: var(--color-link-hover);
   }
 }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 10% 90%;
+  grid-template-rows: 60vh;
+  grid-template-areas: 'filter map';
+}
+
+.grid-item-filter {
+  grid-area: filter;
+}
+
+.grid-item-map {
+  grid-area: map;
+}

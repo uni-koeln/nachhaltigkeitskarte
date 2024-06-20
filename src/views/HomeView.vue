@@ -40,8 +40,9 @@ onMounted(() => {
 
 <template>
   <main>
-    <div>
-      <div id="map" style="height: 60vh"></div>
+    <div class="grid-container">
+      <div class="grid-item-filter">Foo</div>
+      <div class="grid-item-map" id="map"></div>
     </div>
   </main>
 </template>
