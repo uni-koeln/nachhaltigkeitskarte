@@ -15,24 +15,13 @@
   --section-gap: 160px;
 
   --color-theme-green: #1ab180;
+  --color-theme-green-transparent: rgba(26, 177, 128, 0.2);
   --color-theme-coral: #ea564f;
   --color-theme-turquoise: #009dcc;
   --color-theme-blue: #005176;
+  --color-theme-blue-transparent: rgba(0, 81, 118, 0.2);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --color-background: #181818;
-    --color-background-soft: #222222;
-    --color-background-mute: #282828;
-
-    --color-border: rgba(84, 84, 84, 0.48);
-    --color-border-hover: rgba(84, 84, 84, 0.65);
-
-    --color-heading: #ffffff;
-    --color-text: rgba(235, 235, 235, 0.64);
-  }
-}
 
 *,
 *::before,
@@ -78,7 +67,7 @@ body {
 
 a {
   text-decoration: none;
-  color: var(--color-link);
+  color: var(--color-theme-green);
   transition: 0.4s;
   padding: 3px;
 }
@@ -89,7 +78,7 @@ b {
 
 @media (hover: hover) {
   a:hover {
-    background-color: var(--color-link-hover);
+    background-color: var(--color-theme-green-transparent);
   }
 }
 
