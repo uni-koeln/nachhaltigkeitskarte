@@ -21,11 +21,52 @@ let filteredPlaces = places
 let markers: L.LayerGroup<any>
 let selectedPlaceType = ref(-1)
 
+// kopiere diesen Code und füge die Icons im public Ordner hinzu
+// passt dann an: iconUrl und die Zahlenwerte für Größe und Positierung
+var normalMarkerIcon = L.icon({
+  iconUrl: 'marker-icon.png',
+  shadowUrl: 'marker-shadow.png',
+
+  iconSize: [38, 60], // size of the icon
+  shadowSize: [50, 64], // size of the shadow
+  iconAnchor: [22, 94], // point of the icon which will correspond to marker's location
+  shadowAnchor: [4, 62], // the same for the shadow
+  popupAnchor: [-3, -76] // point from which the popup should open relative to the iconAnchor
+})
+
+const getMarkerIcon = (type: PlaceType): L.Icon<L.IconOptions> => {
+  switch (type) {
+    case PlaceType.Forschung:
+      return normalMarkerIcon
+
+    case PlaceType.SozialeNachhaltigkeit:
+      // retuen nachhaltigkeitsicon usw.
+      return normalMarkerIcon
+
+    case PlaceType.ZentraleEinrichtungen:
+      return normalMarkerIcon
+
+    case PlaceType.InitiativenEngagementAngebote:
+      return normalMarkerIcon
+
+    case PlaceType.LehreUndWeiterbildung:
+      return normalMarkerIcon
+
+    case PlaceType.NachhaltigerCampus:
+      return normalMarkerIcon
+
+    default:
+      return normalMarkerIcon
+  }
+}
+
 const addMarkers = () => {
   markers = L.layerGroup().addTo(sustainabilityMap)
 
   filteredPlaces.forEach((place) => {
-    const marker = L.marker(place.coordinates).addTo(markers)
+    const marker = L.marker(place.coordinates, { icon: getMarkerIcon(place.types[0]) }).addTo(
+      markers
+    )
     marker.bindTooltip(place.title ? '<b>' + place.title + '</b>' + '<br>' : place.text)
     marker.bindPopup(
       (place.title ? '<b>' + place.title + '</b>' + '<br>' : '') +
