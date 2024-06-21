@@ -16,7 +16,7 @@ import { RouterLink, RouterView } from 'vue-router'
     </div>
     <div id="title" class="wrapper">
       Nachhaltigkeitskarte Universitat zu Köln
-      <nav>
+      <nav class="navigation">
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
       </nav>
@@ -49,9 +49,7 @@ header {
 }
 nav {
   width: 100%;
-  font-size: 12px;
   text-align: center;
-  margin-top: 2rem;
 }
 
 nav a.router-link-exact-active {

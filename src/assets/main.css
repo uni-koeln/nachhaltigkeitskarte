@@ -110,3 +110,9 @@ b {
   background-color: var(--color-theme-turquoise);
   font-weight: bold;
 }
+
+.navigation {
+  margin-top: 25px;
+  margin-bottom: 50px;
+  font-size: 16px;
+}
