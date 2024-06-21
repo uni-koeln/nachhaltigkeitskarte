@@ -13,6 +13,11 @@
   --color-link-hover: hsla(160, 100%, 37%, 0.2);
 
   --section-gap: 160px;
+
+  --color-theme-green: #1ab180;
+  --color-theme-coral: #ea564f;
+  --color-theme-turquoise: #009dcc;
+  --color-theme-blue: #005176;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -104,10 +109,15 @@ b {
 }
 
 .filter {
-  background-color: red;
+  background-color: var(--color-theme-blue);
   color: white;
   margin: 5px;
   padding: 3px;
   border-radius: 5px;
   cursor: pointer;
+}
+
+.filter-selected {
+  background-color: var(--color-theme-turquoise);
+  font-weight: bold;
 }

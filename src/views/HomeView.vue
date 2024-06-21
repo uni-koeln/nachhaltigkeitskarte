@@ -41,6 +41,8 @@ const addMarkers = () => {
 }
 
 const filterPlaces = (placeType: PlaceType): void => {
+  selectedPlaceType = placeType
+
   filteredPlaces = places.filter((place) => {
     return place.types.includes(placeType)
   })
