@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { onMounted } from 'vue'
+import { onMounted, ref } from 'vue'
 
 import 'leaflet/dist/leaflet.css'
 import * as L from 'leaflet'
@@ -19,6 +19,7 @@ const placeTypes = getPlaceTypes()
 let sustainabilityMap: L.Map
 let filteredPlaces = places
 let markers: L.LayerGroup<any>
+let selectedPlaceType = ref(-1)
 
 const addMarkers = () => {
   markers = L.layerGroup().addTo(sustainabilityMap)
@@ -40,7 +41,12 @@ const addMarkers = () => {
   })
 }
 
+const getAdditionalCssClass = (placeType: PlaceType): string => {
+  return placeType == selectedPlaceType.value ? 'filter-selected' : ''
+}
+
 const filterPlaces = (placeType: PlaceType): void => {
+  selectedPlaceType.value = placeType
   filteredPlaces = places.filter((place) => {
     return place.types.includes(placeType)
   })
@@ -65,7 +71,7 @@ onMounted(() => {
     <div class="grid-container">
       <div class="grid-item-filter">
         <div
-          class="filter"
+          :class="`filter ${getAdditionalCssClass(placeType)}`"
           v-for="placeType in placeTypes"
           :key="placeType"
           @click="filterPlaces(placeType)"
