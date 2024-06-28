@@ -23,33 +23,45 @@ let selectedPlaceType = ref(-1)
 
 // kopiere diesen Code und füge die Icons im public Ordner hinzu
 // passt dann an: iconUrl und die Zahlenwerte für Größe und Positierung
-var normalMarkerIcon = L.icon({
-  iconUrl: 'marker-icon.png',
+class LeafIcon extends L.Icon {
+  constructor(options: { iconUrl: string }) {
+    super({
+      ...options, // Include any default options you want to set
+      iconSize: [25, 41], // size of the icon
+      popupAnchor: [0, -9],
+      tooltipAnchor: [12, 0]
+    });
+  }
+}
 
-  iconSize: [38, 60], // size of the icon
-  popupAnchor: [-3, -76] // point from which the popup should open relative to the iconAnchor
-})
+var normalMarkerIcon = new LeafIcon({ iconUrl: 'marker-icon.png' }),
+  forschungIcon = new LeafIcon({ iconUrl: 'src\\assets\\FORSCHUNG.svg' }),
+  sozialeIcon = new LeafIcon({ iconUrl: 'src\\assets\\SOCIAL.svg' }),
+  zentraleIcon = new LeafIcon({ iconUrl: 'src\\assets\\CENTRAL.svg' }),
+  initiativeIcon = new LeafIcon({ iconUrl: 'src\\assets\\INITIATIVE.svg' }),
+  lehreIcon = new LeafIcon({ iconUrl: 'src\\assets\\LEHRE.svg' }),
+  nachhaltigIcon = new LeafIcon({ iconUrl: 'src\\assets\\NACHCAMPUS.svg' });
+
 
 const getMarkerIcon = (type: PlaceType): L.Icon<L.IconOptions> => {
   switch (type) {
     case PlaceType.Forschung:
-      return normalMarkerIcon
+      return forschungIcon
 
     case PlaceType.SozialeNachhaltigkeit:
-      // retuen nachhaltigkeitsicon usw.
-      return normalMarkerIcon
+      return sozialeIcon
 
     case PlaceType.ZentraleEinrichtungen:
-      return normalMarkerIcon
+      return zentraleIcon
 
     case PlaceType.InitiativenEngagementAngebote:
-      return normalMarkerIcon
+      return initiativeIcon
 
     case PlaceType.LehreUndWeiterbildung:
-      return normalMarkerIcon
+      return lehreIcon
 
     case PlaceType.NachhaltigerCampus:
-      return normalMarkerIcon
+      return nachhaltigIcon
 
     default:
       return normalMarkerIcon
@@ -66,14 +78,14 @@ const addMarkers = () => {
     marker.bindTooltip(place.title ? '<b>' + place.title + '</b>' + '<br>' : place.text)
     marker.bindPopup(
       (place.title ? '<b>' + place.title + '</b>' + '<br>' : '') +
-        place.text +
-        (place.url != ''
-          ? '<br><a href="' + place.url + '" target="_blank">' + place.url + '</a>'
-          : '') +
-        (place.address != '' ? '<br>' + place.address : '') +
-        place.types.map((type) => {
-          return '<br>' + getTypeName(type)
-        })
+      place.text +
+      (place.url != ''
+        ? '<br><a href="' + place.url + '" target="_blank">' + place.url + '</a>'
+        : '') +
+      (place.address != '' ? '<br>' + place.address : '') +
+      place.types.map((type) => {
+        return '<br>' + getTypeName(type)
+      })
     )
   })
 }
@@ -107,12 +119,8 @@ onMounted(() => {
   <main>
     <div class="grid-container">
       <div class="grid-item-filter">
-        <div
-          :class="`filter ${getAdditionalCssClass(placeType)}`"
-          v-for="placeType in placeTypes"
-          :key="placeType"
-          @click="filterPlaces(placeType)"
-        >
+        <div :class="`filter ${getAdditionalCssClass(placeType)}`" v-for="placeType in placeTypes" :key="placeType"
+          @click="filterPlaces(placeType)">
           {{ getTypeName(placeType as PlaceType) }}
         </div>
       </div>
