@@ -10,6 +10,33 @@ export enum PlaceType {
   NachhaltigerCampus
 }
 
+// TODO: Milena make it work
+export const getTypeIcon = (type: PlaceType): string => {
+  switch (type) {
+    case PlaceType.Forschung:
+      return '@/assets/FORSCHUNG.svg'
+
+    case PlaceType.SozialeNachhaltigkeit:
+      // TODO return correct types
+      return '@/assets/FORSCHUNG.svg'
+
+    case PlaceType.ZentraleEinrichtungen:
+      return '@/assets/FORSCHUNG.svg'
+
+    case PlaceType.InitiativenEngagementAngebote:
+      return '@/assets/FORSCHUNG.svg'
+
+    case PlaceType.LehreUndWeiterbildung:
+      return '@/assets/FORSCHUNG.svg'
+
+    case PlaceType.NachhaltigerCampus:
+      return '@/assets/FORSCHUNG.svg'
+
+    default:
+      return '@/assets/FORSCHUNG.svg'
+  }
+}
+
 export const getTypeName = (type: PlaceType): string => {
   switch (type) {
     case PlaceType.Forschung:

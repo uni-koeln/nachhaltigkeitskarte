@@ -114,3 +114,15 @@ b {
   margin-bottom: 50px;
   font-size: 16px;
 }
+
+.grid-button-container {
+  display: grid;
+  grid-template-columns: 10% 90%;
+  grid-template-areas: 'icon text';
+}
+.grid-button-icon {
+  grid-area: icon;
+}
+.grid-button-text {
+  grid-area: text;
+}

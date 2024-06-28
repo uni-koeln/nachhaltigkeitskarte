@@ -30,7 +30,7 @@ class LeafIcon extends L.Icon {
       iconSize: [25, 41], // size of the icon
       popupAnchor: [0, -9],
       tooltipAnchor: [12, 0]
-    });
+    })
   }
 }
 
@@ -40,8 +40,7 @@ var normalMarkerIcon = new LeafIcon({ iconUrl: 'marker-icon.png' }),
   zentraleIcon = new LeafIcon({ iconUrl: 'src\\assets\\CENTRAL.svg' }),
   initiativeIcon = new LeafIcon({ iconUrl: 'src\\assets\\INITIATIVE.svg' }),
   lehreIcon = new LeafIcon({ iconUrl: 'src\\assets\\LEHRE.svg' }),
-  nachhaltigIcon = new LeafIcon({ iconUrl: 'src\\assets\\NACHCAMPUS.svg' });
-
+  nachhaltigIcon = new LeafIcon({ iconUrl: 'src\\assets\\NACHCAMPUS.svg' })
 
 const getMarkerIcon = (type: PlaceType): L.Icon<L.IconOptions> => {
   switch (type) {
@@ -78,14 +77,14 @@ const addMarkers = () => {
     marker.bindTooltip(place.title ? '<b>' + place.title + '</b>' + '<br>' : place.text)
     marker.bindPopup(
       (place.title ? '<b>' + place.title + '</b>' + '<br>' : '') +
-      place.text +
-      (place.url != ''
-        ? '<br><a href="' + place.url + '" target="_blank">' + place.url + '</a>'
-        : '') +
-      (place.address != '' ? '<br>' + place.address : '') +
-      place.types.map((type) => {
-        return '<br>' + getTypeName(type)
-      })
+        place.text +
+        (place.url != ''
+          ? '<br><a href="' + place.url + '" target="_blank">' + place.url + '</a>'
+          : '') +
+        (place.address != '' ? '<br>' + place.address : '') +
+        place.types.map((type) => {
+          return '<br>' + getTypeName(type)
+        })
     )
   })
 }
@@ -119,9 +118,19 @@ onMounted(() => {
   <main>
     <div class="grid-container">
       <div class="grid-item-filter">
-        <div :class="`filter ${getAdditionalCssClass(placeType)}`" v-for="placeType in placeTypes" :key="placeType"
-          @click="filterPlaces(placeType)">
-          {{ getTypeName(placeType as PlaceType) }}
+        <div
+          :class="`filter ${getAdditionalCssClass(placeType)} grid-button-container`"
+          v-for="placeType in placeTypes"
+          :key="placeType"
+          @click="filterPlaces(placeType)"
+        >
+          <img
+            alt="Logo der Universität zu Köln"
+            class="grid-button-icon"
+            src="@/assets/FORSCHUNG.svg"
+            height="20px"
+          />
+          <span class="grid-button-text"> {{ getTypeName(placeType as PlaceType) }}</span>
         </div>
       </div>
       <div class="grid-item-map" id="map"></div>
