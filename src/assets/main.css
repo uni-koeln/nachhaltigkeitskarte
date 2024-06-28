@@ -126,3 +126,13 @@ b {
 .grid-button-text {
   grid-area: text;
 }
+
+.filter-reset {
+  cursor: pointer;
+  text-align: center;
+  margin-top: 15px;
+  color: var(--color-theme-green);
+  &:hover {
+    font-weight: bold;
+  }
+}

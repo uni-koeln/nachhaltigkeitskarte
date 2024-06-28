@@ -103,6 +103,14 @@ const filterPlaces = (placeType: PlaceType): void => {
   addMarkers()
 }
 
+const resetPlaces = (): void => {
+  selectedPlaceType.value = -1
+  filteredPlaces = places
+
+  markers.clearLayers()
+  addMarkers()
+}
+
 onMounted(() => {
   sustainabilityMap = L.map('map').setView(universityCologne, zoomLevel)
   L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -124,14 +132,10 @@ onMounted(() => {
           :key="placeType"
           @click="filterPlaces(placeType)"
         >
-          <img
-            alt="Logo der Universität zu Köln"
-            class="grid-button-icon"
-            src="@/assets/FORSCHUNG.svg"
-            height="20px"
-          />
+          <img class="grid-button-icon" src="@/assets/FORSCHUNG.svg" height="20px" />
           <span class="grid-button-text"> {{ getTypeName(placeType as PlaceType) }}</span>
         </div>
+        <div class="filter-reset" @click="resetPlaces()">Alle anzeigen</div>
       </div>
       <div class="grid-item-map" id="map"></div>
     </div>
