@@ -77,14 +77,14 @@ const addMarkers = () => {
     marker.bindTooltip(place.title ? '<b>' + place.title + '</b>' + '<br>' : place.text)
     marker.bindPopup(
       (place.title ? '<b>' + place.title + '</b>' + '<br>' : '') +
-        place.text +
-        (place.url != ''
-          ? '<br><a href="' + place.url + '" target="_blank">' + place.url + '</a>'
-          : '') +
-        (place.address != '' ? '<br>' + place.address : '') +
-        place.types.map((type) => {
-          return '<br>' + getTypeName(type)
-        })
+      place.text +
+      (place.url != ''
+        ? '<br><a href="' + place.url + '" target="_blank">' + 'Mehr erfahren' + '</a>'
+        : '') +
+      (place.address != '' ? '<br>' + place.address : '') +
+      place.types.map((type) => {
+        return '<br>' + getTypeName(type)
+      })
     )
   })
 }
@@ -126,12 +126,8 @@ onMounted(() => {
   <main>
     <div class="grid-container">
       <div class="grid-item-filter">
-        <div
-          :class="`filter ${getAdditionalCssClass(placeType)} grid-button-container`"
-          v-for="placeType in placeTypes"
-          :key="placeType"
-          @click="filterPlaces(placeType)"
-        >
+        <div :class="`filter ${getAdditionalCssClass(placeType)} grid-button-container`" v-for="placeType in placeTypes"
+          :key="placeType" @click="filterPlaces(placeType)">
           <img class="grid-button-icon" src="@/assets/FORSCHUNG.svg" height="20px" />
           <span class="grid-button-text"> {{ getTypeName(placeType as PlaceType) }}</span>
         </div>
