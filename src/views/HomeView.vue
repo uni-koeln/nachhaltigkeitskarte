@@ -147,7 +147,19 @@ onMounted(() => {
           :key="placeType"
           @click="filterPlaces(placeType)"
         >
-          <img class="grid-button-icon" src="@/assets/FORSCHUNG.svg" height="20px" />
+          <img
+            v-if="placeType === PlaceType.ZentraleEinrichtungen"
+            src="@/assets/CENTRAL.svg"
+            height="20px"
+            class="grid-button-icon"
+          />
+          <img
+            v-else-if="placeType === PlaceType.LehreUndWeiterbildung"
+            src="@/assets/LEHRE.svg"
+            height="20px"
+            class="grid-button-icon"
+          />
+          <img v-else src="@/assets/FORSCHUNG.svg" height="20px" class="grid-button-icon" />
           <span class="grid-button-text"> {{ getTypeName(placeType as PlaceType) }}</span>
         </div>
         <div class="filter-reset" @click="resetPlaces()">Alle anzeigen</div>
