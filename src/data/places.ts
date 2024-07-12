@@ -65,6 +65,8 @@ export interface Place {
   coordinates: LatLng
 }
 
+// TODO: Title ohne brs, das in den Text packen oder Ansprechpartner in Adresse
+
 const arthursPlaces: Place[] = [
   {
     title:
@@ -143,11 +145,11 @@ export const places: Place[] = [
     coordinates: L.latLng(50.9285, 6.928)
   },
   {
-    title: 'AG Nachhaltigkeit der Med.<br>Initiative (intern)<br>tomo.saric@uni-koeln.de',
+    title: 'AG Nachhaltigkeit der Med. Initiative (intern)',
     text: 'Die AG Nachhaltigkeit der Medizinischen Fakultät und Uniklinik ist zentrale Anlaufstelle für Studierende und Beschäftigte zum Thema Nachhaltigkeit. Ziel ist es Praktische Anregungen und Tipps zu umweltbewusstem Verhalten zu vermitteln und in allen Bereichen der Fakultät und Uniklinik zu verankern.',
     types: [PlaceType.ZentraleEinrichtungen],
     url: 'https://medfak.uni-koeln.de/fakultaet/ag-nachhaltigkeit',
-    address: 'Joseph-Stelzmann-Straße 20<br>50931 Köln',
+    address: 'Joseph-Stelzmann-Straße 20<br>50931 Köln<br><br>tomo.saric@uni-koeln.de',
     coordinates: L.latLng(50.92431554159669, 6.920873052344106)
   },
   {

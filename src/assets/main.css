@@ -150,3 +150,17 @@ p {
 .todo {
   color: var(--color-theme-coral);
 }
+
+.popup-grid {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  grid-template-areas: 'left right';
+}
+
+.popup-grid-left {
+  grid-area: left;
+}
+.popup-grid-right {
+  grid-area: right;
+  padding-left: 20%;
+}
