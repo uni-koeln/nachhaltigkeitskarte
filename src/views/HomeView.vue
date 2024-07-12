@@ -38,12 +38,12 @@ class LeafIcon extends L.Icon {
 }
 
 var normalMarkerIcon = new LeafIcon({ iconUrl: 'marker-icon.png' }),
-  forschungIcon = new LeafIcon({ iconUrl: 'src\\assets\\FORSCHUNG.svg' }),
-  sozialeIcon = new LeafIcon({ iconUrl: 'src\\assets\\SOCIAL.svg' }),
-  zentraleIcon = new LeafIcon({ iconUrl: 'src\\assets\\CENTRAL.svg' }),
-  initiativeIcon = new LeafIcon({ iconUrl: 'src\\assets\\INITIATIVE.svg' }),
-  lehreIcon = new LeafIcon({ iconUrl: 'src\\assets\\LEHRE.svg' }),
-  nachhaltigIcon = new LeafIcon({ iconUrl: 'src\\assets\\NACHCAMPUS.svg' })
+  forschungIcon = new LeafIcon({ iconUrl: 'FORSCHUNG.svg' }),
+  sozialeIcon = new LeafIcon({ iconUrl: 'SOCIAL.svg' }),
+  zentraleIcon = new LeafIcon({ iconUrl: 'CENTRAL.svg' }),
+  initiativeIcon = new LeafIcon({ iconUrl: 'INITIATIVE.svg' }),
+  lehreIcon = new LeafIcon({ iconUrl: 'LEHRE.svg' }),
+  nachhaltigIcon = new LeafIcon({ iconUrl: 'NACHCAMPUS.svg' })
 
 const getMarkerIcon = (type: PlaceType): L.Icon<L.IconOptions> => {
   switch (type) {
