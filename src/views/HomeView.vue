@@ -70,6 +70,26 @@ const getMarkerIcon = (type: PlaceType): L.Icon<L.IconOptions> => {
   }
 }
 
+const getIconName = (type: PlaceType): string => {
+  switch (type) {
+    case PlaceType.Forschung:
+      return 'FORSCHUNG'
+    case PlaceType.SozialeNachhaltigkeit:
+      return 'SOCIAL'
+    case PlaceType.ZentraleEinrichtungen:
+      return 'CENTRAL'
+    case PlaceType.InitiativenEngagementAngebote:
+      return 'INITIATIVE'
+    case PlaceType.LehreUndWeiterbildung:
+      return 'LEHRE'
+    case PlaceType.NachhaltigerCampus:
+      return 'NACHCAMPUS'
+    default:
+      return ''
+  }
+}
+
+// TODO Standard größe für Popup
 const addMarkers = () => {
   markers = L.layerGroup().addTo(sustainabilityMap)
 
@@ -79,17 +99,23 @@ const addMarkers = () => {
     )
     marker.bindTooltip(place.title ? '<b>' + place.title + '</b>' + '<br>' : place.text)
     marker.bindPopup(
-      '<div class="popup-grid"><div class="popup-grid-left">' +
-        (place.title ? '<h3>' + place.title + '</h3>' + '<br>' : '') +
+      (place.title
+        ? '<h3>' +
+          place.types
+            .map((type) => {
+              return '<img src="' + getIconName(type) + '.svg" height="20px" />'
+            })
+            .join('') +
+          place.title +
+          '</h3>'
+        : '') +
+        '<div class="popup-grid"><div class="popup-grid-left">' +
         place.text +
         (place.url != ''
           ? '<br><a href="' + place.url + '" target="_blank">' + 'Mehr erfahren' + '</a>'
           : '') +
         '</div><div class="popup-grid-right"><div>' +
         (place.address != '' ? '<br>' + place.address : '') +
-        place.types.map((type) => {
-          return '<br>' + getTypeName(type)
-        }) +
         '</div></div></div></div>',
       { maxWidth: 560 }
     )

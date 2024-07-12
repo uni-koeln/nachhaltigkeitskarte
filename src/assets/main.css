@@ -164,3 +164,11 @@ p {
   grid-area: right;
   padding-left: 20%;
 }
+
+h3 {
+  padding-bottom: 2%;
+  img {
+    vertical-align: bottom;
+    padding-right: 5px;
+  }
+}
