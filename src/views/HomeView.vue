@@ -159,7 +159,7 @@ onMounted(() => {
             height="20px"
             class="grid-button-icon"
           />
-           <img
+          <img
             v-else-if="placeType === PlaceType.SozialeNachhaltigkeit"
             src="@/assets/SOCIAL.svg"
             height="20px"
