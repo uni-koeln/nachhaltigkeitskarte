@@ -159,6 +159,24 @@ onMounted(() => {
             height="20px"
             class="grid-button-icon"
           />
+           <img
+            v-else-if="placeType === PlaceType.SozialeNachhaltigkeit"
+            src="@/assets/SOCIAL.svg"
+            height="20px"
+            class="grid-button-icon"
+          />
+          <img
+            v-else-if="placeType === PlaceType.InitiativenEngagementAngebote"
+            src="@/assets/INITIATIVE.svg"
+            height="20px"
+            class="grid-button-icon"
+          />
+          <img
+            v-else-if="placeType === PlaceType.NachhaltigerCampus"
+            src="@/assets/NACHCAMPUS.svg"
+            height="20px"
+            class="grid-button-icon"
+          />
           <img v-else src="@/assets/FORSCHUNG.svg" height="20px" class="grid-button-icon" />
           <span class="grid-button-text"> {{ getTypeName(placeType as PlaceType) }}</span>
         </div>
