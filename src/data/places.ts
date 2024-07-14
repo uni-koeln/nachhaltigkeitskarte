@@ -121,30 +121,6 @@ const stefansPlaces: Place[] = [
 
 export const places: Place[] = [
   {
-    title: 'Phil Café, Uni Köln',
-    text: '',
-    url: '',
-    types: [PlaceType.Forschung],
-    address: '',
-    coordinates: L.latLng(50.92812, 6.92776)
-  },
-  {
-    title: 'Bistro Uni E-Raum',
-    text: '',
-    url: '',
-    types: [PlaceType.Forschung],
-    address: '',
-    coordinates: L.latLng(50.928439764085766, 6.929710116076665)
-  },
-  {
-    title: 'Beispiel: mehr Möglichkeiten<br>Neuer Absatz',
-    text: '',
-    url: 'https://www.uni-koeln.de/',
-    types: [PlaceType.Forschung],
-    address: '',
-    coordinates: L.latLng(50.9285, 6.928)
-  },
-  {
     title: 'AG Nachhaltigkeit der Med. Initiative (intern)',
     text: 'Die AG Nachhaltigkeit der Medizinischen Fakultät und Uniklinik ist zentrale Anlaufstelle für Studierende und Beschäftigte zum Thema Nachhaltigkeit. Ziel ist es Praktische Anregungen und Tipps zu umweltbewusstem Verhalten zu vermitteln und in allen Bereichen der Fakultät und Uniklinik zu verankern.',
     types: [PlaceType.ZentraleEinrichtungen],
