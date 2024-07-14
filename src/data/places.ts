@@ -61,6 +61,7 @@ export interface Place {
   text: string
   types: PlaceType[]
   url: string
+  mail: string
   address: string
   coordinates: LatLng
 }
@@ -69,29 +70,30 @@ export interface Place {
 
 export const places: Place[] = [
   {
-    title:
-      'Meteorologische Messstation (Wetter-, Klima- und Umweltmessgrößen)<br>Ort<br>Prof. Dr. Ulrich Löhnert<br>Telefon: +49 221 470 1779',
+    title: 'Meteorologische Messstation<br>(Wetter-, Klima- und Umweltmessgrößen)<br>Ort',
     text: '',
     types: [PlaceType.Forschung],
     url: 'https://geomet.uni-koeln.de/forschung/aktuelle-beobachtungen/wetterstation-gruenguertel',
-    address: 'Zülpicher Wall 5<br>50674 Köln',
+    mail: '',
+    address: 'Prof. Dr. Ulrich Löhnert<br>Zülpicher Wall 5<br>50674 Köln<br>Tel: +49 221 470 1779',
     coordinates: L.latLng(50.92972, 6.93249)
   },
   {
     title: 'GSCC',
-    text: 'Center<br>contact-gssc@uni-koeln.de<br>Telefon: +49 221 470 76645',
+    text: 'Center<br><br>Telefon: +49 221 470 76645',
     types: [PlaceType.Forschung],
     url: 'https://gssc.uni-koeln.de/',
+    mail: 'contact-gssc@uni-koeln.de',
     address: 'Classen-Kappelmann-Str. 24<br>50931 Köln',
     coordinates: L.latLng(50.93127760930519, 6.921190240125787)
   },
   {
     title:
-      'Autonomes Queerreferat der Universität zu Köln (AQUK)<br>queerreferatunikoeln@gmail.com',
+      'Autonomes Queerreferat der Universität zu Köln (AQUK)',
     text: '',
-
     url: 'https://aquk.uni-koeln.de/home',
     types: [PlaceType.SozialeNachhaltigkeit],
+    mail: 'queerreferatunikoeln@gmail.com',
     address: 'Universitätsstraße 16<br>50937 Köln',
     coordinates: L.latLng(50.92394560726894, 6.931505538342777)
   },
@@ -100,14 +102,16 @@ export const places: Place[] = [
     text: '',
     url: 'https://mesh.uni-koeln.de/',
     types: [PlaceType.LehreUndWeiterbildung],
+    mail: '',
     address: 'Weyertal 59<br>50937 Köln',
     coordinates: L.latLng(50.92473, 6.92638)
   },
   {
-    title: 'Enactus<br>Initiative (intern/extern)<br>teamvorstand@koeln.enactus.team',
+    title: 'Enactus<br>Initiative (intern/extern)',
     text: '',
     url: 'https://www.enactus.de',
     types: [PlaceType.Forschung], //['Transfer und Engagement'],
+    mail: 'teamvorstand@koeln.enactus.team',
     address: 'Weyertal 109<br>50931 Köln',
     coordinates: L.latLng(50.92560876307702, 6.925581265345831)
   },
@@ -116,34 +120,36 @@ export const places: Place[] = [
     text: 'Die AG Nachhaltigkeit der Medizinischen Fakultät und Uniklinik ist zentrale Anlaufstelle für Studierende und Beschäftigte zum Thema Nachhaltigkeit. Ziel ist es Praktische Anregungen und Tipps zu umweltbewusstem Verhalten zu vermitteln und in allen Bereichen der Fakultät und Uniklinik zu verankern.',
     types: [PlaceType.ZentraleEinrichtungen],
     url: 'https://medfak.uni-koeln.de/fakultaet/ag-nachhaltigkeit',
-    address: 'Joseph-Stelzmann-Straße 20<br>50931 Köln<br><br>tomo.saric@uni-koeln.de',
+    mail: 'tomo.saric@uni-koeln.de',
+    address: 'Joseph-Stelzmann-Straße 20<br>50931 Köln',
     coordinates: L.latLng(50.92431554159669, 6.920873052344106)
   },
   {
     title:
       'Institut für Biologiedidaktik: Forschungsprojekt Klimawandel und grüne Fassaden<br>Institut, Ort',
     text: '',
-
-    types: [PlaceType.Forschung], //['Forschung, grüner Campus'],
+    types: [PlaceType.Forschung, PlaceType.NachhaltigerCampus], //['Forschung, grüner Campus'],
     url: 'https://biologiedidaktik.uni-koeln.de/forschungsprojekte/aktuelle-forschungsprojekte/klimawandel-und-gruene-fassaden/billy-green',
+    mail: '',
     address: 'Herbert-Lewin-Straße 2<br>50931 Köln',
     coordinates: L.latLng(50.934474105639715, 6.92146466818036)
   },
   {
     title: 'ASTA-Fahrradwerkstatt',
     text: '',
-
     url: 'https://www.asta.uni-koeln.de/?tab=angebote-tt-asta-fahrradwerkstatt-mitschraubgelegenheit#angebote',
     types: [PlaceType.InitiativenEngagementAngebote],
+    mail: '',
     address: 'Zülpicher Wall Hinterhof der Hauptmensa',
     coordinates: L.latLng(50.92791453704527, 6.93377283134142)
   },
   {
     title:
-      'Bachelor of Science in Management, Economics and Social Sciences -Driving Sustainable Change',
+      'Bachelor of Science in Management, Economics and Social Sciences - Driving Sustainable Change',
     text: '',
     url: 'https://wiso.uni-koeln.de/de/studium/bachelor/bachelor-management-economics-social-sciences',
     types: [PlaceType.LehreUndWeiterbildung],
+    mail: '',
     address: 'Universitätsstraße 24<br>50931 Köln',
     coordinates: L.latLng(50.93021817443361, 6.928134068519783)
   },
@@ -152,8 +158,9 @@ export const places: Place[] = [
     text: '',
     url: 'https://www.asta.uni-koeln.de/?tab=angebote-tt-mensa-begruenung#angebote',
     types: [PlaceType.InitiativenEngagementAngebote],
+    mail: 'green-office@uni-koeln.de, m.wiggers@kstw.de', // Einer der beiden muss drinnen bleiben
     address:
-      'Hauptmensa<br>Zülpicherstr.70<br>50931 Köln<br>green-office@uni-koeln.de, m.wiggers@kstw.de',
+      'Hauptmensa<br>Zülpicherstr.70<br>50931 Köln',
     coordinates: L.latLng(50.92772769481757, 6.9332704838606904)
   },
   {
@@ -161,7 +168,8 @@ export const places: Place[] = [
     url: 'https://www.asta.uni-koeln.de/?tab=angebote-tt-campus-garten#angebote',
     text: '',
     types: [PlaceType.InitiativenEngagementAngebote],
-    address: 'Gyrhofstraße 19<br>50931 Köln<br>h.daniels@asta.uni-koeln.de',
+    mail: 'h.daniels@asta.uni-koeln.de',
+    address: 'Gyrhofstraße 19<br>50931 Köln',
     coordinates: L.latLng(50.92713127134471, 6.922999455025401)
   },
   {
@@ -169,8 +177,9 @@ export const places: Place[] = [
     text: '',
     url: 'https://computationalsciences.uni-koeln.de/contents/curriculum/earth-system-sciences',
     types: [PlaceType.Forschung, PlaceType.LehreUndWeiterbildung],
+    mail: 'info-compscie@uni-koeln.de', // h.daniels@asta.uni-koeln.de
     address:
-      'Pohligstr.3<br>50969 Köln<br>h.daniels@asta.uni-koeln.de<br>info-compscie@uni-koeln.de',
+      'Pohligstr.3<br>50969 Köln',
     coordinates: L.latLng(50.917139942250294, 6.940774168519168)
   },
   {
@@ -178,7 +187,8 @@ export const places: Place[] = [
     text: '',
     url: 'https://portal.uni-koeln.de/universitaet/universitaet-auf-einen-blick/nachhaltigkeit/was-unternimmt-die-uni/foerderprojekte-bmu',
     types: [PlaceType.ZentraleEinrichtungen],
-    address: 'Robert-Koch-Str.46-50<br>50931 Köln<br>',
+    mail: '',
+    address: 'Robert-Koch-Str.46-50<br>50931 Köln',
     coordinates: L.latLng(50.928187445629725, 6.921146368519648)
   },
   {
@@ -186,6 +196,7 @@ export const places: Place[] = [
     text: '',
     url: 'https://www.instagram.com/healthforfuturekoeln/?hl=de',
     types: [PlaceType.NachhaltigerCampus],
+    mail: '',
     address: '',
     coordinates: L.latLng(50.928187445629725, 6.921146368519648)
   },
@@ -194,6 +205,7 @@ export const places: Place[] = [
     text: '',
     url: 'https://is3.uni-koeln.de/en/',
     types: [PlaceType.Forschung],
+    mail: '',
     address: 'Pohligstr.1<br>50696 Köln',
     coordinates: L.latLng(50.91695747081302, 6.941158610848678)
   },
@@ -202,6 +214,7 @@ export const places: Place[] = [
     text: '',
     url: 'https://biologiedidaktik.uni-koeln.de/forschungsprojekte/aktuelle-forschungsprojekte/klimawandel-und-gruene-fassaden/billy-green',
     types: [PlaceType.Forschung, PlaceType.NachhaltigerCampus],
+    mail: '',
     address: 'Zülpicherstr.70<br>50937 Köln',
     coordinates: L.latLng(50.92791358709717, 6.933130995594881)
   },
@@ -210,6 +223,7 @@ export const places: Place[] = [
     text: '',
     url: 'https://geologie.uni-koeln.de/',
     types: [PlaceType.Forschung, PlaceType.LehreUndWeiterbildung],
+    mail: '',
     address: 'Zülpicherstr.49a<br>50674 Köln',
     coordinates: L.latLng(50.92746015755058, 6.934370939684416)
   },
@@ -218,6 +232,7 @@ export const places: Place[] = [
     text: '',
     url: 'https://iipsl.jura.uni-koeln.de/',
     types: [PlaceType.Forschung, PlaceType.LehreUndWeiterbildung, PlaceType.SozialeNachhaltigkeit],
+    mail: '',
     address: 'Hauptgebäude<br>50923 Köln',
     coordinates: L.latLng(50.92798593682843, 6.929006924343601)
   },
@@ -226,6 +241,7 @@ export const places: Place[] = [
     text: '',
     url: 'https://jfg-nachhaltigkeit.jura.uni-koeln.de/',
     types: [PlaceType.Forschung],
+    mail: '',
     address: '',
     coordinates: L.latLng(50.92798593682843, 6.929006924343601)
   },
@@ -234,6 +250,7 @@ export const places: Place[] = [
     text: '',
     url: 'https://ethnologie.phil-fak.uni-koeln.de/content.php?kid=111',
     types: [PlaceType.LehreUndWeiterbildung],
+    mail: '',
     address: '',
     coordinates: L.latLng(50.92798593682843, 6.929006924343601)
   },
@@ -242,6 +259,7 @@ export const places: Place[] = [
     text: '',
     url: 'https://geomet.uni-koeln.de/studium/master-program',
     types: [PlaceType.LehreUndWeiterbildung],
+    mail: '',
     address: 'Pohligstraße 3<br>50969 Köln',
     coordinates: L.latLng(50.917133178323624, 6.940784897354426)
   },
@@ -250,6 +268,7 @@ export const places: Place[] = [
     text: '',
     url: 'https://portal.uni-koeln.de/universitaet/universitaet-auf-einen-blick/nachhaltigkeit/was-unternimmt-die-uni/nachhaltigkeitsstrategie/nachhaltigkeit-in-organisation-betrieb/nachhaltigkeit-auf-dem-campus-bisherige-erfolge',
     types: [PlaceType.InitiativenEngagementAngebote],
+    mail: '',
     address: 'Hauptgebäude<br>50923 Köln',
     coordinates: L.latLng(50.92798593682843, 6.929006924343601)
   },
@@ -258,6 +277,7 @@ export const places: Place[] = [
     text: '',
     url: 'https://zdi-schuelerlabor.uni-koeln.de/',
     types: [PlaceType.InitiativenEngagementAngebote],
+    mail: '',
     address: 'Herbert-Lewin-Str.2<br>50931 Köln',
     coordinates: L.latLng(50.9344482229511, 6.921448639684721)
   },
@@ -266,7 +286,8 @@ export const places: Place[] = [
     text: '',
     url: 'https://gesunde.uni-koeln.de/index_ger.html',
     types: [PlaceType.SozialeNachhaltigkeit],
-    address: 'Hauptgebäude<br>50923 Köln<br>ta.becker@verw.uni-koeln.de',
+    mail: 'ta.becker@verw.uni-koeln.de',
+    address: 'Hauptgebäude<br>50923 Köln',
     coordinates: L.latLng(50.92798593682843, 6.929006924343601)
   },
   {
@@ -274,6 +295,7 @@ export const places: Place[] = [
     text: '',
     url: 'https://inklusion.uni-koeln.de/szi/index_ger.html',
     types: [PlaceType.SozialeNachhaltigkeit],
+    mail: '',
     address: 'Universitätsstraße 22a<br>50937 Köln',
     coordinates: L.latLng(50.92746510773187, 6.9296505108491715)
   },
@@ -282,6 +304,7 @@ export const places: Place[] = [
     text: '',
     url: 'https://sos-referat.uni-koeln.de/',
     types: [PlaceType.SozialeNachhaltigkeit],
+    mail: '',
     address: 'Universitätsstraße 37<br>50931 Köln',
     coordinates: L.latLng(50.92727929134766, 6.927104810935677)
   },
@@ -291,6 +314,7 @@ export const places: Place[] = [
     text: '',
     url: 'https://gedim.uni-koeln.de/ueber-uns',
     types: [PlaceType.SozialeNachhaltigkeit],
+    mail: '',
     address: 'Eckertstraße 4<br>50931 Köln',
     coordinates: L.latLng(50.929242488362156, 6.92583995502549)
   },
@@ -299,6 +323,7 @@ export const places: Place[] = [
     text: '',
     url: 'https://aquk.uni-koeln.de/home',
     types: [PlaceType.SozialeNachhaltigkeit],
+    mail: '',
     address: 'Universitätsstraße 16<br>50937 Köln',
     coordinates: L.latLng(50.92401441926854, 6.931521324343246)
   },
@@ -307,6 +332,7 @@ export const places: Place[] = [
     text: '',
     url: 'https://bipoc.uni-koeln.de/',
     types: [PlaceType.SozialeNachhaltigkeit],
+    mail: '',
     address: '',
     coordinates: L.latLng(50.92401441926854, 6.931521324343246)
   },
@@ -315,6 +341,7 @@ export const places: Place[] = [
     text: '',
     url: 'https://www.kstw.de/beratung/sozialberatung',
     types: [PlaceType.SozialeNachhaltigkeit],
+    mail: '',
     address: 'Luxemburgerstraße 181-183<br>50939 Köln',
     coordinates: L.latLng(50.92033942371612, 6.9326497820135105)
   },
@@ -323,6 +350,7 @@ export const places: Place[] = [
     text: '',
     url: 'https://gb.uni-koeln.de/index_ger.html',
     types: [PlaceType.SozialeNachhaltigkeit],
+    mail: '',
     address: 'Eckertstraße 4<br>50931 Köln',
     coordinates: L.latLng(50.9291883909956, 6.925786310849203)
   },
@@ -331,6 +359,7 @@ export const places: Place[] = [
     text: '',
     url: 'https://lawcliniccologne.com/',
     types: [PlaceType.SozialeNachhaltigkeit],
+    mail: '',
     address: 'Bernhard-Feilchenfeld-Straße 9<br>50969 Köln',
     coordinates: L.latLng(50.91523032751447, 6.942874170365911)
   },
@@ -339,6 +368,7 @@ export const places: Place[] = [
     text: '',
     url: 'https://portal.uni-koeln.de/international/studium-in-koeln/academic-refugee-support',
     types: [PlaceType.SozialeNachhaltigkeit],
+    mail: '',
     address: 'Universitätsstraße 22 a<br>50923 Köln',
     coordinates: L.latLng(50.92746510773187, 6.9296505108491715)
   },
@@ -347,6 +377,7 @@ export const places: Place[] = [
     text: '',
     url: 'https://phreportcard.org/wp-content/uploads/2023/04/Engl_UniversitatzuKoln_2023_MED.pdf',
     types: [PlaceType.SozialeNachhaltigkeit],
+    mail: '',
     address: 'Robert-Koch-Str.39<br>50931 Köln',
     coordinates: L.latLng(50.92657161071911, 6.921820097354864)
   },
@@ -355,6 +386,7 @@ export const places: Place[] = [
     text: '',
     url: 'https://geographie.uni-koeln.de/forschung/arbeitsgruppen/hydrogeographie-und-klimatologie/projektuebersicht/projekte/ingenios',
     types: [PlaceType.Forschung],
+    mail: '',
     address: 'Zülpicher Straße 45<br>50674 Köln',
     coordinates: L.latLng(50.927590095177536, 6.936248426190155)
   },
@@ -363,6 +395,7 @@ export const places: Place[] = [
     text: '',
     url: 'https://geographie.uni-koeln.de/forschung/arbeitsgruppen/hydrogeographie-und-klimatologie/projektuebersicht/projekte/ingenios/ideal-ingenios-digital-education-and-learning',
     types: [PlaceType.Forschung],
+    mail: '',
     address: 'Zülpicher Straße 45<br>50674 Köln',
     coordinates: L.latLng(50.927590095177536, 6.936248426190155)
   },
@@ -371,17 +404,19 @@ export const places: Place[] = [
     text: '',
     url: 'https://sfb1252.uni-koeln.de/',
     types: [PlaceType.Forschung],
+    mail: '',
     address: 'Luxemburger Str.299<br>50939 Köln',
     coordinates: L.latLng(50.91332120351292, 6.925705897354254)
   },
   {
     title:
-      'Institutsteam des Institut für Allgemeinmedizin<br> der Universitätsklinik und der UzK, Schwerpunkt: Allgemeinmedizin im Klimawandel',
+      'Institutsteam des Institut für Allgemeinmedizin<br>der Universitätsklinik und der UzK, Schwerpunkt: Allgemeinmedizin im Klimawandel',
     text: '',
     url: 'https://computationalsciences.uni-koeln.de/contents/curriculum/earth-system-sciences',
     types: [PlaceType.Forschung],
+    mail: 'karin.plate@uk-koeln.de',
     address:
-      'Kerpener Str. 62<br>50937 Köln<br>Prof.Dr. Beate Müller,<br> Assitenz: Karin Plate, karin.plate@uk-koeln.de',
+      'Kerpener Str. 62<br>50937 Köln<br>Prof.Dr. Beate Müller,<br>Assitenz: Karin Plate',
     coordinates: L.latLng(50.92372629166638, 6.917043502390615)
   },
   {
@@ -390,7 +425,8 @@ export const places: Place[] = [
     url: 'https://portal.uni-koeln.de/universitaet/universitaet-auf-einen-blick/nachhaltigkeit/team-und-kontakt',
 
     types: [PlaceType.NachhaltigerCampus],
-    address: 'Weyertal 109<br>50931 Köln<br>nachhaltigkeit@verw.uni-koeln.de',
+    mail: 'nachhaltigkeit@verw.uni-koeln.de',
+    address: 'Weyertal 109<br>50931 Köln',
     coordinates: L.latLng(50.92558720842824, 6.925659999998462)
   },
   {
@@ -398,7 +434,8 @@ export const places: Place[] = [
     text: '',
     url: 'https://professionalcenter.uni-koeln.de/lehre/nachhaltigkeitsmanagerin-ihk',
     types: [PlaceType.LehreUndWeiterbildung],
-    address: 'Universitätsstraße 22a<br>50937 Köln<br>carina.goffart@uni-koeln.de',
+    mail: 'carina.goffart@uni-koeln.de',
+    address: 'Universitätsstraße 22a<br>50937 Köln',
     coordinates: L.latLng(50.917139942250294, 6.940774168519168)
   },
   {
@@ -406,7 +443,8 @@ export const places: Place[] = [
     text: '',
     url: 'https://ub.uni-koeln.de/die-usb/ueber-uns/agenda2030',
     types: [PlaceType.InitiativenEngagementAngebote],
-    address: 'Universitätsstraße 33<br>50931 Köln<br>schrempp@ub.uni-koeln.de',
+    mail: 'schrempp@ub.uni-koeln.de',
+    address: 'Universitätsstraße 33<br>50931 Köln',
     coordinates: L.latLng(50.9255580440606, 6.9295179423223034)
   },
   {
@@ -414,7 +452,8 @@ export const places: Place[] = [
     text: '',
     url: 'https://sustainability.uni-koeln.de/',
     types: [PlaceType.LehreUndWeiterbildung],
-    address: 'Greinstraße 4-6<br>50939 Köln<br>be-sustainable@uni-koeln.de',
+    mail: 'be-sustainable@uni-koeln.de',
+    address: 'Greinstraße 4-6<br>50939 Köln',
     coordinates: L.latLng(50.92370072234999, 6.934937713454496)
   },
   {
@@ -422,6 +461,7 @@ export const places: Place[] = [
     text: '',
     url: 'https://sites.google.com/view/sff-koelnde/startseite',
     types: [PlaceType.LehreUndWeiterbildung],
+    mail: '',
     address: 'Universitätsstraße 37<br>50931 Köln',
     coordinates: L.latLng(50.927059612448645, 6.927190657687529)
   },
@@ -430,7 +470,8 @@ export const places: Place[] = [
     text: '',
     url: 'https://www.asta.uni-koeln.de/?tab=angebote-tt-food_fair#angebote',
     types: [PlaceType.SozialeNachhaltigkeit],
-    address: 'Universitätsstraße 16<br>50935 Köln<br>food-fair@asta.uni-koeln.de',
+    mail: 'food-fair@asta.uni-koeln.de',
+    address: 'Universitätsstraße 16<br>50935 Köln',
     coordinates: L.latLng(50.92385551851312, 6.931574971165858)
   },
   {
@@ -438,7 +479,8 @@ export const places: Place[] = [
     text: '',
     url: 'https://professionalcenter.uni-koeln.de/lehre/service-learning',
     types: [PlaceType.LehreUndWeiterbildung],
-    address: 'Universitätsstraße 22a,<br>50937 Köln<br>meike.bredendiek@uni-koeln.de',
+    mail: 'meike.bredendiek@uni-koeln.de',
+    address: 'Universitätsstraße 22a,<br>50937 Köln',
     coordinates: L.latLng(50.927274325921985, 6.929685889347173)
   },
   {
@@ -446,6 +488,7 @@ export const places: Place[] = [
     text: '',
     url: 'https://rheinstation.uni-koeln.de/',
     types: [PlaceType.LehreUndWeiterbildung, PlaceType.LehreUndWeiterbildung],
+    mail: '',
     address: 'Ober­län­der Werft<br>Rhein­ki­lo­me­ter 684,5<br>50968 Köln',
     coordinates: L.latLng(50.907020577583175, 6.978733907813633)
   },
@@ -454,7 +497,8 @@ export const places: Place[] = [
     text: '',
     url: 'https://www.asta.uni-koeln.de/?tab=ueber-uns-tt-referat-fuer-oekologie-und-infrastruktur#ueber-uns',
     types: [PlaceType.NachhaltigerCampus],
-    address: 'Universitätsstraße 16,<br>50937 Köln<br>oekologie@asta.uni-koeln.de',
+    mail: 'oekologie@asta.uni-koeln.de',
+    address: 'Universitätsstraße 16,<br>50937 Köln',
     coordinates: L.latLng(50.92385551851312, 6.931574971165858)
   },
   {
@@ -462,7 +506,8 @@ export const places: Place[] = [
     text: '',
     url: 'https://ub.uni-koeln.de/die-usb/ueber-uns/agenda2030',
     types: [PlaceType.LehreUndWeiterbildung, PlaceType.Forschung],
-    address: 'Melaten,<br>50931 Köln<br>schrempp@ub.uni-koeln.de',
+    mail: 'schrempp@ub.uni-koeln.de',
+    address: 'Melaten,<br>50931 Köln',
     coordinates: L.latLng(50.934806, 6.919861)
   },
   {
@@ -470,7 +515,8 @@ export const places: Place[] = [
     text: '',
     url: 'https://waldklima.uni-koeln.de/',
     types: [PlaceType.LehreUndWeiterbildung],
-    address: 'Herbert-Lewin-Str. 2 <br>50931 Köln',
+    mail: '',
+    address: 'Herbert-Lewin-Str. 2<br>50931 Köln',
     coordinates: L.latLng(50.934303923601476, 6.921470676116717)
   },
   {
@@ -478,7 +524,8 @@ export const places: Place[] = [
     text: '',
     url: 'https://ub.uni-koeln.de/die-usb/ueber-uns/agenda2030',
     types: [PlaceType.InitiativenEngagementAngebote],
-    address: 'Universitätsstraße 41<br>50931 Köln<br>servicepoint@asta.uni-koeln.de',
+    mail: 'servicepoint@asta.uni-koeln.de',
+    address: 'Universitätsstraße 41<br>50931 Köln',
     coordinates: L.latLng(50.917139942250294, 6.940774168519168)
   },
   {
@@ -486,6 +533,7 @@ export const places: Place[] = [
     text: '',
     url: 'https://www.kstw.de/ueber-uns/nachhaltigkeit',
     types: [PlaceType.NachhaltigerCampus],
+    mail: '',
     address: 'Universitätsstraße 16<br>50937 Köln',
     coordinates: L.latLng(50.917139942250294, 6.940774168519168)
   }

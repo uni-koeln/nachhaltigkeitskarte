@@ -99,24 +99,25 @@ const addMarkers = () => {
     )
     marker.bindTooltip(place.title ? '<b>' + place.title + '</b>' + '<br>' : place.text)
     marker.bindPopup(
-      (place.title
-        ? '<h3>' +
-          place.types
-            .map((type) => {
-              return '<img src="' + getIconName(type) + '.svg" height="20px" />'
-            })
-            .join('') +
-          place.title +
-          '</h3>'
+      '<div class="popup-grid"><div class="popup-grid-left">' + (place.title
+        ? place.types
+          .map((type) => {
+            return '<img src="' + getIconName(type) + '.svg" height="20px" />'
+          })
+          .join('') + '<h3>' +
+
+        place.title +
+        '</h3>'
         : '') +
-        '<div class="popup-grid"><div class="popup-grid-left">' +
-        place.text +
-        (place.url != ''
-          ? '<br><a href="' + place.url + '" target="_blank">' + 'Mehr erfahren' + '</a>'
-          : '') +
-        '</div><div class="popup-grid-right"><div>' +
-        (place.address != '' ? '<br>' + place.address : '') +
-        '</div></div></div></div>',
+      place.text +
+      (place.url != ''
+        ? '<br><a href="' + place.url + '" target="_blank">' + 'Mehr erfahren' + '</a>'
+        : '') +
+      '</div><div class="popup-grid-right"><div>' +
+      (place.address != '' ? '<br>' + place.address : '') + (place.mail != ''
+        ? '<br><a href=mailto:"' + place.mail + '" target="_blank">E-Mail</a>'
+        : '') +
+      '</div></div></div></div>',
       { maxWidth: 560 }
     )
   })
@@ -171,42 +172,18 @@ onMounted(() => {
   <main>
     <div class="grid-container">
       <div class="grid-item-filter">
-        <div
-          :class="`filter ${getAdditionalCssClass(placeType)} grid-button-container`"
-          v-for="placeType in placeTypes"
-          :key="placeType"
-          @click="filterPlaces(placeType)"
-        >
-          <img
-            v-if="placeType === PlaceType.ZentraleEinrichtungen"
-            src="@/assets/CENTRAL.svg"
-            height="20px"
-            class="grid-button-icon"
-          />
-          <img
-            v-else-if="placeType === PlaceType.LehreUndWeiterbildung"
-            src="@/assets/LEHRE.svg"
-            height="20px"
-            class="grid-button-icon"
-          />
-          <img
-            v-else-if="placeType === PlaceType.SozialeNachhaltigkeit"
-            src="@/assets/SOCIAL.svg"
-            height="20px"
-            class="grid-button-icon"
-          />
-          <img
-            v-else-if="placeType === PlaceType.InitiativenEngagementAngebote"
-            src="@/assets/INITIATIVE.svg"
-            height="20px"
-            class="grid-button-icon"
-          />
-          <img
-            v-else-if="placeType === PlaceType.NachhaltigerCampus"
-            src="@/assets/NACHCAMPUS.svg"
-            height="20px"
-            class="grid-button-icon"
-          />
+        <div :class="`filter ${getAdditionalCssClass(placeType)} grid-button-container`" v-for="placeType in placeTypes"
+          :key="placeType" @click="filterPlaces(placeType)">
+          <img v-if="placeType === PlaceType.ZentraleEinrichtungen" src="@/assets/CENTRAL.svg" height="20px"
+            class="grid-button-icon" />
+          <img v-else-if="placeType === PlaceType.LehreUndWeiterbildung" src="@/assets/LEHRE.svg" height="20px"
+            class="grid-button-icon" />
+          <img v-else-if="placeType === PlaceType.SozialeNachhaltigkeit" src="@/assets/SOCIAL.svg" height="20px"
+            class="grid-button-icon" />
+          <img v-else-if="placeType === PlaceType.InitiativenEngagementAngebote" src="@/assets/INITIATIVE.svg"
+            height="20px" class="grid-button-icon" />
+          <img v-else-if="placeType === PlaceType.NachhaltigerCampus" src="@/assets/NACHCAMPUS.svg" height="20px"
+            class="grid-button-icon" />
           <img v-else src="@/assets/FORSCHUNG.svg" height="20px" class="grid-button-icon" />
           <span class="grid-button-text"> {{ getTypeName(placeType as PlaceType) }}</span>
         </div>
