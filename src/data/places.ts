@@ -67,7 +67,7 @@ export interface Place {
 
 // TODO: Title ohne brs, das in den Text packen oder Ansprechpartner in Adresse
 
-const arthursPlaces: Place[] = [
+export const places: Place[] = [
   {
     title:
       'Meteorologische Messstation (Wetter-, Klima- und Umweltmessgrößen)<br>Ort<br>Prof. Dr. Ulrich Löhnert<br>Telefon: +49 221 470 1779',
@@ -76,10 +76,7 @@ const arthursPlaces: Place[] = [
     url: 'https://geomet.uni-koeln.de/forschung/aktuelle-beobachtungen/wetterstation-gruenguertel',
     address: 'Zülpicher Wall 5<br>50674 Köln',
     coordinates: L.latLng(50.92972, 6.93249)
-  }
-]
-
-const lucasPlaces: Place[] = [
+  },
   {
     title: 'GSCC',
     text: 'Center<br>contact-gssc@uni-koeln.de<br>Telefon: +49 221 470 76645',
@@ -97,10 +94,7 @@ const lucasPlaces: Place[] = [
     types: [PlaceType.SozialeNachhaltigkeit],
     address: 'Universitätsstraße 16<br>50937 Köln',
     coordinates: L.latLng(50.92394560726894, 6.931505538342777)
-  }
-]
-
-const stefansPlaces: Place[] = [
+  },
   {
     title: 'Mesh',
     text: '',
@@ -116,10 +110,7 @@ const stefansPlaces: Place[] = [
     types: [PlaceType.Forschung], //['Transfer und Engagement'],
     address: 'Weyertal 109<br>50931 Köln',
     coordinates: L.latLng(50.92560876307702, 6.925581265345831)
-  }
-]
-
-export const places: Place[] = [
+  },
   {
     title: 'AG Nachhaltigkeit der Med. Initiative (intern)',
     text: 'Die AG Nachhaltigkeit der Medizinischen Fakultät und Uniklinik ist zentrale Anlaufstelle für Studierende und Beschäftigte zum Thema Nachhaltigkeit. Ziel ist es Praktische Anregungen und Tipps zu umweltbewusstem Verhalten zu vermitteln und in allen Bereichen der Fakultät und Uniklinik zu verankern.',
@@ -499,6 +490,3 @@ export const places: Place[] = [
     coordinates: L.latLng(50.917139942250294, 6.940774168519168)
   }
 ]
-  .concat(arthursPlaces)
-  .concat(lucasPlaces)
-  .concat(stefansPlaces)
