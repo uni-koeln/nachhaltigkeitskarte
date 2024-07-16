@@ -71,7 +71,7 @@ export interface Place {
 export const places: Place[] = [
   {
     title: 'Meteorologische Messstation<br>(Wetter-, Klima- und Umweltmessgrößen)<br>Ort',
-    text: '',
+    text: 'Seit August 2022 existiert an der Universität zu Köln die meteorologische Messstation auf dem Gelände des UniSports, um relevante Wetter-, Klima- und Umweltmessgrößen zu vermessen.',
     types: [PlaceType.Forschung],
     url: 'https://geomet.uni-koeln.de/forschung/aktuelle-beobachtungen/wetterstation-gruenguertel',
     mail: '',
@@ -136,7 +136,7 @@ export const places: Place[] = [
   },
   {
     title: 'ASTA-Fahrradwerkstatt',
-    text: '',
+    text: 'In der AStA-Fahrradwerkstatt können Fahrräder Selbst repariert werden. Zudem gibt es hier kostenlose hilfe und Ersatzteile zu einem günstigen Preis.',
     url: 'https://www.asta.uni-koeln.de/?tab=angebote-tt-asta-fahrradwerkstatt-mitschraubgelegenheit#angebote',
     types: [PlaceType.InitiativenEngagementAngebote],
     mail: '',
@@ -146,7 +146,7 @@ export const places: Place[] = [
   {
     title:
       'Bachelor of Science in Management, Economics and Social Sciences - Driving Sustainable Change',
-    text: '',
+    text: 'Mit einer globalen Perspektive bietet der Bachelor of Science in Management Einblicke in gesellschaftliche Herausforderungen und vermittelt die Fähigkeit komplexe wirtschaftliche und gesellschaftliche Zusammenhänge zu analysieren und zu gestalten.',
     url: 'https://wiso.uni-koeln.de/de/studium/bachelor/bachelor-management-economics-social-sciences',
     types: [PlaceType.LehreUndWeiterbildung],
     mail: '',
@@ -155,7 +155,7 @@ export const places: Place[] = [
   },
   {
     title: 'Begrünung der Mensa: Hochbeete und Blühwiese',
-    text: '',
+    text: 'Um die Aufenthaltsqualität der Mensa zu erhöhen, entstanden nach ökologischen Kriterien gestalltete Begrünungen. Hier kann man sich in seiner Pause hinsetzen, die sonnige Lage genießen und Bienen beobachten.',
     url: 'https://www.asta.uni-koeln.de/?tab=angebote-tt-mensa-begruenung#angebote',
     types: [PlaceType.InitiativenEngagementAngebote],
     mail: 'green-office@uni-koeln.de, m.wiggers@kstw.de', // Einer der beiden muss drinnen bleiben
@@ -166,7 +166,7 @@ export const places: Place[] = [
   {
     title: 'Campus Garten',
     url: 'https://www.asta.uni-koeln.de/?tab=angebote-tt-campus-garten#angebote',
-    text: '',
+    text: 'Der Gemeinschaftsgarten ist ein langjähriges Projekt vom AStA und wird von Studierenden organsiert und gestaltet. Ob entspannen zwischen den Vorlesungen, eigenes Gemüse & Kräuter anbauen oder gemeinsame Aktionen starten – der CampusGarten bietet euch tolle Möglichkeiten für Nachhaltigkeit und Gemeinschaft im Grünen.',
     types: [PlaceType.InitiativenEngagementAngebote],
     mail: 'h.daniels@asta.uni-koeln.de',
     address: 'Gyrhofstraße 19<br>50931 Köln',
@@ -174,7 +174,7 @@ export const places: Place[] = [
   },
   {
     title: 'Earth System Sciences',
-    text: '',
+    text: 'Studenten entwickeln im Masterprogramm ein tiefgreifendes Verständnis des Erd-Systems vom Kern bis zur Atmosphäre. Das Institut forscht zu allen Aspekten des Erdsystems.',
     url: 'https://computationalsciences.uni-koeln.de/contents/curriculum/earth-system-sciences',
     types: [PlaceType.Forschung, PlaceType.LehreUndWeiterbildung],
     mail: 'info-compscie@uni-koeln.de', // h.daniels@asta.uni-koeln.de
@@ -193,7 +193,7 @@ export const places: Place[] = [
   },
   {
     title: 'Health For Future Köln',
-    text: '',
+    text: 'Bei Health for Future kommen Menschen zusammen, die sich im Feld Gesundheit engagieren möchten, dabei geht es um die Auswirkungen der planetaren Krise auf die Gesundheit des Menschen. Health for Future informiert und veranstaltet unterschiedliche Aktionen zu diesem Thema.',
     url: 'https://www.instagram.com/healthforfuturekoeln/?hl=de',
     types: [PlaceType.NachhaltigerCampus],
     mail: '',
@@ -202,7 +202,7 @@ export const places: Place[] = [
   },
   {
     title: 'Information Systems for Sustainable Society',
-    text: '',
+    text: 'Bei Information Systems for Sustainable Society wird zum Thema Nachhaltigkeit im technischen Bereich geforscht, gelehrt und publiziert',
     url: 'https://is3.uni-koeln.de/en/',
     types: [PlaceType.Forschung],
     mail: '',
@@ -211,7 +211,7 @@ export const places: Place[] = [
   },
   {
     title: 'Institut für Biologiedidaktik: Forschungsprojekt Klimawandel und grüne Fassaden ',
-    text: '',
+    text: 'Durch die Fasadenbegrünung der Mensa forscht das Institut für Biologiedidaktik zur Energieeffizienz von Gebäuden und zum Beitrag für das Stadtklima durch Fasadenbegrünung.',
     url: 'https://biologiedidaktik.uni-koeln.de/forschungsprojekte/aktuelle-forschungsprojekte/klimawandel-und-gruene-fassaden/billy-green',
     types: [PlaceType.Forschung, PlaceType.NachhaltigerCampus],
     mail: '',
@@ -220,7 +220,7 @@ export const places: Place[] = [
   },
   {
     title: 'Institut für Geologie und Mineralogie',
-    text: '',
+    text: 'Das Institut Forscht und Lehrt zum Thema Geologie und Mineralogie, hier findet sich auch ein Überblick über die unterschiedlichen Arbeitsgruppe.',
     url: 'https://geologie.uni-koeln.de/',
     types: [PlaceType.Forschung, PlaceType.LehreUndWeiterbildung],
     mail: '',
@@ -229,7 +229,7 @@ export const places: Place[] = [
   },
   {
     title: 'Institute for International Peace and Security Law',
-    text: '',
+    text: 'Das Institute for International Peace and Security Law forscht und lehrt zum Völkerrecht und Rechtsfragen, die sich mit Friedenssicherung auseinandersetzen.',
     url: 'https://iipsl.jura.uni-koeln.de/',
     types: [PlaceType.Forschung, PlaceType.LehreUndWeiterbildung, PlaceType.SozialeNachhaltigkeit],
     mail: '',
@@ -238,7 +238,7 @@ export const places: Place[] = [
   },
   {
     title: 'Junge Forschungsgruppe Nachhaltigkeit',
-    text: '',
+    text: 'Die Tätigkeit der Jungen Forschungsgruppe Nachhaltigkeit zielt darauf ab, den unklaren Begriff der Nachhaltigkeit in der Diskussion mit Repräsentanten möglichst vieler Disziplinen mit Inhalt zu füllen. Von den so gewonnenen Erkenntnissen ausgehend will die Gruppe die normativen Anforderungen an Nachhaltigkeit formulieren.',
     url: 'https://jfg-nachhaltigkeit.jura.uni-koeln.de/',
     types: [PlaceType.Forschung],
     mail: '',
@@ -247,7 +247,7 @@ export const places: Place[] = [
   },
   {
     title: 'M.A. Culture and Environment In Africa',
-    text: '',
+    text: 'In diesem Masterprogramm geht es um Kultur und Umwelt in Afrika mit dem Fokus auf prähistorische, historische und zeitgeschichtliche Epochen. Dabei werden globale, nationale sowie regionale Verflechtungen mit einbezogen.',
     url: 'https://ethnologie.phil-fak.uni-koeln.de/content.php?kid=111',
     types: [PlaceType.LehreUndWeiterbildung],
     mail: '',
@@ -256,7 +256,7 @@ export const places: Place[] = [
   },
   {
     title: 'Physics of Earth and Atmosphere',
-    text: '',
+    text: 'Das Masterstudium "Physics of the Earth and Atmopshere" vertieft die notwendigen Kenntnisse zur Erforschung der Erde und der Atmosphäre. Besondere Schwerpunkte im Studiengang sind Angewandte Geophysik, die Extraterrestrische Geophysik und Seismologie.',
     url: 'https://geomet.uni-koeln.de/studium/master-program',
     types: [PlaceType.LehreUndWeiterbildung],
     mail: '',
@@ -467,7 +467,7 @@ export const places: Place[] = [
   },
   {
     title: 'Projekt Food_Fair (Food Saving und Sharing Projekt)',
-    text: '',
+    text: 'Mit dem Ziel direkt und pragmatisch zu handeln, rettet das Projekt gemeinsam Lebensmittel vor der Tonne, sensibilisieren für diese Probleme, die die Gesellschaft im Alltag umtreiben, und ermöglicht jeder*m einen Teil beizutragen. Die Food Beutel sind vor allem für Studierende, die sich gerade in einer Notsituation befinden.',
     url: 'https://www.asta.uni-koeln.de/?tab=angebote-tt-food_fair#angebote',
     types: [PlaceType.SozialeNachhaltigkeit],
     mail: 'food-fair@asta.uni-koeln.de',
@@ -476,7 +476,7 @@ export const places: Place[] = [
   },
   {
     title: 'Professional Center: Service Learning',
-    text: '',
+    text: 'Durch aktive Mitarbeit an gemeinwohlorientierten Projekten ermöglicht Service Learning es, das Studium durch soziales Engagement zu bereichern und dadurch eine tiefere Verbindung zur Gesellschaft zu entwickeln. Service Learning strebt die Verbindung von gesellschaftlichem Wirken und Wissensvermittlung an und möchte persönlichen Wachstum und gesellschaftliche Transformation anregen.',
     url: 'https://professionalcenter.uni-koeln.de/lehre/service-learning',
     types: [PlaceType.LehreUndWeiterbildung],
     mail: 'meike.bredendiek@uni-koeln.de',
@@ -485,7 +485,7 @@ export const places: Place[] = [
   },
   {
     title: 'Ökologische Rheinstation der Universität zu Köln',
-    text: '',
+    text: 'Die Ökologische Rheinstation befindet sich auf einem ehemaligen Rheinschiff. Die Fließwasserlabore an Bord der Rheinstation bieten Wissenschaftlern und Studenten des Zoologischen Instituts hervorragende Bedingungen, Tiere im Rheinwasser lebensnah zu erforschen und Veränderungen im Ökosystem Rhein zeitnah wahrzunehmen.',
     url: 'https://rheinstation.uni-koeln.de/',
     types: [PlaceType.LehreUndWeiterbildung, PlaceType.LehreUndWeiterbildung],
     mail: '',
@@ -494,7 +494,7 @@ export const places: Place[] = [
   },
   {
     title: 'Ökologiereferat',
-    text: '',
+    text: 'Das Referat für Ökologie und Infrastruktur versucht den Studierenden das Thema Nachhaltigkeit durch Aktionen und Service-Angebote näher zu bringen. Das Ziel des Referates ist es, den Nachhaltigkeitsgedanken in Forschung, Lehre und Betrieb zu verankern.',
     url: 'https://www.asta.uni-koeln.de/?tab=ueber-uns-tt-referat-fuer-oekologie-und-infrastruktur#ueber-uns',
     types: [PlaceType.NachhaltigerCampus],
     mail: 'oekologie@asta.uni-koeln.de',
@@ -503,7 +503,7 @@ export const places: Place[] = [
   },
   {
     title: 'Modularer Modellgarten',
-    text: '',
+    text: 'Der Modulare Modellgarten (MoMo) des Instituts für Biologiedidaktik besteht nun schon seit 9 Jahren mitten in Köln am Clarenbachkanal. Er bietet den angehenden Biologielehrkräften die Möglichkeit, praxisnah unter freiem Himmel zu lernen.',
     url: 'https://ub.uni-koeln.de/die-usb/ueber-uns/agenda2030',
     types: [PlaceType.LehreUndWeiterbildung, PlaceType.Forschung],
     mail: 'schrempp@ub.uni-koeln.de',
@@ -512,7 +512,7 @@ export const places: Place[] = [
   },
   {
     title: 'MINT-Bildungsprojekt: unserWaldKlima',
-    text: '',
+    text: 'Dieses MINT-Bildungsprojekt will dazu beitragen, dass die Rolle und Bedeutung der Wälder für den Klimaschutz verstärkt im Unterricht thematisiert wird.',
     url: 'https://waldklima.uni-koeln.de/',
     types: [PlaceType.LehreUndWeiterbildung],
     mail: '',
@@ -521,7 +521,7 @@ export const places: Place[] = [
   },
   {
     title: 'Lastenrad-Ausleihe',
-    text: '',
+    text: 'Die vier Lastenräder können eine Waschmaschine, Getränkekästen oder andere sperrige Dingebefördern. Der Verleih ist kostenfrei, um für den privaten oder geschäftlichen Zweck CO2-frei Lasten zu transportieren',
     url: 'https://ub.uni-koeln.de/die-usb/ueber-uns/agenda2030',
     types: [PlaceType.InitiativenEngagementAngebote],
     mail: 'servicepoint@asta.uni-koeln.de',
