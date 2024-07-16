@@ -274,7 +274,7 @@ export const places: Place[] = [
   },
   {
     title: 'zdi-Schülerlabor',
-    text: '',
+    text: 'Im Programm zdi-Schülerlabor haben Schüler der Stufen 5-12 die Möglichkeit, in den Instituten der Physik und der Chemie Praxiserfahrungen zu sammeln.',
     url: 'https://zdi-schuelerlabor.uni-koeln.de/',
     types: [PlaceType.InitiativenEngagementAngebote],
     mail: '',
@@ -292,7 +292,7 @@ export const places: Place[] = [
   },
   {
     title: 'Service Zentrum Inklusion',
-    text: '',
+    text: 'Das Servicezentrum Inklusion ist ein gemeinsames Angebot der Zentralen Studienberatung (Universitätsverwaltung) und des Beauftragten für Studierende mit Behinderung oder chronischer Erkrankung. Ziel ist es Menschen mit Behinderung, chronischer und psychischer Erkrankung zu unterstützen.',
     url: 'https://inklusion.uni-koeln.de/szi/index_ger.html',
     types: [PlaceType.SozialeNachhaltigkeit],
     mail: '',
@@ -301,7 +301,7 @@ export const places: Place[] = [
   },
   {
     title: 'S.o.S. Referat (Studierende ohne Schranken)',
-    text: '',
+    text: 'Studieren ohne Schranken setzt sich für Studierende mit Behinderung Chronischen Erkrankungen, Psychischen Erkrankungen und Neurodivergenz ein. Ziel ist dabei Chancengleichheit durch Inklusion und Abbau von Barrieren und Grenzen jeder Art.',
     url: 'https://sos-referat.uni-koeln.de/',
     types: [PlaceType.SozialeNachhaltigkeit],
     mail: '',
@@ -320,7 +320,7 @@ export const places: Place[] = [
   },
   {
     title: 'Autonomes Queerreferat der Universität zu Köln (AQUK)',
-    text: '',
+    text: 'Das Autonome Queerreferat bietet einen Save Space für alle queere Studierenden. Dabei verfolgt das Queerreferat einen breiten Ansatz, wenn es z.B. um eine diskriminierungsfreie Lehre, Probleme mit der Verwaltung der Uni oder die Vernetzung mit anderen Studierenden geht.',
     url: 'https://aquk.uni-koeln.de/home',
     types: [PlaceType.SozialeNachhaltigkeit],
     mail: '',
@@ -329,7 +329,7 @@ export const places: Place[] = [
   },
   {
     title: 'Autonomes BIPoC (Black, Indigenous, People of Color) Referat der Uni Köln',
-    text: '',
+    text: 'Das autonome BIPoC Referat will ein Zeichen dafür setzen, dass die Universität eine Institution sein kann, die ihre Kolonialgeschichte bewusst dekonstruiert und Verantwortung übernimmt. Ziel des Referates ist es, sich für marginalisierte und rassifizierte Gruppen an der Universität einzusetzen.',
     url: 'https://bipoc.uni-koeln.de/',
     types: [PlaceType.SozialeNachhaltigkeit],
     mail: '',
@@ -338,7 +338,7 @@ export const places: Place[] = [
   },
   {
     title: 'Soziale und wirtschaftliche Beratung für Studierende',
-    text: '',
+    text: 'Die Sozialberatung des Kölner Studierendenwerks berät Studierende dabei welche Unterstützungsleistungen wie und wo beantragt werden können und welche sozialrechtlichen Regelungen in verschiedenen Bereichen zu beachten sind.',
     url: 'https://www.kstw.de/beratung/sozialberatung',
     types: [PlaceType.SozialeNachhaltigkeit],
     mail: '',
@@ -347,7 +347,7 @@ export const places: Place[] = [
   },
   {
     title: 'Gleichstellungsbeauftragte',
-    text: '',
+    text: 'Die Gleichstellungsbeauftragte nimmt verstärkt die Belange der weiblichen Angehörigen wahr. Daneben stehen die Zielgruppe Väter/Eltern und LGBTIQ* im Fokus.Darüberhinaus besteht ein umfassender Beratungsauftrag zugunsten aller Angehörigen und Mitglieder der Universität zum Thema Gleichstellung der Geschlechter. Sie ist in alle Personalmaßnahmen einzubinden und überwacht die Chancengerechtigkeit.',
     url: 'https://gb.uni-koeln.de/index_ger.html',
     types: [PlaceType.SozialeNachhaltigkeit],
     mail: '',
@@ -356,7 +356,7 @@ export const places: Place[] = [
   },
   {
     title: 'Refugee Law Clinic Cologne e.V.',
-    text: '',
+    text: 'Die Refugee Law Clinic Cologne e.V. ist ein gemeinnütziger Verein, der von Kölner Jura Studierenden gegründet wurde und Migrant*innen, insbesondere Geflüchtete und Asylbewerber*innen, unterstützt. Sie bietet Geflüchteten kostenfreie, studentische Rechtsberatung im Rahmen einer Sprechstunde in unserem Kölner Büro an.',
     url: 'https://lawcliniccologne.com/',
     types: [PlaceType.SozialeNachhaltigkeit],
     mail: '',
@@ -365,7 +365,7 @@ export const places: Place[] = [
   },
   {
     title: 'UzK Academic Refugee Support (International Office)',
-    text: '',
+    text: 'Der Academic Refugee Support will Geflüchteten dabei helfen, ein Studium oder eine Promotion an der Uni zu Köln zu absolvieren. Auch finden Geflüchtete Unterstützung bei der Absolvierung eines Deutschkurses.',
     url: 'https://portal.uni-koeln.de/international/studium-in-koeln/academic-refugee-support',
     types: [PlaceType.SozialeNachhaltigkeit],
     mail: '',
@@ -383,7 +383,7 @@ export const places: Place[] = [
   },
   {
     title: 'INGENIoS: Indo-German Network Interaction of Scientists',
-    text: '',
+    text: 'Das Hauptziel von INGENIoS ist der Aufbau integrierter und interdisziplinärer institutioneller Beziehungen zwischen der Universität zu Köln (UoC) und dem Indian Institute of Science (IISc) in Bangalore. Das Kernthema des Netzwerkes ist das Umweltsystem-Hydrologie',
     url: 'https://geographie.uni-koeln.de/forschung/arbeitsgruppen/hydrogeographie-und-klimatologie/projektuebersicht/projekte/ingenios',
     types: [PlaceType.Forschung],
     mail: '',
@@ -401,7 +401,7 @@ export const places: Place[] = [
   },
   {
     title: 'SFB 1252 "Prominence in Language"',
-    text: '',
+    text: 'Mit seinem Ansatz leistet der Sonderforschungsbereich 1253 Prominence in Language mit einer umfassende Beschreibung von Prominenz wichtige Grundlagenforschung für ein besseres Verständnis von Sprache als einem System zwischen Kommunikation und Kognition.',
     url: 'https://sfb1252.uni-koeln.de/',
     types: [PlaceType.Forschung],
     mail: '',
@@ -421,7 +421,7 @@ export const places: Place[] = [
   },
   {
     title: 'Nachhaltigkeitsbüro',
-    text: '',
+    text: 'Das Nachhaltigkeitsbüro ist die zentrale Anlaufstelle der Universität zu Köln in Fragen Nachhaltigkeit. Dieses Thema will das Nachhaltigkeit sichtbar, zugänglich und erlebbar machen. Zudem sollen einzelne Initiativen untereinander vernetzt werden.',
     url: 'https://portal.uni-koeln.de/universitaet/universitaet-auf-einen-blick/nachhaltigkeit/team-und-kontakt',
 
     types: [PlaceType.NachhaltigerCampus],
@@ -431,7 +431,7 @@ export const places: Place[] = [
   },
   {
     title: 'Weiterbildung Nachhaltigkeitsmanager*in',
-    text: '',
+    text: 'Mit der Weiterbildung zum Nachhaltigkeitsmanager kann ein IHK Zertifikat erworben werden. Die Inhalte der Weiterbildung fokussieren sich dabei auf Veränderung von Prozessabläufen, Unternehmenskultur und Investitionen in Technologien.',
     url: 'https://professionalcenter.uni-koeln.de/lehre/nachhaltigkeitsmanagerin-ihk',
     types: [PlaceType.LehreUndWeiterbildung],
     mail: 'carina.goffart@uni-koeln.de',
@@ -440,7 +440,7 @@ export const places: Place[] = [
   },
   {
     title: 'USB: CLIMATE CLOCK und AGENDA 2030',
-    text: '',
+    text: 'Die CLIMATE CLOCK zählt im Sekundentakt, wie viel Zeit der Weltgemeinschaft bleibt, um das Ziel des Pariser Klimaabkommens von 2015 einzuhalten und die Erderwärmung auf 1,5 oder maximal 2 Grad zu begrenzen.',
     url: 'https://ub.uni-koeln.de/die-usb/ueber-uns/agenda2030',
     types: [PlaceType.InitiativenEngagementAngebote],
     mail: 'schrempp@ub.uni-koeln.de',
@@ -449,7 +449,7 @@ export const places: Place[] = [
   },
   {
     title: 'Sustainability Initiative University Cologne',
-    text: '',
+    text: 'Die Sustainability Initiative will Forschung zu Material Science in nachhaltige Praxis umsetzen. Der Fokus dabei liegt auf Nanomaterialien für erneuerbare Energien und Gesundheitsanwendungen.',
     url: 'https://sustainability.uni-koeln.de/',
     types: [PlaceType.LehreUndWeiterbildung],
     mail: 'be-sustainable@uni-koeln.de',
@@ -458,7 +458,7 @@ export const places: Place[] = [
   },
   {
     title: 'Public Climate School (Students For Future)',
-    text: '',
+    text: 'Students for Future (SFF) Köln, ist eine Gruppe aus Studis verschiedener Hochschulen, Azubis und weiteren Interessierten, SFF setzt seit 2019 in vielen Kontexten, auf verschiedenen Ebenen und in vielfältigen Projekten, für mehr Klimaschutz, soziale Gerechtigkeit und Anti- Diskriminierung ein.',
     url: 'https://sites.google.com/view/sff-koelnde/startseite',
     types: [PlaceType.LehreUndWeiterbildung],
     mail: '',
