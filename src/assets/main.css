@@ -163,6 +163,9 @@ p {
 .popup-grid-right {
   grid-area: right;
   padding-left: 20%;
+  align-content: center;
+  margin: 1em;
+  border-left: 0.1em inset;
 }
 
 h3 {
@@ -171,4 +174,8 @@ h3 {
     vertical-align: bottom;
     padding-right: 5px;
   }
+}
+
+.horizontal {
+  margin-bottom: 2%;
 }

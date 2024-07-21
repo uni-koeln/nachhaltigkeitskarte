@@ -105,10 +105,9 @@ const addMarkers = () => {
             return '<img src="' + getIconName(type) + '.svg" height="20px" />'
           })
           .join('') + '<h3>' +
-
         place.title +
         '</h3>'
-        : '') +
+        : '') + '<hr class="horizontal">' +
       place.text +
       (place.url != ''
         ? '<br><a href="' + place.url + '" target="_blank">' + 'Mehr erfahren' + '</a>'
