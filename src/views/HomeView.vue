@@ -117,7 +117,7 @@ const addMarkers = () => {
         ? '<br><a href=mailto:"' + place.mail + '" target="_blank">E-Mail</a>'
         : '') +
       '</div></div></div></div>',
-      { maxWidth: 560 }
+      { maxWidth: 500 }
     )
   })
 }

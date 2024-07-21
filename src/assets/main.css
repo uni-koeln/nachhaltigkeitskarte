@@ -19,7 +19,7 @@
   --color-theme-coral: #ea564f;
   --color-theme-turquoise: #009dcc;
   --color-theme-blue: #005176;
-  --color-theme-blue-transparent: rgba(0, 81, 118, 0.2);
+  --color-theme-blue-transparent: rgba(0, 81, 118, 0.8);
 }
 
 *,
@@ -89,6 +89,8 @@ b {
 
 .grid-item-filter {
   grid-area: filter;
+  display: table;
+  table-layout: fixed;
 }
 
 .grid-item-map {
@@ -96,7 +98,10 @@ b {
 }
 
 .filter {
-  background-color: var(--color-theme-blue);
+  display: flex;
+  align-items: center;
+  border: 2px solid var(--color-theme-blue);
+  background-color: var(--color-theme-blue-transparent);
   color: white;
   margin: 5px;
   padding: 3px;
