@@ -1,4 +1,4 @@
-# nachhaltigkeitskarte
+# Nachhaltigkeitskarte
 
 ![Logo des Nachhaltigkeitsbüro](./src/assets/logo_nhb.png)
 
