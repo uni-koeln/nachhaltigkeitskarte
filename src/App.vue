@@ -8,19 +8,20 @@ import { RouterLink, RouterView } from 'vue-router'
       <a href="https://www.uni-koeln.de/" target="_blank"
         ><img alt="Logo der Universität zu Köln" class="logo" src="@/assets/logo_uzk.png"
       /></a>
-      <a
-        href="https://portal.uni-koeln.de/universitaet/universitaet-auf-einen-blick/nachhaltigkeit"
-        target="_blank"
-        ><img alt="Logo des Nachhaltigkeitsbüros" class="logo" src="@/assets/logo_nhb.png"
-      /></a>
-    </div>
-    <div id="title" class="wrapper">
+      <div id="title" class="wrapper">
       Nachhaltigkeitskarte Universitat zu Köln
       <nav class="navigation">
         <RouterLink to="/">Karte</RouterLink>
         <RouterLink to="/about">Info</RouterLink>
       </nav>
     </div>
+      <a
+        href="https://portal.uni-koeln.de/universitaet/universitaet-auf-einen-blick/nachhaltigkeit"
+        target="_blank"
+        ><img alt="Logo des Nachhaltigkeitsbüros" class="logo" src="@/assets/logo_nhb.png"
+      /></a>
+    </div>
+
   </header>
 
   <RouterView />

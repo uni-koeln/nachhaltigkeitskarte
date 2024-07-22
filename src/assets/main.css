@@ -18,6 +18,7 @@
   --color-theme-green-transparent: rgba(26, 177, 128, 0.2);
   --color-theme-coral: #ea564f;
   --color-theme-turquoise: #009dcc;
+  --color-theme-turquoise-transparent: rgba(0, 157, 204,0.8);
   --color-theme-blue: #005176;
   --color-theme-blue-transparent: rgba(0, 81, 118, 0.8);
 }
@@ -101,7 +102,7 @@ b {
   display: flex;
   align-items: center;
   border: 2px solid var(--color-theme-blue);
-  background-color: var(--color-theme-blue-transparent);
+  background-color: var(--color-theme-turquoise-transparent);
   color: white;
   margin: 5px;
   padding: 3px;
@@ -110,12 +111,12 @@ b {
 }
 
 .filter-selected {
-  background-color: var(--color-theme-turquoise);
+  background-color: var(--color-theme-blue);
   font-weight: bold;
 }
 
 .navigation {
-  margin-top: 25px;
+  margin-top: 1em;
   margin-bottom: 50px;
   font-size: 16px;
 }
