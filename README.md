@@ -1,6 +1,6 @@
 # nachhaltigkeitskarte
 
-![Logo des Nachhaltigkeitsbüro](./src/assets/023_Logo%20NHB.png)
+![Logo des Nachhaltigkeitsbüro](./src/assets/logo_nhb.png)
 
 TODO Studis: mehr Informationen über dieses Projekt hinzufügen.
 
