@@ -71,7 +71,7 @@ export interface Place {
 export const places: Place[] = [
   {
     title: 'Meteorologische Messstation<br>(Wetter-, Klima- und Umweltmessgrößen)<br>Ort',
-    text: 'Seit August 2022 existiert an der Universität zu Köln die meteorologische Messstation auf dem Gelände des UniSports, um relevante Wetter-, Klima- und Umweltmessgrößen zu vermessen.',
+    text: 'Die meteorologische Messstation auf dem Gelände des UniSports wurde in Kooperation zwischen der Stadt Köln und der Universität zu Köln eingerichtet, um relevante Wetter-, Klima- und Umweltmessgrößen zu messen. Die Daten können die Grundlage für zielgerichtete und wirksame Maßnahmen zur Abmilderung der negativen Auswirkungen des Klimawandels liefern.',
     types: [PlaceType.Forschung],
     url: 'https://geomet.uni-koeln.de/forschung/aktuelle-beobachtungen/wetterstation-gruenguertel',
     mail: '',
@@ -88,8 +88,7 @@ export const places: Place[] = [
     coordinates: L.latLng(50.93127760930519, 6.921190240125787)
   },
   {
-    title:
-      'Autonomes Queerreferat der Universität zu Köln (AQUK)',
+    title: 'Autonomes Queerreferat der Universität zu Köln (AQUK)',
     text: '',
     url: 'https://aquk.uni-koeln.de/home',
     types: [PlaceType.SozialeNachhaltigkeit],
@@ -159,8 +158,7 @@ export const places: Place[] = [
     url: 'https://www.asta.uni-koeln.de/?tab=angebote-tt-mensa-begruenung#angebote',
     types: [PlaceType.InitiativenEngagementAngebote],
     mail: 'green-office@uni-koeln.de, m.wiggers@kstw.de', // Einer der beiden muss drinnen bleiben
-    address:
-      'Hauptmensa<br>Zülpicherstr.70<br>50931 Köln',
+    address: 'Hauptmensa<br>Zülpicherstr.70<br>50931 Köln',
     coordinates: L.latLng(50.92772769481757, 6.9332704838606904)
   },
   {
@@ -178,8 +176,7 @@ export const places: Place[] = [
     url: 'https://computationalsciences.uni-koeln.de/contents/curriculum/earth-system-sciences',
     types: [PlaceType.Forschung, PlaceType.LehreUndWeiterbildung],
     mail: 'info-compscie@uni-koeln.de', // h.daniels@asta.uni-koeln.de
-    address:
-      'Pohligstr.3<br>50969 Köln',
+    address: 'Pohligstr.3<br>50969 Köln',
     coordinates: L.latLng(50.917139942250294, 6.940774168519168)
   },
   {
@@ -292,7 +289,7 @@ export const places: Place[] = [
   },
   {
     title: 'Service Zentrum Inklusion',
-    text: 'Das Servicezentrum Inklusion ist ein gemeinsames Angebot der Zentralen Studienberatung (Universitätsverwaltung) und des Beauftragten für Studierende mit Behinderung oder chronischer Erkrankung. Ziel ist es Menschen mit Behinderung, chronischer und psychischer Erkrankung zu unterstützen.',
+    text: 'Das Servicezentrum Inklusion ist ein gemeinsames Angebot der Zentralen Studienberatung (Universitätsverwaltung) und des Beauftragten für Studierende mit Behinderung oder chronischer Erkrankung. Ziel ist es, Menschen mit Behinderung, chronischer und psychischer Erkrankung zu unterstützen.',
     url: 'https://inklusion.uni-koeln.de/szi/index_ger.html',
     types: [PlaceType.SozialeNachhaltigkeit],
     mail: '',
@@ -356,7 +353,7 @@ export const places: Place[] = [
   },
   {
     title: 'Refugee Law Clinic Cologne e.V.',
-    text: 'Die Refugee Law Clinic Cologne e.V. ist ein gemeinnütziger Verein, der von Kölner Jura Studierenden gegründet wurde und Migrant*innen, insbesondere Geflüchtete und Asylbewerber*innen, unterstützt. Sie bietet Geflüchteten kostenfreie, studentische Rechtsberatung im Rahmen einer Sprechstunde in unserem Kölner Büro an.',
+    text: 'Die Refugee Law Clinic Cologne e.V. ist ein gemeinnütziger Verein, der von Kölner Jura Studierenden gegründet wurde und Migrant*innen, insbesondere Geflüchtete und Asylbewerber*innen mit kostenfreier Rechtsberatung unterstützt.',
     url: 'https://lawcliniccologne.com/',
     types: [PlaceType.SozialeNachhaltigkeit],
     mail: '',
@@ -365,7 +362,7 @@ export const places: Place[] = [
   },
   {
     title: 'UzK Academic Refugee Support (International Office)',
-    text: 'Der Academic Refugee Support will Geflüchteten dabei helfen, ein Studium oder eine Promotion an der Uni zu Köln zu absolvieren. Auch finden Geflüchtete Unterstützung bei der Absolvierung eines Deutschkurses.',
+    text: 'Der Academic Refugee Support des International Office (UzK) unterstützt Geflüchtete dabei, ein Studium oder eine Promotion an der Uni zu Köln zu absolvieren. Auch finden Geflüchtete hier Unterstützung bei der Absolvierung eines Deutschkurses.',
     url: 'https://portal.uni-koeln.de/international/studium-in-koeln/academic-refugee-support',
     types: [PlaceType.SozialeNachhaltigkeit],
     mail: '',
@@ -415,13 +412,12 @@ export const places: Place[] = [
     url: 'https://computationalsciences.uni-koeln.de/contents/curriculum/earth-system-sciences',
     types: [PlaceType.Forschung],
     mail: 'karin.plate@uk-koeln.de',
-    address:
-      'Kerpener Str. 62<br>50937 Köln<br>Prof.Dr. Beate Müller,<br>Assitenz: Karin Plate',
+    address: 'Kerpener Str. 62<br>50937 Köln<br>Prof.Dr. Beate Müller,<br>Assitenz: Karin Plate',
     coordinates: L.latLng(50.92372629166638, 6.917043502390615)
   },
   {
     title: 'Nachhaltigkeitsbüro',
-    text: 'Das Nachhaltigkeitsbüro ist die zentrale Anlaufstelle der Universität zu Köln in Fragen Nachhaltigkeit. Dieses Thema will das Nachhaltigkeit sichtbar, zugänglich und erlebbar machen. Zudem sollen einzelne Initiativen untereinander vernetzt werden.',
+    text: 'Das Nachhaltigkeitsbüro ist die zentrale Anlaufstelle für das Thema Nachhaltigkeit an der Universität zu Köln. Es bietet Raum für Fragen, Ideen, Anregungen und Diskurse, vernetzt untereinander und hilft mit, das Thema Nachhaltigkeit sichtbar, zugänglich und erlebbar zu machen und begleitet so gemeinsam den Transformationsprozess hin zu einer nachhaltigen Hochschule.',
     url: 'https://portal.uni-koeln.de/universitaet/universitaet-auf-einen-blick/nachhaltigkeit/team-und-kontakt',
 
     types: [PlaceType.NachhaltigerCampus],
@@ -458,7 +454,7 @@ export const places: Place[] = [
   },
   {
     title: 'Public Climate School (Students For Future)',
-    text: 'Students for Future (SFF) Köln, ist eine Gruppe aus Studis verschiedener Hochschulen, Azubis und weiteren Interessierten, SFF setzt seit 2019 in vielen Kontexten, auf verschiedenen Ebenen und in vielfältigen Projekten, für mehr Klimaschutz, soziale Gerechtigkeit und Anti- Diskriminierung ein.',
+    text: 'Students for Future (SFF) Köln, sind eine Gruppe aus Studierenden verschiedener Hochschulen, Azubis und weiteren Interessierten. Sie setzten sich seit 2019 in vielen Kontexten, auf verschiedenen Ebenen und in vielfältigen Projekten, für mehr Klimaschutz, soziale Gerechtigkeit und Anti- Diskriminierung ein.',
     url: 'https://sites.google.com/view/sff-koelnde/startseite',
     types: [PlaceType.LehreUndWeiterbildung],
     mail: '',
@@ -494,7 +490,7 @@ export const places: Place[] = [
   },
   {
     title: 'Ökologiereferat',
-    text: 'Das Referat für Ökologie und Infrastruktur versucht den Studierenden das Thema Nachhaltigkeit durch Aktionen und Service-Angebote näher zu bringen. Das Ziel des Referates ist es, den Nachhaltigkeitsgedanken in Forschung, Lehre und Betrieb zu verankern.',
+    text: 'Das Referat für Ökologie und Infrastruktur bringt den Studierenden das Thema Nachhaltigkeit durch Aktionen und Service-Angebote näher. Es unterstützt, ermöglicht und verstetigt studentische Projekte zum Thema Nachhaltigkeit in vielfältigen Bereichen.',
     url: 'https://www.asta.uni-koeln.de/?tab=ueber-uns-tt-referat-fuer-oekologie-und-infrastruktur#ueber-uns',
     types: [PlaceType.NachhaltigerCampus],
     mail: 'oekologie@asta.uni-koeln.de',
@@ -503,7 +499,7 @@ export const places: Place[] = [
   },
   {
     title: 'Modularer Modellgarten',
-    text: 'Der Modulare Modellgarten (MoMo) des Instituts für Biologiedidaktik besteht nun schon seit 9 Jahren mitten in Köln am Clarenbachkanal. Er bietet den angehenden Biologielehrkräften die Möglichkeit, praxisnah unter freiem Himmel zu lernen.',
+    text: 'Der Modulare Modellgarten (MoMo) des Instituts für Biologiedidaktik am Clarenbachkanal bietet angehenden Biologielehrkräften die Möglichkeit, praxisnah unter freiem Himmel zu lernen. Zudem ist der Garten ein außerschulischer Lernort im Sinne einer BNE, in dem Schulklassen an Projekttagen praktische Erfahrungen sammeln können.',
     url: 'https://ub.uni-koeln.de/die-usb/ueber-uns/agenda2030',
     types: [PlaceType.LehreUndWeiterbildung, PlaceType.Forschung],
     mail: 'schrempp@ub.uni-koeln.de',
