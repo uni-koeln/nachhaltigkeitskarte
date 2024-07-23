@@ -621,6 +621,6 @@ export const places: Place[] = [
     types: [PlaceType.NachhaltigerCampus],
     mail: '',
     address: 'Universitätsstraße 22a<br>50923 Köln',
-    coordinates: L.latLng(50.92897870630775, 6.929195085677594)
+    coordinates: L.latLng(50.927263196142036, 6.929785751024308)
   }
 ]
