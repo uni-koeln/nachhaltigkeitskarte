@@ -615,12 +615,12 @@ export const places: Place[] = [
     coordinates: L.latLng(50.9278367073719, 6.927491053708103)
   },
   {
-    title: 'Prorektor für Nachhaltigkeit Prof. Kirk W. Junker',
+    title: 'Photovoltaikanlage auf dem SSC',
     text: 'Die Photovoltaik-Anlage auf dem Gebäude des Studierenden-Service-Centers (SSC) an der Universitätsstraße erzeugt mit knapp 300 Photovoltaik-Modulen 105.000 Kilowattstunden an elektrischer Energie im Jahr und verringert damit den CO2-Ausstoß der Universität um ungefähr 50.000 Kilogramm. Der Ausbau nachhaltiger Energiequellen ist Teil der universitären Nachhaltigkeitsstrategie.',
     url: 'https://portal.uni-koeln.de/universitaet/aktuell/presseinformationen/detail/universitaet-zu-koeln-nimmt-photovoltaik-anlage-in-betrieb',
     types: [PlaceType.NachhaltigerCampus],
     mail: '',
     address: 'Universitätsstraße 22a<br>50923 Köln',
-    coordinates: L.latLng(50.928462372446674, 6.929611338496286)
+    coordinates: L.latLng(50.92897870630775, 6.929195085677594)
   }
 ]
