@@ -577,5 +577,50 @@ export const places: Place[] = [
     mail: 'post-inur@uni-koeln.de',
     address: 'Bernhard-Feilchenfeld-Straße 9<br>50969 Köln',
     coordinates: L.latLng(50.915486347761295, 6.9427094806825345)
+  },
+  {
+    title: 'Kstw',
+    text: 'Umwelt- und Klimaschutz haben für das Werk hohe Priorität. Seit Juni 2022 erhöht das Werk im Verbund mit den Studierendenwerken in NRW seine Anstrengungen für Nachhaltigkeit. Ein Bestreben ist es, bis 2030 klimaneutral zu werden. Das Werk hat eine eigene Nachhaltigkeitsstrategie.',
+    url: 'https://www.kstw.de/ueber-uns/nachhaltigkeit',
+    types: [PlaceType.NachhaltigerCampus],
+    mail: '',
+    address: 'Universitätsstraße 16<br>50937 Köln',
+    coordinates: L.latLng(50.92398736755503, 6.9316178825440415)
+  },
+  {
+    title: 'Nachhaltigkeitspreis (UzK)',
+    text: 'Der Universitätspreis "Nachhaltigkeit" wird jährlich für herausragende Leistungen im Themengebiet der Nachhaltigkeit vergeben.',
+    url: 'https://portal.uni-koeln.de/forschung/interne-forschungsfoerderung-und-auszeichnungen/universitaetspreis/unipreis-nachhaltigkeit',
+    types: [PlaceType.Forschung],
+    mail: 'nachhaltigkeit@verw.uni-koeln.de',
+    address: 'Albertus-Magnus-Platz 1<br>50923 Köln',
+    coordinates: L.latLng(50.9278367073719, 6.927491053708103)
+  },
+  {
+    title: 'Gesunde Uni Köln für Studierende und Beschäftigte',
+    text: 'Auf dem Gesundheitsportal werden alle gesundheitsbezogenen Services und Informationen der Universität zu Köln unter einem Dach gebündelt, um Beschäftigte, Studierende sowie externe Interessierte durch die Vielzahl an Gesundheitsangeboten zu führen und zur individuellen Gesundheitsförderung und -erhaltung aller Hochschulangehörigen beizutragen.',
+    url: 'https://gesunde.uni-koeln.de/index_ger.html',
+    types: [PlaceType.SozialeNachhaltigkeit],
+    mail: '',
+    address: 'Albertus-Magnus-Platz 1<br>50923 Köln',
+    coordinates: L.latLng(50.9278367073719, 6.927491053708103)
+  },
+  {
+    title: 'Prorektor für Nachhaltigkeit Prof. Kirk W. Junker',
+    text: 'Der Prorektor für Nachhaltigkeit verantwortet in Abstimmung mit dem Rektorat die Integration von Nachhaltigkeit in allen Bereichen der Universität zu Köln. Er ist Vorsitzender des Nachhaltigkeitsrates und wird in seinen Aufgaben durch das Nachhaltigkeitsbüro unterstützt.',
+    url: 'https://portal.uni-koeln.de/universitaet/organisation/rektorat/prorektor-nachhaltigkeit',
+    types: [PlaceType.ZentraleEinrichtungen],
+    mail: 'prorektorat-nachhaltigkeit@verw.uni-koeln.de',
+    address: 'Albertus-Magnus-Platz 1<br>50923 Köln',
+    coordinates: L.latLng(50.9278367073719, 6.927491053708103)
+  },
+  {
+    title: 'Prorektor für Nachhaltigkeit Prof. Kirk W. Junker',
+    text: 'Die Photovoltaik-Anlage auf dem Gebäude des Studierenden-Service-Centers (SSC) an der Universitätsstraße erzeugt mit knapp 300 Photovoltaik-Modulen 105.000 Kilowattstunden an elektrischer Energie im Jahr und verringert damit den CO2-Ausstoß der Universität um ungefähr 50.000 Kilogramm. Der Ausbau nachhaltiger Energiequellen ist Teil der universitären Nachhaltigkeitsstrategie.',
+    url: 'https://portal.uni-koeln.de/universitaet/aktuell/presseinformationen/detail/universitaet-zu-koeln-nimmt-photovoltaik-anlage-in-betrieb',
+    types: [PlaceType.NachhaltigerCampus],
+    mail: '',
+    address: 'Universitätsstraße 22a<br>50923 Köln',
+    coordinates: L.latLng(50.928462372446674, 6.929611338496286)
   }
 ]
