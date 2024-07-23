@@ -532,5 +532,50 @@ export const places: Place[] = [
     mail: '',
     address: 'Universitätsstraße 16<br>50937 Köln',
     coordinates: L.latLng(50.917139942250294, 6.940774168519168)
+  },
+  {
+    title: 'European University for Well-Being (EUniWell)',
+    text: 'Die European University for Well-Being (EuniWell) ist eine intereuropäische Hochschulallianz, die einen ganzheitlichen und handlungsorientierten Ansatz zu „Well-Being” verfolgt. Dabei steht das Wohlergehen des Individuums, der Gemeinschaft und deren Umwelt im Fokus. Innerhalb der Allianz sollen wirkungsvolle und nachhaltige Veränderungen für Studierende, Gesellschaften und Institutionen entwickelt und umgesetzt werden.',
+    url: 'https://euniwell.uni-koeln.de/',
+    types: [PlaceType.Forschung, PlaceType.LehreUndWeiterbildung],
+    mail: 'https://euniwell.uni-koeln.de/',
+    address: 'Classen-Kappelmann-Str.24<br>50931 Köln',
+    coordinates: L.latLng(50.93123717617593, 6.921110451854922)
+  },
+  {
+    title: 'EWI (Energiewirtschaftliches Institut an der Uzk)',
+    text: 'Das EWI forscht und berät zu zunehmend komplexen Energiemärkten. Es analysiert den Wandel der Energiewelt mit neuesten volkswirtschaftlichen Methoden und detaillierten computergestützten Modellen.',
+    url: 'https://www.ewi.uni-koeln.de/de/',
+    types: [PlaceType.Forschung, PlaceType.ZentraleEinrichtungen],
+    mail: 'info@ewi.uni-koeln.de',
+    address: 'Vogelsanger Straße 321a<br>50827 Köln',
+    coordinates: L.latLng(50.95242906766409, 6.897807524873837)
+  },
+  {
+    title: 'Fairtrade University',
+    text: 'Die Steuerungsgruppe der „Fairtrade Uni Köln“ organisiert in Zusammenarbeit mit der Studierendeninitiative Faire Uni zu Köln regelmäßig Veranstaltungen und Aktionen zum Thema Fairer Handel und koordiniert das Fairtrade-University-Zertifikat.',
+    url: 'https://portal.uni-koeln.de/universitaet/universitaet-auf-einen-blick/nachhaltigkeit/was-unternimmt-die-uni/was-bisher-geschah/fairtrade-university',
+    types: [PlaceType.SozialeNachhaltigkeit, PlaceType.InitiativenEngagementAngebote],
+    mail: '',
+    address: 'Albertus-Magnus-Platz 1<br>50923 Köln',
+    coordinates: L.latLng(50.9278367073719, 6.927491053708103)
+  },
+  {
+    title: 'Green Office Initiative',
+    text: 'Das Green Office Köln ist eine studentische Initiative, die das Ziel hat, ein studentisch geführtes Green Office an der Universität zu Köln zu etablieren und Studierende in ihrem Engagement für mehr Nachhaltigkeit zu unterstützen.',
+    url: 'https://portal.uni-koeln.de/universitaet/universitaet-auf-einen-blick/nachhaltigkeit/was-kann-ich-machen/fuer-studierende-der-uzk',
+    types: [PlaceType.NachhaltigerCampus],
+    mail: 'green-office@uni-koeln.de',
+    address: 'Universitätsstraße 41<br>50931 Köln',
+    coordinates: L.latLng(50.928813775285846, 6.9272989367637985)
+  },
+  {
+    title: 'INUR (Institut für Nachhaltigkeit, Unternehmensrecht und Reporting)',
+    text: 'Das Institut INUR (Institut für Nachhaltigkeit, Unternehmensrecht und Reporting) untersucht unternehmensrechtliche Fragen rund um das Thema Nachhaltigkeit, es ist intradisziplinär rechtswissenschaftlich und interdisziplinär an die Nachbardisziplinen angebunden.',
+    url: 'https://portal.uni-koeln.de/universitaet/universitaet-auf-einen-blick/nachhaltigkeit/was-kann-ich-machen/fuer-studierende-der-uzk',
+    types: [PlaceType.NachhaltigerCampus],
+    mail: 'post-inur@uni-koeln.de',
+    address: 'Bernhard-Feilchenfeld-Straße 9<br>50969 Köln',
+    coordinates: L.latLng(50.915486347761295, 6.9427094806825345)
   }
 ]
