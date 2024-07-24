@@ -9,7 +9,7 @@ import { RouterLink, RouterView } from 'vue-router'
         ><img alt="Logo der Universität zu Köln" class="logo" src="@/assets/logo_uzk.png"
       /></a>
       <div id="title" class="wrapper">
-      Nachhaltigkeitskarte Universitat zu Köln
+      Nachhaltigkeitskarte Universität zu Köln
       <nav class="navigation">
         <RouterLink to="/">Karte</RouterLink>
         <RouterLink to="/about">Info</RouterLink>
