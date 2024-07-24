@@ -105,15 +105,7 @@ export const places: Place[] = [
     address: 'Weyertal 59<br>50937 Köln',
     coordinates: L.latLng(50.92473, 6.92638)
   },
-  {
-    title: 'Enactus<br>Initiative (intern/extern)',
-    text: '',
-    url: 'https://www.enactus.de',
-    types: [PlaceType.Forschung], //['Transfer und Engagement'],
-    mail: 'teamvorstand@koeln.enactus.team',
-    address: 'Weyertal 109<br>50931 Köln',
-    coordinates: L.latLng(50.92560876307702, 6.925581265345831)
-  },
+ 
   {
     title: 'AG Nachhaltigkeit der Med. Initiative (intern)',
     text: 'Die AG Nachhaltigkeit der Medizinischen Fakultät und Uniklinik ist zentrale Anlaufstelle für Studierende und Beschäftigte zum Thema Nachhaltigkeit. Ziel ist es Praktische Anregungen und Tipps zu umweltbewusstem Verhalten zu vermitteln und in allen Bereichen der Fakultät und Uniklinik zu verankern.',
@@ -126,7 +118,7 @@ export const places: Place[] = [
   {
     title:
       'Institut für Biologiedidaktik: Forschungsprojekt Klimawandel und grüne Fassaden<br>Institut, Ort',
-    text: '',
+    text: 'Das Institut für Biologiedidaktik erforscht mit Hilfe des Fassadenbegrünungssystems BILLY GREEN an der Mensa Zülpicher Straße die Effekte von grünen Fassaden auf das Stadtklima und die Optimierung der Gebäudeenergieeffizienz.',
     types: [PlaceType.Forschung, PlaceType.NachhaltigerCampus], //['Forschung, grüner Campus'],
     url: 'https://biologiedidaktik.uni-koeln.de/forschungsprojekte/aktuelle-forschungsprojekte/klimawandel-und-gruene-fassaden/billy-green',
     mail: '',
@@ -179,24 +171,7 @@ export const places: Place[] = [
     address: 'Pohligstr.3<br>50969 Köln',
     coordinates: L.latLng(50.917139942250294, 6.940774168519168)
   },
-  {
-    title: 'Förderprojekt durch das BMU',
-    text: '',
-    url: 'https://portal.uni-koeln.de/universitaet/universitaet-auf-einen-blick/nachhaltigkeit/was-unternimmt-die-uni/foerderprojekte-bmu',
-    types: [PlaceType.ZentraleEinrichtungen],
-    mail: '',
-    address: 'Robert-Koch-Str.46-50<br>50931 Köln',
-    coordinates: L.latLng(50.928187445629725, 6.921146368519648)
-  },
-  {
-    title: 'Health For Future Köln',
-    text: 'Bei Health for Future kommen Menschen zusammen, die sich im Feld Gesundheit engagieren möchten, dabei geht es um die Auswirkungen der planetaren Krise auf die Gesundheit des Menschen. Health for Future informiert und veranstaltet unterschiedliche Aktionen zu diesem Thema.',
-    url: 'https://www.instagram.com/healthforfuturekoeln/?hl=de',
-    types: [PlaceType.NachhaltigerCampus],
-    mail: '',
-    address: '',
-    coordinates: L.latLng(50.928187445629725, 6.921146368519648)
-  },
+  
   {
     title: 'Information Systems for Sustainable Society',
     text: 'Bei Information Systems for Sustainable Society wird zum Thema Nachhaltigkeit im technischen Bereich geforscht, gelehrt und publiziert',
@@ -208,7 +183,7 @@ export const places: Place[] = [
   },
   {
     title: 'Institut für Biologiedidaktik: Forschungsprojekt Klimawandel und grüne Fassaden ',
-    text: 'Durch die Fasadenbegrünung der Mensa forscht das Institut für Biologiedidaktik zur Energieeffizienz von Gebäuden und zum Beitrag für das Stadtklima durch Fasadenbegrünung.',
+    text: 'Das Institut für Biologiedidaktik erforscht mit Hilfe des Fassadenbegrünungssystems BILLY GREEN an der Mensa Zülpicher Straße die Effekte von grünen Fassaden auf das Stadtklima und die Optimierung der Gebäudeenergieeffizienz.',
     url: 'https://biologiedidaktik.uni-koeln.de/forschungsprojekte/aktuelle-forschungsprojekte/klimawandel-und-gruene-fassaden/billy-green',
     types: [PlaceType.Forschung, PlaceType.NachhaltigerCampus],
     mail: '',
@@ -234,22 +209,13 @@ export const places: Place[] = [
     coordinates: L.latLng(50.92798593682843, 6.929006924343601)
   },
   {
-    title: 'Junge Forschungsgruppe Nachhaltigkeit',
-    text: 'Die Tätigkeit der Jungen Forschungsgruppe Nachhaltigkeit zielt darauf ab, den unklaren Begriff der Nachhaltigkeit in der Diskussion mit Repräsentanten möglichst vieler Disziplinen mit Inhalt zu füllen. Von den so gewonnenen Erkenntnissen ausgehend will die Gruppe die normativen Anforderungen an Nachhaltigkeit formulieren.',
-    url: 'https://jfg-nachhaltigkeit.jura.uni-koeln.de/',
-    types: [PlaceType.Forschung],
-    mail: '',
-    address: '',
-    coordinates: L.latLng(50.92798593682843, 6.929006924343601)
-  },
-  {
     title: 'M.A. Culture and Environment In Africa',
     text: 'In diesem Masterprogramm geht es um Kultur und Umwelt in Afrika mit dem Fokus auf prähistorische, historische und zeitgeschichtliche Epochen. Dabei werden globale, nationale sowie regionale Verflechtungen mit einbezogen.',
     url: 'https://ethnologie.phil-fak.uni-koeln.de/content.php?kid=111',
     types: [PlaceType.LehreUndWeiterbildung],
     mail: '',
-    address: '',
-    coordinates: L.latLng(50.92798593682843, 6.929006924343601)
+    address: 'Universitätsstraße 41<br>50931 Köln',
+    coordinates: L.latLng(50.92830212558933, 6.927578060337458)
   },
   {
     title: 'Physics of Earth and Atmosphere',
@@ -278,15 +244,7 @@ export const places: Place[] = [
     address: 'Herbert-Lewin-Str.2<br>50931 Köln',
     coordinates: L.latLng(50.9344482229511, 6.921448639684721)
   },
-  {
-    title: 'Gesunde Uni Köln für Studierende und Beschäftigte',
-    text: '',
-    url: 'https://gesunde.uni-koeln.de/index_ger.html',
-    types: [PlaceType.SozialeNachhaltigkeit],
-    mail: 'ta.becker@verw.uni-koeln.de',
-    address: 'Hauptgebäude<br>50923 Köln',
-    coordinates: L.latLng(50.92798593682843, 6.929006924343601)
-  },
+
   {
     title: 'Service Zentrum Inklusion',
     text: 'Das Servicezentrum Inklusion ist ein gemeinsames Angebot der Zentralen Studienberatung (Universitätsverwaltung) und des Beauftragten für Studierende mit Behinderung oder chronischer Erkrankung. Ziel ist es, Menschen mit Behinderung, chronischer und psychischer Erkrankung zu unterstützen.',
@@ -524,15 +482,7 @@ export const places: Place[] = [
     address: 'Universitätsstraße 41<br>50931 Köln',
     coordinates: L.latLng(50.917139942250294, 6.940774168519168)
   },
-  {
-    title: 'Kstw: Gastronomie',
-    text: '',
-    url: 'https://www.kstw.de/ueber-uns/nachhaltigkeit',
-    types: [PlaceType.NachhaltigerCampus],
-    mail: '',
-    address: 'Universitätsstraße 16<br>50937 Köln',
-    coordinates: L.latLng(50.917139942250294, 6.940774168519168)
-  },
+
   {
     title: 'European University for Well-Being (EUniWell)',
     text: 'Die European University for Well-Being (EuniWell) ist eine intereuropäische Hochschulallianz, die einen ganzheitlichen und handlungsorientierten Ansatz zu „Well-Being” verfolgt. Dabei steht das Wohlergehen des Individuums, der Gemeinschaft und deren Umwelt im Fokus. Innerhalb der Allianz sollen wirkungsvolle und nachhaltige Veränderungen für Studierende, Gesellschaften und Institutionen entwickelt und umgesetzt werden.',
