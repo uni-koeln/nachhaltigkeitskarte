@@ -105,7 +105,7 @@ export const places: Place[] = [
     address: 'Weyertal 59<br>50937 Köln',
     coordinates: L.latLng(50.92473, 6.92638)
   },
- 
+
   {
     title: 'AG Nachhaltigkeit der Med. Initiative (intern)',
     text: 'Die AG Nachhaltigkeit der Medizinischen Fakultät und Uniklinik ist zentrale Anlaufstelle für Studierende und Beschäftigte zum Thema Nachhaltigkeit. Ziel ist es Praktische Anregungen und Tipps zu umweltbewusstem Verhalten zu vermitteln und in allen Bereichen der Fakultät und Uniklinik zu verankern.',
@@ -171,7 +171,7 @@ export const places: Place[] = [
     address: 'Pohligstr.3<br>50969 Köln',
     coordinates: L.latLng(50.917139942250294, 6.940774168519168)
   },
-  
+
   {
     title: 'Information Systems for Sustainable Society',
     text: 'Bei Information Systems for Sustainable Society wird zum Thema Nachhaltigkeit im technischen Bereich geforscht, gelehrt und publiziert',

@@ -4,10 +4,12 @@ import { RouterLink, RouterView } from 'vue-router'
 
 <template>
   <header>
-    <div class="header-uzk">
-      <a href="https://www.uni-koeln.de/" target="_blank"
-        ><img alt="Logo der Universität zu Köln" class="logo" src="@/assets/logo_uzk.png"
-      /></a>
+    <div class="header">
+      <div class="header-uzk">
+        <a href="https://www.uni-koeln.de/" target="_blank"
+          ><img alt="Logo der Universität zu Köln" class="logo" src="@/assets/logo_uzk.png"
+        /></a>
+      </div>
       <div id="title" class="header-content">
         Nachhaltigkeitskarte Universität zu Köln
         <nav class="navigation">
