@@ -224,16 +224,7 @@ export const places: Place[] = [
     types: [PlaceType.LehreUndWeiterbildung],
     mail: '',
     address: 'Pohligstraße 3<br>50969 Köln',
-    coordinates: L.latLng(50.917133178323624, 6.940784897354426)
-  },
-  {
-    title: 'Sammelstelle leere Batterien',
-    text: '',
-    url: 'https://portal.uni-koeln.de/universitaet/universitaet-auf-einen-blick/nachhaltigkeit/was-unternimmt-die-uni/nachhaltigkeitsstrategie/nachhaltigkeit-in-organisation-betrieb/nachhaltigkeit-auf-dem-campus-bisherige-erfolge',
-    types: [PlaceType.InitiativenEngagementAngebote],
-    mail: '',
-    address: 'Hauptgebäude<br>50923 Köln',
-    coordinates: L.latLng(50.92798593682843, 6.929006924343601)
+    coordinates: L.latLng(50.91706753220162, 6.940906996311244)
   },
   {
     title: 'zdi-Schülerlabor',
@@ -480,7 +471,7 @@ export const places: Place[] = [
     types: [PlaceType.InitiativenEngagementAngebote],
     mail: 'servicepoint@asta.uni-koeln.de',
     address: 'Universitätsstraße 41<br>50931 Köln',
-    coordinates: L.latLng(50.917139942250294, 6.940774168519168)
+    coordinates: L.latLng(50.91701703764391, 6.940641179416769)
   },
 
   {
