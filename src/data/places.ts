@@ -89,7 +89,7 @@ export const places: Place[] = [
   },
   {
     title: 'Autonomes Queerreferat der Universität zu Köln (AQUK)',
-    text: '',
+    text: 'Das Autonome Queerreferat bietet einen Save Space für alle queeren Studierenden. Dabei verfolgt das Queerreferat einen breiten Ansatz, wenn es z.B. um eine diskriminierungsfreie Lehre, Problemen mit der Verwaltung der Uni oder die Vernetzung mit anderen Studierenden geht.',
     url: 'https://aquk.uni-koeln.de/home',
     types: [PlaceType.SozialeNachhaltigkeit],
     mail: 'queerreferatunikoeln@gmail.com',
@@ -98,7 +98,7 @@ export const places: Place[] = [
   },
   {
     title: 'Mesh',
-    text: '',
+    text: 'MESH ist ein Forschungszentrum, das sich mit den sozialen, kulturellen und ethischen Dimensionen des globalen Umweltwandels und den damit verbundenen ökologischen, klimatischen und gesundheitlichen Krisen befasst. MESH bringt das historische, philosophische, literarische, linguistische und kulturanthropologische Fachwissen der Geisteswissenschaften mit den Natur- und Sozialwissenschaften ins Gespräch und fördert die Forschung und den Wissensaustausch.',
     url: 'https://mesh.uni-koeln.de/',
     types: [PlaceType.LehreUndWeiterbildung],
     mail: '',
@@ -146,7 +146,7 @@ export const places: Place[] = [
   },
   {
     title: 'Begrünung der Mensa: Hochbeete und Blühwiese',
-    text: 'Um die Aufenthaltsqualität der Mensa zu erhöhen, entstanden nach ökologischen Kriterien gestalltete Begrünungen. Hier kann man sich in seiner Pause hinsetzen, die sonnige Lage genießen und Bienen beobachten.',
+    text: 'Um die Aufenthaltsqualität der Mensa zu erhöhen, entstanden im Service Learning Projekt „Grün, grün, grün ist meine Mensa“ nach ökologischen Kriterien gestaltete Begrünungen an der Mensa Zülpicher Straße. Diese tragen zu einer Steigerung der Aufenthaltsqualität bei und bieten den Nutzer:innen die Möglichkeit, sich in ihren Pausen hinzusetzen, die sonnige Lage zu genießen und Bienen zu beobachten.',
     url: 'https://www.asta.uni-koeln.de/?tab=angebote-tt-mensa-begruenung#angebote',
     types: [PlaceType.InitiativenEngagementAngebote],
     mail: 'green-office@uni-koeln.de, m.wiggers@kstw.de', // Einer der beiden muss drinnen bleiben
@@ -164,7 +164,7 @@ export const places: Place[] = [
   },
   {
     title: 'Earth System Sciences',
-    text: 'Studenten entwickeln im Masterprogramm ein tiefgreifendes Verständnis des Erd-Systems vom Kern bis zur Atmosphäre. Das Institut forscht zu allen Aspekten des Erdsystems.',
+    text: 'Im Masterprogramm „Earth System Science“ entwickeln Studierende ein tiefgreifendes Verständnis des Erd-Systems vom Kern bis zur Atmosphäre. Die beteiligten Institute forschen zu allen Aspekten des Erdsystems und sind an interdisziplinären und qualitativ hochwertigen Forschungskooperationen und -projekten beteiligt.',
     url: 'https://computationalsciences.uni-koeln.de/contents/curriculum/earth-system-sciences',
     types: [PlaceType.Forschung, PlaceType.LehreUndWeiterbildung],
     mail: 'info-compscie@uni-koeln.de', // h.daniels@asta.uni-koeln.de
@@ -174,7 +174,7 @@ export const places: Place[] = [
 
   {
     title: 'Information Systems for Sustainable Society',
-    text: 'Bei Information Systems for Sustainable Society wird zum Thema Nachhaltigkeit im technischen Bereich geforscht, gelehrt und publiziert',
+    text: 'Im Department „Information Systems for Sustainable Society“ wird zum Thema nachhaltige Gesellschaften geforscht, gelehrt und publiziert. Die Forschung beschäftigt sich mit der Frage, wie Informationssysteme so gestaltet werden können, dass sie den Herausforderungen der Nachhaltigkeit in der Gesellschaft gerecht werden.',
     url: 'https://is3.uni-koeln.de/en/',
     types: [PlaceType.Forschung],
     mail: '',
@@ -201,7 +201,7 @@ export const places: Place[] = [
   },
   {
     title: 'Institute for International Peace and Security Law',
-    text: 'Das Institute for International Peace and Security Law forscht und lehrt zum Völkerrecht und Rechtsfragen, die sich mit Friedenssicherung auseinandersetzen.',
+    text: 'Das „Institute for International Peace and Security Law“ widmet sich der Forschung und Lehre zum Völkerrecht der Friedenssicherung und setzt sich mit Rechtsfragen auseinander, die die Sicherung und Wiederherstellung von Frieden betreffen.',
     url: 'https://iipsl.jura.uni-koeln.de/',
     types: [PlaceType.Forschung, PlaceType.LehreUndWeiterbildung, PlaceType.SozialeNachhaltigkeit],
     mail: '',
@@ -284,7 +284,7 @@ export const places: Place[] = [
   },
   {
     title: 'Autonomes BIPoC (Black, Indigenous, People of Color) Referat der Uni Köln',
-    text: 'Das autonome BIPoC Referat will ein Zeichen dafür setzen, dass die Universität eine Institution sein kann, die ihre Kolonialgeschichte bewusst dekonstruiert und Verantwortung übernimmt. Ziel des Referates ist es, sich für marginalisierte und rassifizierte Gruppen an der Universität einzusetzen.',
+    text: 'Das autonome BIPoC Referat setzt sich für eine Universität ein, die ihre Kolonialgeschichte bewusst dekonstruiert und Verantwortung übernimmt. Ziel des Referates ist es, sich für marginalisierte und rassifizierte Gruppen an der Universität einzusetzen.',
     url: 'https://bipoc.uni-koeln.de/',
     types: [PlaceType.SozialeNachhaltigkeit],
     mail: '',
@@ -293,7 +293,7 @@ export const places: Place[] = [
   },
   {
     title: 'Soziale und wirtschaftliche Beratung für Studierende',
-    text: 'Die Sozialberatung des Kölner Studierendenwerks berät Studierende dabei welche Unterstützungsleistungen wie und wo beantragt werden können und welche sozialrechtlichen Regelungen in verschiedenen Bereichen zu beachten sind.',
+    text: 'Die Sozialberatung des Kölner Studierendenwerks bietet Studierenden Unterstützung bei der Beantragung von Unterstützungsleistungen sowie bei der Wahrnehmung ihrer sozialrechtlichen Ansprüche in verschiedenen Lebensbereichen.',
     url: 'https://www.kstw.de/beratung/sozialberatung',
     types: [PlaceType.SozialeNachhaltigkeit],
     mail: '',
@@ -302,7 +302,7 @@ export const places: Place[] = [
   },
   {
     title: 'Gleichstellungsbeauftragte',
-    text: 'Die Gleichstellungsbeauftragte nimmt verstärkt die Belange der weiblichen Angehörigen wahr. Daneben stehen die Zielgruppe Väter/Eltern und LGBTIQ* im Fokus.Darüberhinaus besteht ein umfassender Beratungsauftrag zugunsten aller Angehörigen und Mitglieder der Universität zum Thema Gleichstellung der Geschlechter. Sie ist in alle Personalmaßnahmen einzubinden und überwacht die Chancengerechtigkeit.',
+    text: 'Die Gleichstellungsbeauftragte berät und unterstützt die Dienststelle in Belangen des Gender Mainstreaming. Daneben besteht ein umfassender Beratungsauftrag zugunsten aller Angehörigen und Mitgliedern der Universität zum Thema Gleichstellung der Geschlechter..',
     url: 'https://gb.uni-koeln.de/index_ger.html',
     types: [PlaceType.SozialeNachhaltigkeit],
     mail: '',
@@ -329,7 +329,7 @@ export const places: Place[] = [
   },
   {
     title: 'Planetary Health Report Card',
-    text: '',
+    text: 'Mit dem Ziel, das Bewusstsein für planetare Gesundheit und die Verantwortung der medizinischen Fakultäten zu stärken, wurde eine "Planetary Health Report Card" erstellt, mit der Medizinstudierende auf internationaler Ebene ihre Heimatuniversitäten jährlich bewerten und vergleichen können.',
     url: 'https://phreportcard.org/wp-content/uploads/2023/04/Engl_UniversitatzuKoln_2023_MED.pdf',
     types: [PlaceType.SozialeNachhaltigkeit],
     mail: '',
@@ -347,7 +347,7 @@ export const places: Place[] = [
   },
   {
     title: 'IDEaL: INGENIoS teaching plattform and scientific support',
-    text: '',
+    text: 'Das Hauptziel von INGENIoS (Indo-German Network Interaction of Scientists) ist der Aufbau integrierter und interdisziplinärer institutioneller Beziehungen zwischen der Universität zu Köln und dem Indian Institute of Science (IISc) in Bangalore. Im Rahmen des INGENIoS Projekts wurde u.a. die internationale digitale Lehr- und Lernplatform (IDEaL) entwickelt, die kooperative internationale Lehre auch ohne Mobilität ermöglicht. ',
     url: 'https://geographie.uni-koeln.de/forschung/arbeitsgruppen/hydrogeographie-und-klimatologie/projektuebersicht/projekte/ingenios/ideal-ingenios-digital-education-and-learning',
     types: [PlaceType.Forschung],
     mail: '',
@@ -385,7 +385,7 @@ export const places: Place[] = [
   },
   {
     title: 'Weiterbildung Nachhaltigkeitsmanager*in',
-    text: 'Mit der Weiterbildung zum Nachhaltigkeitsmanager kann ein IHK Zertifikat erworben werden. Die Inhalte der Weiterbildung fokussieren sich dabei auf Veränderung von Prozessabläufen, Unternehmenskultur und Investitionen in Technologien.',
+    text: 'Das Professional Center bietet in Zusammenarbeit mit der IHK eine Weiterbildung zum Nachhaltigkeitsmanager (IHK Zertifikat) an. Der digitale Lehrgang bietet eine Einführung in die Handlungsfelder unternehmerischer Nachhaltigkeit. .',
     url: 'https://professionalcenter.uni-koeln.de/lehre/nachhaltigkeitsmanagerin-ihk',
     types: [PlaceType.LehreUndWeiterbildung],
     mail: 'carina.goffart@uni-koeln.de',
@@ -421,7 +421,7 @@ export const places: Place[] = [
   },
   {
     title: 'Projekt Food_Fair (Food Saving und Sharing Projekt)',
-    text: 'Mit dem Ziel direkt und pragmatisch zu handeln, rettet das Projekt gemeinsam Lebensmittel vor der Tonne, sensibilisieren für diese Probleme, die die Gesellschaft im Alltag umtreiben, und ermöglicht jeder*m einen Teil beizutragen. Die Food Beutel sind vor allem für Studierende, die sich gerade in einer Notsituation befinden.',
+    text: 'Im Food Saving und Sharing Projekt „Food_Fair“ des AStAs werden, mit dem Ziel direkt und pragmatisch zu handeln, gemeinsam Lebensmittel vor der Tonne gerettet. Das Projekt möchte für das Probllem der Lebensmittelverschwendung sensibilisieren. Die Food_Beutel sind vor allem für Studierende, die sich gerade in einer Notsituation befinden..',
     url: 'https://www.asta.uni-koeln.de/?tab=angebote-tt-food_fair#angebote',
     types: [PlaceType.SozialeNachhaltigkeit],
     mail: 'food-fair@asta.uni-koeln.de',
@@ -466,7 +466,7 @@ export const places: Place[] = [
   },
   {
     title: 'MINT-Bildungsprojekt: unserWaldKlima',
-    text: 'Dieses MINT-Bildungsprojekt will dazu beitragen, dass die Rolle und Bedeutung der Wälder für den Klimaschutz verstärkt im Unterricht thematisiert wird.',
+    text: 'Das MINT-Bildungsprojekt „Unser Wald Klima“ entwickelt umfassende Lehr-Lernmaterialien rund um die Themen Wald und Klima und will so dazu beitragen, dass die Rolle und Bedeutung der Wälder für den Klimaschutz verstärkt im Unterricht thematisiert wird.',
     url: 'https://waldklima.uni-koeln.de/',
     types: [PlaceType.LehreUndWeiterbildung],
     mail: '',
@@ -475,7 +475,7 @@ export const places: Place[] = [
   },
   {
     title: 'Lastenrad-Ausleihe',
-    text: 'Die vier Lastenräder können eine Waschmaschine, Getränkekästen oder andere sperrige Dingebefördern. Der Verleih ist kostenfrei, um für den privaten oder geschäftlichen Zweck CO2-frei Lasten zu transportieren',
+    text: 'Der AStA bietet die kostenfreie Ausleihe von vier Lastenrädern an, mit deren Hilfe zum Beispiel sperrige Lasten transportiert werden können. So wird ein umweltfreundlicher Transport von Lasten für Studierende ermöglicht.',
     url: 'https://ub.uni-koeln.de/die-usb/ueber-uns/agenda2030',
     types: [PlaceType.InitiativenEngagementAngebote],
     mail: 'servicepoint@asta.uni-koeln.de',
