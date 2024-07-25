@@ -150,7 +150,7 @@ nav a:first-of-type {
   grid-template-rows: 60vh;
   grid-template-areas: 'filter map';
   @media (max-width: 600px) {
-    height: 60vh;
+    height: 80vh;
     text-align: center;
     grid-template-columns: 100%;
     grid-template-rows: 15% 85%;
