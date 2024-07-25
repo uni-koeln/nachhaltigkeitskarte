@@ -563,5 +563,68 @@ export const places: Place[] = [
     mail: '',
     address: 'Universitätsstraße 22a<br>50923 Köln',
     coordinates: L.latLng(50.927263196142036, 6.929785751024308)
+  },
+  {
+    title: 'Enviromental Law Center',
+    text: 'Das ELC ist ein Zentrum für Umweltrecht an der Rechtswissenschaftlichen Fakultät. Ziel ist es, ein wachsendes Bewusstsein für Umweltrecht unter Studierenden zu fördern und Möglichkeiten der Weiterbildung zu bieten. Das ELC bietet eine Zusatzausbildung im Bereich des Umweltrechts an - das Environmental Law Certificate.',
+    url: 'https://elc.uni-koeln.de/',
+    types: [PlaceType.LehreUndWeiterbildung],
+    mail: 'environmental-law-center@uni-koeln.de',
+    address: 'Aachener Str. 201<br>50931 Köln',
+    coordinates: L.latLng(50.93640400124486, 6.922803211974633)
+  },
+  {
+    title: 'Fahrradgarage',
+    text: 'In der Radstation können Studierende und Beschäftigte der Universität ihr Rad kostenlos und gesichert abstellen. Dabei gibt es 18 Ladepunkte für E-bikes oder Pedelecs und Stellplätze für Lastenräder oder Buggys. Die Radstation leistet damit einen Beitrag zu mehr nachhaltiger Mobilität an der UzK.',
+    url: 'https://verwaltung.uni-koeln.de/abteilung54/content/sachgebiet_4/radstation/index_ger.html',
+    types: [PlaceType.InitiativenEngagementAngebote, PlaceType.NachhaltigerCampus],
+    mail: '',
+    address: 'Albertus-Magnus-Platz 1<br>50931 Köln',
+    coordinates: L.latLng(50.927826133342506, 6.927848595305869)
+  },
+  {
+    title: 'Gateway Exzellenz Start-up Center',
+    text: 'Das Gateway Exzellenz Startup Center der Universität zu Köln ist eine Einrichtung, die Studierende, Forschende und Alumni bei der Gründung und Entwicklung innovativer Startups unterstützt. Es bietet umfassende Dienstleistungen wie Beratung, Finanzierung, Netzwerke und Räume, um unternehmerische Ideen erfolgreich umzusetzen.',
+    url: 'https://gateway-unikoeln.de/',
+    types: [PlaceType.InitiativenEngagementAngebote],
+    mail: 'info@gateway-unikoeln.de',
+    address: 'Weyertal 109<br>50931 Köln',
+    coordinates: L.latLng(50.92552960971788, 6.925655232798734)
+  },
+  {
+    title: 'Global South Studies Center (GSSC)',
+    text: 'Die Forschung des Global South Studies Center ist interdisziplinär ausgerichtet und widmet sich Themen wie Migration, Nachhaltigkeit und Infrastruktur mit einem besonderen Fokus auf Mensch-Umwelt-Beziehungen im Globalen Süden. Des Weiteren werden die Forschungsergebnisse nicht nur einem akademischen Publikum, sondern auch einer breiten Öffentlichkeit zugänglich gemacht.',
+    url: 'https://gssc.uni-koeln.de/',
+    types: [PlaceType.Forschung],
+    mail: 'contact-gssc@uni-koeln.de',
+    address: 'Classen-Kappelmann-Str. 24<br>50931 Köln',
+    coordinates: L.latLng(50.93117320417128, 6.921166248683774)
+  },
+  {
+    title: 'International Master of Environmental Sciences (IMES)',
+    text: 'Im internationalen und interdisziplinären Masterprogramm IMES (International Master of Environmental Sciences) nähern sich die Studierenden den Umweltwissenschaften mit einem natur- und sozialwissenschaftlichen Ansatz. Die Förderung einer fachübergreifenden Ausbildung und Denkweise hat das Ziel, den Umgang mit Umweltproblemen und die Forschung zu Umweltthemen zu verbessern.',
+    url: 'https://imes.uni-koeln.de/',
+    types: [PlaceType.Forschung],
+    mail: 'https://imes.uni-koeln.de/',
+    address: 'Zülpicher Str.45<br>50674 Köln',
+    coordinates: L.latLng(50.92749009633176, 6.936237462607584)
+  },
+  {
+    title: 'ZfL-Innenhof begrünung',
+    text: 'Der Innenhof des ZfL wurde als grüner Lernort für Universität und Schule im Rahmen eines Berufsfeldpraktikums-Projekts von Studierenden gestaltet. Er ist nicht nur ein multifunktionaler Lernort, sondern auch eine ökologische Oase inmitten der Großstadt.',
+    url: 'https://zfl.uni-koeln.de/praxisphasen/projekte/gruene-lernorte-an-uni-und-schule',
+    types: [PlaceType.NachhaltigerCampus],
+    mail: '',
+    address: 'Immermannstraße 49<br>50931 Köln',
+    coordinates: L.latLng(50.92999661289077, 6.919037145744126)
+  },
+  {
+    title: 'Campus Oase',
+    text: 'Als Zwischennutzung für die Fläche zwischen der Fahrradgarage und dem Philosophikum hat die Organisation Stadtkontraste Sitzmöglichkeiten mit Begrünung und Hochbeete installiert. Eine Campus Oase, die für eine neue Aufenthaltsqualität sorgt.',
+    url: '',
+    types: [PlaceType.NachhaltigerCampus],
+    mail: '',
+    address: 'Albertus-Magnus-Platz 1<br>50931 Köln',
+    coordinates: L.latLng(50.92769637224157, 6.927345131993593)
   }
 ]
