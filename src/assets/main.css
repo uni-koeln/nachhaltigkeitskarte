@@ -246,6 +246,13 @@ p {
   display: grid;
   grid-template-columns: 60% 40%;
   grid-template-areas: 'left right';
+  @media (max-width: 600px) {
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto;
+    grid-template-areas:
+      'left'
+      'right';
+  }
 }
 
 .popup-grid-left {
@@ -257,6 +264,18 @@ p {
   align-content: center;
   margin: 1em;
   border-left: 0.1em inset;
+  @media (max-width: 600px) {
+    padding-left: 0px;
+    margin: 0em;
+    border-left: 0em;
+    border-top: 0.1em inset;
+  }
+}
+
+.leaflet-popup-content {
+  @media (max-width: 600px) {
+    width: 200px;
+  }
 }
 
 h3 {

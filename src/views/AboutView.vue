@@ -15,8 +15,12 @@
     <a href="mailto:nachhaltigkeit@verw.uni-koeln.de">nachhaltigkeit@verw.uni-koeln.de</a>
     <p>
       Internet:
-      <a href="https://portal.uni-koeln.de/universitaet/universitaet-auf-einen-blick/nachhaltigkeit" target="_blank"
-        rel="noopener noreferrer">https://portal.uni-koeln.de/universitaet/universitaet-auf-einen-blick/nachhaltigkeit</a>
+      <a
+        href="https://portal.uni-koeln.de/universitaet/universitaet-auf-einen-blick/nachhaltigkeit"
+        target="_blank"
+        rel="noopener noreferrer"
+        >https://portal.uni-koeln.de/universitaet/universitaet-auf-einen-blick/nachhaltigkeit</a
+      >
     </p>
 
     <p>Dr. Pamela Kilian</p>
@@ -36,7 +40,9 @@
       Ministerium für Kultur und Wissenschaft des Landes Nordrhein-Westfalen <br />
       Völklinger Str. 49 <br />
       40221 Düsseldorf <br />
-      <a href="http://www.wissenschaft.nrw.de/" target="_blank" rel="">http://www.wissenschaft.nrw.de/</a>
+      <a href="http://www.wissenschaft.nrw.de/" target="_blank" rel=""
+        >http://www.wissenschaft.nrw.de/</a
+      >
       <br />
       <br />
     </p>
