@@ -18,7 +18,7 @@
   --color-theme-green-transparent: rgba(26, 177, 128, 0.2);
   --color-theme-coral: #ea564f;
   --color-theme-turquoise: #009dcc;
-  --color-theme-turquoise-transparent: rgba(0, 157, 204,0.8);
+  --color-theme-turquoise-transparent: rgba(0, 157, 204, 0.8);
   --color-theme-blue: #005176;
   --color-theme-blue-transparent: rgba(0, 81, 118, 0.8);
 }
@@ -184,4 +184,47 @@ h3 {
 
 .horizontal {
   margin-bottom: 2%;
+}
+
+.header-uzk {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: block;
+  margin: 0 auto 2rem;
+  max-width: 15.625em;
+}
+
+.header-logo-uzk a:hover {
+  background: rgba(0, 0, 0, 0);
+}
+nav {
+  width: 100%;
+  text-align: center;
+}
+
+nav a.router-link-exact-active {
+  color: var(--color-text);
+}
+
+nav a.router-link-exact-active:hover {
+  background-color: transparent;
+}
+
+nav a {
+  display: inline-block;
+  padding: 0 1rem;
+  border-left: 1px solid var(--color-border);
+}
+
+nav a:first-of-type {
+  border: 0;
+}
+
+.header-content {
+  text-align: center;
+  font-size: x-large;
 }
