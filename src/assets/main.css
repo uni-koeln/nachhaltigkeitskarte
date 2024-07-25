@@ -83,15 +83,15 @@ b {
 
 .header {
   display: grid;
+  align-items: center;
   grid-template-columns: 25% 50% 25%;
   grid-template-areas: 'uzk content nachhaltigkeit';
   @media (max-width: 600px) {
-    grid-template-columns: 100%;
-    grid-template-rows: 30% 30% 40%;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 40% 60%;
     grid-template-areas:
-      'uzk'
-      'nachhaltigkeit'
-      'content';
+      'uzk nachhaltigkeit'
+      'content content';
   }
 }
 
@@ -115,8 +115,10 @@ b {
 
 .logo {
   display: block;
-  margin: 0 auto 2rem;
   max-width: 15.625em;
+  @media (max-width: 600px) {
+    max-width: 8em;
+  }
 }
 
 nav {
@@ -147,6 +149,14 @@ nav a:first-of-type {
   grid-template-columns: 20% 80%;
   grid-template-rows: 60vh;
   grid-template-areas: 'filter map';
+  @media (max-width: 600px) {
+    height: 60vh;
+    grid-template-columns: 100%;
+    grid-template-rows: 15% 85%;
+    grid-template-areas:
+      'filter'
+      'map';
+  }
 }
 
 .grid-item-filter {
@@ -186,12 +196,22 @@ nav a:first-of-type {
   display: grid;
   grid-template-columns: 10% 90%;
   grid-template-areas: 'icon text';
+  @media (max-width: 600px) {
+    display: inline;
+  }
 }
 .grid-button-icon {
   grid-area: icon;
+  @media (max-width: 600px) {
+    margin: -5px;
+    width: 30px;
+  }
 }
 .grid-button-text {
   grid-area: text;
+  @media (max-width: 600px) {
+    display: none;
+  }
 }
 
 .filter-reset {
@@ -201,6 +221,9 @@ nav a:first-of-type {
   color: var(--color-theme-green);
   &:hover {
     font-weight: bold;
+  }
+  @media (max-width: 600px) {
+    margin-top: 10px;
   }
 }
 
