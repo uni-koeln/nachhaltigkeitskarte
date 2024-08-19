@@ -66,7 +66,7 @@ export interface Place {
   coordinates: LatLng
 }
 
-// TODO: Title ohne brs, das in den Text packen oder Ansprechpartner in Adresse
+// Ab hier werden neue Orte eingefügt
 
 export const places: Place[] = [
   {
