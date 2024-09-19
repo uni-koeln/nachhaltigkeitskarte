@@ -27,5 +27,11 @@ import { RouterLink, RouterView } from 'vue-router'
     </div>
   </header>
 
+      </div>
+      <div> 
+        Die Nachhaltigkeitskarte der Universität zu Köln bietet einen umfassenden Überblick über Einrichtungen, Initiativen und Angebote rund um das Thema Nachhaltigkeit auf dem Campus. Sie zeigt vielfältige Projekte, die sich für Umwelt- und Klimaschutz sowie soziale Verantwortung einsetzen, und lädt ein, sich zu informieren und aktiv mitzugestalten. 
+        Das Angebot wurde von Studierenden im Rahmen eines Service-Learning-Projekts umgesetzt und wird fortlaufend erweitert. Für eine Integration/Erwähnung gerne unter nachhaltigkeit@verw.uni-koeln.de melden.
+      </div>
+  
   <RouterView />
 </template>
