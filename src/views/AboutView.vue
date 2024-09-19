@@ -52,12 +52,7 @@
     <p>
       Trotz sorgfältiger inhaltlicher Kontrolle übernehmen wir keine Haftung für die Inhalte
       externer Links. Für den Inhalt der verlinkten Seiten sind ausschließlich deren Betreiber
-      verantwortlich. Das Nachhaltigkeitsbüro der Universität zu Köln ist eine zentrale Anlaufstelle
-      für alle Belange rund um Umwelt- und Klimaschutz sowie nachhaltige Entwicklung an der
-      Universität. Das Nachhaltigkeitsbüro verortet sich im Innovationszentrum und inspiriert damit
-      den Gründergeist und das Start-up-Ökosystem der Universität. Es erarbeitet innovative Formate,
-      um Akteur*innen aktiv zusammenzubringen, deren Kompetenzen zu entwickeln, Interesse und
-      Engagement zu fördern.
+      verantwortlich.
     </p>
   </div>
 </template>
