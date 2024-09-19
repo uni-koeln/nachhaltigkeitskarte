@@ -8,15 +8,18 @@
       Nachhaltigkeitsbüro der Universität zu Köln<br />
       Albertus Magnus Platz<br />50923 Köln<br
     </div>
-
+    <p>
+      Mail:
+    </p>
     <a href="mailto:nachhaltigkeit@verw.uni-koeln.de">nachhaltigkeit@verw.uni-koeln.de</a>
+      
     <p>
       Web:
       <a
-        href="https://portal.uni-koeln.de/universitaet/universitaet-auf-einen-blick/nachhaltigkeit"
+        href="nachhaltigkeit.uni-koeln.de"
         target="_blank"
         rel="noopener noreferrer"
-        >https://portal.uni-koeln.de/universitaet/universitaet-auf-einen-blick/nachhaltigkeit</a
+        >nachhaltigkeit.uni-koeln.de</a
       >
     </p>
 
