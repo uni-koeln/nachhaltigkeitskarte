@@ -10,9 +10,9 @@
     </div>
     <p>
       Mail:
-    </p>
     <a href="mailto:nachhaltigkeit@verw.uni-koeln.de">nachhaltigkeit@verw.uni-koeln.de</a>
-      
+    </p>
+         
     <p>
       Web:
       <a
