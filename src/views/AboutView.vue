@@ -1,20 +1,17 @@
 <template>
   <div class="about">
     <h1>Impressum</h1>
-    <p>Stand: Juni 2024</p>
+    <p>Stand: September 2024</p>
     <h2>Herausgeberin</h2>
     <p>Dr. Pamela Kilian</p>
-    <h2>Das Nachhaltigkeitsbüro der Universität zu Köln</h2>
-    <a href="https://nachhaltigkeit.uni-koeln.de" target="_blank">Link zum Nachhaltigkeitsbüro</a>
-
-    <div>
+       <div>
       Nachhaltigkeitsbüro der Universität zu Köln<br />
-      Albertus Magnus Platz<br />50923 Köln<br />Tel.: 0221 / 470-1868
+      Albertus Magnus Platz<br />50923 Köln<br
     </div>
 
     <a href="mailto:nachhaltigkeit@verw.uni-koeln.de">nachhaltigkeit@verw.uni-koeln.de</a>
     <p>
-      Internet:
+      Web:
       <a
         href="https://portal.uni-koeln.de/universitaet/universitaet-auf-einen-blick/nachhaltigkeit"
         target="_blank"
@@ -23,7 +20,6 @@
       >
     </p>
 
-    <p>Dr. Pamela Kilian</p>
     <p>
       Diese Karte ist im Rahmen eines Service Learning Projektes ( ProfessionalCenter ) entstanden
       und von Arthur-Muanza Ndiema und Stefan Baumgärtner unter Mithilfe der Dozentin
