@@ -330,7 +330,7 @@ export const places: Place[] = [
   {
     title: 'INGENIoS: Indo-German Network Interaction of Scientists',
     text: 'Das Hauptziel von INGENIoS ist der Aufbau integrierter und interdisziplinärer institutioneller Beziehungen zwischen der Universität zu Köln (UoC) und dem Indian Institute of Science (IISc) in Bangalore. Das Kernthema des Netzwerkes ist das Umweltsystem-Hydrologie',
-    url: 'https://geographie.uni-koeln.de/forschung/arbeitsgruppen/hydrogeographie-und-klimatologie/projektuebersicht/projekte/ingenios',
+    url: 'https://geographie.uni-koeln.de/international/ideal-international-digital-education-and-learning',
     types: [PlaceType.Forschung],
     mail: '',
     address: 'Zülpicher Straße 45<br>50674 Köln',
