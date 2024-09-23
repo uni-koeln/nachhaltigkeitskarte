@@ -79,7 +79,7 @@ export const places: Place[] = [
     coordinates: L.latLng(50.92972, 6.93249)
   },
   {
-    title: 'GSCC',
+    title: 'Global South Studies Center (GSSC)',
     text: 'Center<br><br>Telefon: +49 221 470 76645',
     types: [PlaceType.Forschung],
     url: 'https://gssc.uni-koeln.de/',
@@ -97,7 +97,7 @@ export const places: Place[] = [
     coordinates: L.latLng(50.92394560726894, 6.931505538342777)
   },
   {
-    title: 'Mesh',
+    title: 'Multidisciplinary Environmental Studies in the Humanities (MESH)',
     text: 'MESH ist ein Forschungszentrum, das sich mit den sozialen, kulturellen und ethischen Dimensionen des globalen Umweltwandels und den damit verbundenen ökologischen, klimatischen und gesundheitlichen Krisen befasst. MESH bringt das historische, philosophische, literarische, linguistische und kulturanthropologische Fachwissen der Geisteswissenschaften mit den Natur- und Sozialwissenschaften ins Gespräch und fördert die Forschung und den Wissensaustausch.',
     url: 'https://mesh.uni-koeln.de/',
     types: [PlaceType.LehreUndWeiterbildung],
@@ -107,7 +107,7 @@ export const places: Place[] = [
   },
 
   {
-    title: 'AG Nachhaltigkeit der Med. Initiative (intern)',
+    title: 'AG Nachhaltigkeit der Medizinischen Fakultät',
     text: 'Die AG Nachhaltigkeit der Medizinischen Fakultät und Uniklinik ist zentrale Anlaufstelle für Studierende und Beschäftigte zum Thema Nachhaltigkeit. Ziel ist es Praktische Anregungen und Tipps zu umweltbewusstem Verhalten zu vermitteln und in allen Bereichen der Fakultät und Uniklinik zu verankern.',
     types: [PlaceType.ZentraleEinrichtungen],
     url: 'https://medfak.uni-koeln.de/fakultaet/ag-nachhaltigkeit',
@@ -358,7 +358,7 @@ export const places: Place[] = [
     title:
       'Institutsteam des Institut für Allgemeinmedizin<br>der Universitätsklinik und der UzK, Schwerpunkt: Allgemeinmedizin im Klimawandel',
     text: '',
-    url: 'https://computationalsciences.uni-koeln.de/contents/curriculum/earth-system-sciences',
+    url: 'https://allgemeinmedizin.uk-koeln.de/',
     types: [PlaceType.Forschung],
     mail: 'karin.plate@uk-koeln.de',
     address: 'Kerpener Str. 62<br>50937 Köln<br>Prof.Dr. Beate Müller,<br>Assitenz: Karin Plate',
@@ -402,7 +402,7 @@ export const places: Place[] = [
     coordinates: L.latLng(50.92370072234999, 6.934937713454496)
   },
   {
-    title: 'Public Climate School (Students For Future)',
+    title: 'Students For Future (Public Climate School)',
     text: 'Students for Future (SFF) Köln, sind eine Gruppe aus Studierenden verschiedener Hochschulen, Azubis und weiteren Interessierten. Sie setzten sich seit 2019 in vielen Kontexten, auf verschiedenen Ebenen und in vielfältigen Projekten, für mehr Klimaschutz, soziale Gerechtigkeit und Anti- Diskriminierung ein.',
     url: 'https://sites.google.com/view/sff-koelnde/startseite',
     types: [PlaceType.LehreUndWeiterbildung],
@@ -447,9 +447,9 @@ export const places: Place[] = [
     coordinates: L.latLng(50.92385551851312, 6.931574971165858)
   },
   {
-    title: 'Modularer Modellgarten',
+    title: 'Modularer Modellgarten (MoMo)',
     text: 'Der Modulare Modellgarten (MoMo) des Instituts für Biologiedidaktik am Clarenbachkanal bietet angehenden Biologielehrkräften die Möglichkeit, praxisnah unter freiem Himmel zu lernen. Zudem ist der Garten ein außerschulischer Lernort im Sinne einer BNE, in dem Schulklassen an Projekttagen praktische Erfahrungen sammeln können.',
-    url: 'https://ub.uni-koeln.de/die-usb/ueber-uns/agenda2030',
+    url: 'https://modellgarten-momo.uni-koeln.de/',
     types: [PlaceType.LehreUndWeiterbildung, PlaceType.Forschung],
     mail: 'schrempp@ub.uni-koeln.de',
     address: 'Melaten,<br>50931 Köln',
@@ -467,7 +467,7 @@ export const places: Place[] = [
   {
     title: 'Lastenrad-Ausleihe',
     text: 'Der AStA bietet die kostenfreie Ausleihe von vier Lastenrädern an, mit deren Hilfe zum Beispiel sperrige Lasten transportiert werden können. So wird ein umweltfreundlicher Transport von Lasten für Studierende ermöglicht.',
-    url: 'https://ub.uni-koeln.de/die-usb/ueber-uns/agenda2030',
+    url: 'https://www.asta.uni-koeln.de/?tab=angebote-tt-konstanze-dein-lastenrad#angebote',
     types: [PlaceType.InitiativenEngagementAngebote],
     mail: 'servicepoint@asta.uni-koeln.de',
     address: 'Universitätsstraße 41<br>50931 Köln',
@@ -484,7 +484,7 @@ export const places: Place[] = [
     coordinates: L.latLng(50.93123717617593, 6.921110451854922)
   },
   {
-    title: 'EWI (Energiewirtschaftliches Institut an der Uzk)',
+    title: 'Energiewirtschaftliches Institut an der Uzk (EWI)',
     text: 'Das EWI forscht und berät zu zunehmend komplexen Energiemärkten. Es analysiert den Wandel der Energiewelt mit neuesten volkswirtschaftlichen Methoden und detaillierten computergestützten Modellen.',
     url: 'https://www.ewi.uni-koeln.de/de/',
     types: [PlaceType.Forschung, PlaceType.ZentraleEinrichtungen],
@@ -511,7 +511,7 @@ export const places: Place[] = [
     coordinates: L.latLng(50.928813775285846, 6.9272989367637985)
   },
   {
-    title: 'INUR (Institut für Nachhaltigkeit, Unternehmensrecht und Reporting)',
+    title: 'Institut für Nachhaltigkeit, Unternehmensrecht und Reporting (INUR)',
     text: 'Das Institut INUR (Institut für Nachhaltigkeit, Unternehmensrecht und Reporting) untersucht unternehmensrechtliche Fragen rund um das Thema Nachhaltigkeit, es ist intradisziplinär rechtswissenschaftlich und interdisziplinär an die Nachbardisziplinen angebunden.',
     url: 'https://portal.uni-koeln.de/universitaet/universitaet-auf-einen-blick/nachhaltigkeit/was-kann-ich-machen/fuer-studierende-der-uzk',
     types: [PlaceType.NachhaltigerCampus],
@@ -520,7 +520,7 @@ export const places: Place[] = [
     coordinates: L.latLng(50.915486347761295, 6.9427094806825345)
   },
   {
-    title: 'Kstw',
+    title: 'Kölner Studierendenwerk (KStW)',
     text: 'Umwelt- und Klimaschutz haben für das Werk hohe Priorität. Seit Juni 2022 erhöht das Werk im Verbund mit den Studierendenwerken in NRW seine Anstrengungen für Nachhaltigkeit. Ein Bestreben ist es, bis 2030 klimaneutral zu werden. Das Werk hat eine eigene Nachhaltigkeitsstrategie.',
     url: 'https://www.kstw.de/ueber-uns/nachhaltigkeit',
     types: [PlaceType.NachhaltigerCampus],
@@ -565,7 +565,7 @@ export const places: Place[] = [
     coordinates: L.latLng(50.927263196142036, 6.929785751024308)
   },
   {
-    title: 'Enviromental Law Center',
+    title: 'Enviromental Law Center (ELC)',
     text: 'Das ELC ist ein Zentrum für Umweltrecht an der Rechtswissenschaftlichen Fakultät. Ziel ist es, ein wachsendes Bewusstsein für Umweltrecht unter Studierenden zu fördern und Möglichkeiten der Weiterbildung zu bieten. Das ELC bietet eine Zusatzausbildung im Bereich des Umweltrechts an - das Environmental Law Certificate.',
     url: 'https://elc.uni-koeln.de/',
     types: [PlaceType.LehreUndWeiterbildung],
@@ -610,7 +610,7 @@ export const places: Place[] = [
     coordinates: L.latLng(50.92749009633176, 6.936237462607584)
   },
   {
-    title: 'ZfL-Innenhof begrünung',
+    title: 'ZfL-Innenhofbegrünung',
     text: 'Der Innenhof des ZfL wurde als grüner Lernort für Universität und Schule im Rahmen eines Berufsfeldpraktikums-Projekts von Studierenden gestaltet. Er ist nicht nur ein multifunktionaler Lernort, sondern auch eine ökologische Oase inmitten der Großstadt.',
     url: 'https://zfl.uni-koeln.de/praxisphasen/projekte/gruene-lernorte-an-uni-und-schule',
     types: [PlaceType.NachhaltigerCampus],
