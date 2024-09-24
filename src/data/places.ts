@@ -230,7 +230,7 @@ export const places: Place[] = [
     title: 'S.o.S. Referat (Studierende ohne Schranken)',
     text: 'Studieren ohne Schranken setzt sich für Studierende mit Behinderung Chronischen Erkrankungen, Psychischen Erkrankungen und Neurodivergenz ein. Ziel ist dabei Chancengleichheit durch Inklusion und Abbau von Barrieren und Grenzen jeder Art.',
     url: 'https://sos-referat.uni-koeln.de/',
-    types: [PlaceType.SozialeNachhaltigkeit],
+    types: [PlaceType.ZentraleEinrichtungen],
     mail: '',
     address: 'Universitätsstraße 37<br>50931 Köln',
     coordinates: L.latLng(50.92727929134766, 6.927104810935677)
@@ -240,7 +240,7 @@ export const places: Place[] = [
     title: 'Referat Gender & Diversity Management',
     text: '',
     url: 'https://gedim.uni-koeln.de/ueber-uns',
-    types: [PlaceType.SozialeNachhaltigkeit],
+    types: [PlaceType.ZentraleEinrichtungen],
     mail: '',
     address: 'Eckertstraße 4<br>50931 Köln',
     coordinates: L.latLng(50.929242488362156, 6.92583995502549)
@@ -249,7 +249,7 @@ export const places: Place[] = [
     title: 'Autonomes Queerreferat der Universität zu Köln (AQUK)',
     text: 'Das Autonome Queerreferat bietet einen Save Space für alle queere Studierenden. Dabei verfolgt das Queerreferat einen breiten Ansatz, wenn es z.B. um eine diskriminierungsfreie Lehre, Probleme mit der Verwaltung der Uni oder die Vernetzung mit anderen Studierenden geht.',
     url: 'https://aquk.uni-koeln.de/home',
-    types: [PlaceType.SozialeNachhaltigkeit],
+    types: [PlaceType.ZentraleEinrichtungen],
     mail: '',
     address: 'Universitätsstraße 16<br>50937 Köln',
     coordinates: L.latLng(50.92401441926854, 6.931521324343246)
@@ -258,7 +258,7 @@ export const places: Place[] = [
     title: 'Autonomes BIPoC (Black, Indigenous, People of Color) Referat der Uni Köln',
     text: 'Das autonome BIPoC Referat setzt sich für eine Universität ein, die ihre Kolonialgeschichte bewusst dekonstruiert und Verantwortung übernimmt. Ziel des Referates ist es, sich für marginalisierte und rassifizierte Gruppen an der Universität einzusetzen.',
     url: 'https://bipoc.uni-koeln.de/',
-    types: [PlaceType.SozialeNachhaltigkeit],
+    types: [PlaceType.ZentraleEinrichtungen],
     mail: '',
     address: '',
     coordinates: L.latLng(50.92401441926854, 6.931521324343246)
@@ -276,7 +276,7 @@ export const places: Place[] = [
     title: 'Gleichstellungsbeauftragte',
     text: 'Die Gleichstellungsbeauftragte berät und unterstützt die Dienststelle in Belangen des Gender Mainstreaming. Daneben besteht ein umfassender Beratungsauftrag zugunsten aller Angehörigen und Mitgliedern der Universität zum Thema Gleichstellung der Geschlechter..',
     url: 'https://gb.uni-koeln.de/index_ger.html',
-    types: [PlaceType.SozialeNachhaltigkeit],
+    types: [PlaceType.ZentraleEinrichtungen],
     mail: '',
     address: 'Eckertstraße 4<br>50931 Köln',
     coordinates: L.latLng(50.9291883909956, 6.925786310849203)
@@ -294,7 +294,7 @@ export const places: Place[] = [
     title: 'UzK Academic Refugee Support (International Office)',
     text: 'Der Academic Refugee Support des International Office (UzK) unterstützt Geflüchtete dabei, ein Studium oder eine Promotion an der Uni zu Köln zu absolvieren. Auch finden Geflüchtete hier Unterstützung bei der Absolvierung eines Deutschkurses.',
     url: 'https://portal.uni-koeln.de/international/studium-in-koeln/academic-refugee-support',
-    types: [PlaceType.SozialeNachhaltigkeit],
+    types: [PlaceType.ZentraleEinrichtungen],
     mail: '',
     address: 'Universitätsstraße 22 a<br>50923 Köln',
     coordinates: L.latLng(50.92746510773187, 6.9296505108491715)
