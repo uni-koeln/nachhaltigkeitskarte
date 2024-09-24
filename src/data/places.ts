@@ -376,7 +376,7 @@ export const places: Place[] = [
     title: 'Sustainability Initiative University Cologne',
     text: 'Die Sustainability Initiative will Forschung zu Material Science in nachhaltige Praxis umsetzen. Der Fokus dabei liegt auf Nanomaterialien für erneuerbare Energien und Gesundheitsanwendungen.',
     url: 'https://sustainability.uni-koeln.de/',
-    types: [PlaceType.LehreUndWeiterbildung],
+    types: [PlaceType.Forschung],
     mail: 'be-sustainable@uni-koeln.de',
     address: 'Greinstraße 4-6<br>50939 Köln',
     coordinates: L.latLng(50.92370072234999, 6.934937713454496)
