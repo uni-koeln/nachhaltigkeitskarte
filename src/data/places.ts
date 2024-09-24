@@ -593,7 +593,7 @@ export const places: Place[] = [
     title: 'International Master of Environmental Sciences (IMES)',
     text: 'Im internationalen und interdisziplinären Masterprogramm IMES (International Master of Environmental Sciences) nähern sich die Studierenden den Umweltwissenschaften mit einem natur- und sozialwissenschaftlichen Ansatz. Die Förderung einer fachübergreifenden Ausbildung und Denkweise hat das Ziel, den Umgang mit Umweltproblemen und die Forschung zu Umweltthemen zu verbessern.',
     url: 'https://imes.uni-koeln.de/',
-    types: [PlaceType.Forschung],
+    types: [PlaceType.LehreUndWeiterbildung],
     mail: '',
     address: 'Zülpicher Str.45<br>50674 Köln',
     coordinates: L.latLng(50.92749009633176, 6.936237462607584)
