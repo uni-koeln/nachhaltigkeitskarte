@@ -70,7 +70,7 @@ export interface Place {
 
 export const places: Place[] = [
   {
-    title: 'Meteorologische Messstation<br>(Wetter-, Klima- und Umweltmessgrößen)<br>Ort',
+    title: 'Meteorologische Messstation<br>(Wetter-, Klima- und Umweltmessgrößen)',
     text: 'Die meteorologische Messstation auf dem Gelände des UniSports wurde in Kooperation zwischen der Stadt Köln und der Universität zu Köln eingerichtet, um relevante Wetter-, Klima- und Umweltmessgrößen zu messen. Die Daten können die Grundlage für zielgerichtete und wirksame Maßnahmen zur Abmilderung der negativen Auswirkungen des Klimawandels liefern.',
     types: [PlaceType.Forschung],
     url: 'https://geomet.uni-koeln.de/forschung/aktuelle-beobachtungen/wetterstation-gruenguertel',
@@ -182,7 +182,7 @@ export const places: Place[] = [
   },
   {
     title: 'Institut für Geologie und Mineralogie',
-    text: 'Das Institut Forscht und Lehrt zum Thema Geologie und Mineralogie, hier findet sich auch ein Überblick über die unterschiedlichen Arbeitsgruppe.',
+    text: 'Das Institut forscht und lehrt zum Thema Geologie und Mineralogie. Auf der Institutsseite findet sich ein Überblick über die diversen Arbeitsgruppen.',
     url: 'https://geologie.uni-koeln.de/',
     types: [PlaceType.Forschung, PlaceType.LehreUndWeiterbildung],
     mail: '',
