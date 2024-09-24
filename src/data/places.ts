@@ -285,7 +285,7 @@ export const places: Place[] = [
     title: 'Refugee Law Clinic Cologne e.V.',
     text: 'Die Refugee Law Clinic Cologne e.V. ist ein gemeinnütziger Verein, der von Kölner Jura Studierenden gegründet wurde und Migrant*innen, insbesondere Geflüchtete und Asylbewerber*innen mit kostenfreier Rechtsberatung unterstützt.',
     url: 'https://lawcliniccologne.com/',
-    types: [PlaceType.SozialeNachhaltigkeit],
+    types: [PlaceType.SozialeNachhaltigkeit, PlaceType.InitiativenEngagementAngebote],
     mail: '',
     address: 'Bernhard-Feilchenfeld-Straße 9<br>50969 Köln',
     coordinates: L.latLng(50.91523032751447, 6.942874170365911)
