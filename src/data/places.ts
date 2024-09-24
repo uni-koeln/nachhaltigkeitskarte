@@ -41,16 +41,16 @@ export const getTypeName = (type: PlaceType): string => {
   switch (type) {
     case PlaceType.Forschung:
       return 'Forschung'
-    case PlaceType.SozialeNachhaltigkeit:
-      return 'Engagement und Transfer'
-    case PlaceType.ZentraleEinrichtungen:
-      return 'Zentrale Einrichtungen'
-    case PlaceType.InitiativenEngagementAngebote:
-      return 'Studentische Initiativen, Engagement und Angebote'
     case PlaceType.LehreUndWeiterbildung:
       return 'Lehre und Weiterbildung'
+    case PlaceType.SozialeNachhaltigkeit:
+      return 'Engagement und Transfer'
+    case PlaceType.InitiativenEngagementAngebote:
+     return 'Studentische Initiativen und Angebote'
     case PlaceType.NachhaltigerCampus:
       return 'Nachhaltiger Campus'
+    case PlaceType.ZentraleEinrichtungen:
+      return 'Zentrale Einrichtungen'    
     default:
       return ''
   }
