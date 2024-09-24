@@ -476,7 +476,7 @@ export const places: Place[] = [
     title: 'Energiewirtschaftliches Institut an der Uzk (EWI)',
     text: 'Das EWI forscht und berät zu zunehmend komplexen Energiemärkten. Es analysiert den Wandel der Energiewelt mit neuesten volkswirtschaftlichen Methoden und detaillierten computergestützten Modellen.',
     url: 'https://www.ewi.uni-koeln.de/de/',
-    types: [PlaceType.Forschung, PlaceType.ZentraleEinrichtungen],
+    types: [PlaceType.Forschung],
     mail: 'info@ewi.uni-koeln.de',
     address: 'Vogelsanger Straße 321a<br>50827 Köln',
     coordinates: L.latLng(50.95242906766409, 6.897807524873837)
