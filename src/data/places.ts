@@ -548,7 +548,7 @@ export const places: Place[] = [
     title: 'Fahrradgarage',
     text: 'In der Radstation können Studierende und Beschäftigte der Universität ihr Rad kostenlos und gesichert abstellen. Dabei gibt es 18 Ladepunkte für E-bikes oder Pedelecs und Stellplätze für Lastenräder oder Buggys. Die Radstation leistet damit einen Beitrag zu mehr nachhaltiger Mobilität an der UzK.',
     url: 'https://verwaltung.uni-koeln.de/abteilung54/content/sachgebiet_4/radstation/index_ger.html',
-    types: [PlaceType.InitiativenEngagementAngebote, PlaceType.NachhaltigerCampus],
+    types: [PlaceType.NachhaltigerCampus],
     mail: '',
     address: 'Albertus-Magnus-Platz 1<br>50931 Köln',
     coordinates: L.latLng(50.927826133342506, 6.927848595305869)
