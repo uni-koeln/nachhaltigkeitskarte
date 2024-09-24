@@ -50,6 +50,9 @@ const getMarkerIcon = (type: PlaceType): L.Icon<L.IconOptions> => {
     case PlaceType.Forschung:
       return forschungIcon
 
+    case PlaceType.LehreUndWeiterbildung:
+      return lehreIcon
+      
     case PlaceType.SozialeNachhaltigkeit:
       return sozialeIcon
 
@@ -58,9 +61,6 @@ const getMarkerIcon = (type: PlaceType): L.Icon<L.IconOptions> => {
 
     case PlaceType.InitiativenEngagementAngebote:
       return initiativeIcon
-
-    case PlaceType.LehreUndWeiterbildung:
-      return lehreIcon
 
     case PlaceType.NachhaltigerCampus:
       return nachhaltigIcon
