@@ -431,7 +431,7 @@ export const places: Place[] = [
     title: 'Ökologiereferat',
     text: 'Das Referat für Ökologie und Infrastruktur bringt den Studierenden das Thema Nachhaltigkeit durch Aktionen und Service-Angebote näher. Es unterstützt, ermöglicht und verstetigt studentische Projekte zum Thema Nachhaltigkeit in vielfältigen Bereichen.',
     url: 'https://www.asta.uni-koeln.de/?tab=ueber-uns-tt-referat-fuer-oekologie-und-infrastruktur#ueber-uns',
-    types: [PlaceType.NachhaltigerCampus],
+    types: [PlaceType.InitiativenEngagementAngebote],
     mail: 'oekologie@asta.uni-koeln.de',
     address: 'Universitätsstraße 16,<br>50937 Köln',
     coordinates: L.latLng(50.92385551851312, 6.931574971165858)
