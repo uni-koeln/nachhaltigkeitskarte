@@ -3,9 +3,9 @@ import type { LatLng } from 'leaflet'
 
 export enum PlaceType {
   Forschung,
+  LehreUndWeiterbildung,
   SozialeNachhaltigkeit,
   ZentraleEinrichtungen,
-  LehreUndWeiterbildung,
   InitiativenEngagementAngebote,
   NachhaltigerCampus
 }
