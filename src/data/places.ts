@@ -358,8 +358,7 @@ export const places: Place[] = [
     title: 'Nachhaltigkeitsbüro',
     text: 'Das Nachhaltigkeitsbüro ist die zentrale Anlaufstelle für das Thema Nachhaltigkeit an der Universität zu Köln. Es bietet Raum für Fragen, Ideen, Anregungen und Diskurse, vernetzt untereinander und hilft mit, das Thema Nachhaltigkeit sichtbar, zugänglich und erlebbar zu machen und begleitet so gemeinsam den Transformationsprozess hin zu einer nachhaltigen Hochschule.',
     url: 'https://portal.uni-koeln.de/universitaet/universitaet-auf-einen-blick/nachhaltigkeit/team-und-kontakt',
-
-    types: [PlaceType.NachhaltigerCampus],
+    types: [PlaceType.ZentraleEinrichtungen],
     mail: 'nachhaltigkeit@verw.uni-koeln.de',
     address: 'Weyertal 109<br>50931 Köln',
     coordinates: L.latLng(50.92558720842824, 6.925659999998462)
