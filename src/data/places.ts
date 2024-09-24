@@ -518,15 +518,6 @@ export const places: Place[] = [
     coordinates: L.latLng(50.9278367073719, 6.927491053708103)
   },
   {
-    title: 'Gesunde Uni Köln für Studierende und Beschäftigte',
-    text: 'Auf dem Gesundheitsportal werden alle gesundheitsbezogenen Services und Informationen der Universität zu Köln unter einem Dach gebündelt, um Beschäftigte, Studierende sowie externe Interessierte durch die Vielzahl an Gesundheitsangeboten zu führen und zur individuellen Gesundheitsförderung und -erhaltung aller Hochschulangehörigen beizutragen.',
-    url: 'https://gesunde.uni-koeln.de/index_ger.html',
-    types: [PlaceType.SozialeNachhaltigkeit],
-    mail: '',
-    address: 'Albertus-Magnus-Platz 1<br>50923 Köln',
-    coordinates: L.latLng(50.9278367073719, 6.927491053708103)
-  },
-  {
     title: 'Prorektor für Nachhaltigkeit (Prof. Dr. Kirk W. Junker)',
     text: 'Der Prorektor für Nachhaltigkeit verantwortet in Abstimmung mit dem Rektorat die Integration von Nachhaltigkeit in allen Bereichen der Universität zu Köln. Er ist Vorsitzender des Nachhaltigkeitsrates und wird in seinen Aufgaben durch das Nachhaltigkeitsbüro unterstützt.',
     url: 'https://portal.uni-koeln.de/universitaet/organisation/rektorat/prorektor-nachhaltigkeit',
