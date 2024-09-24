@@ -382,10 +382,10 @@ export const places: Place[] = [
     coordinates: L.latLng(50.92370072234999, 6.934937713454496)
   },
   {
-    title: 'Students For Future (Public Climate School)',
+    title: 'Students For Future',
     text: 'Students for Future (SFF) Köln, sind eine Gruppe aus Studierenden verschiedener Hochschulen, Azubis und weiteren Interessierten. Sie setzten sich seit 2019 in vielen Kontexten, auf verschiedenen Ebenen und in vielfältigen Projekten, für mehr Klimaschutz, soziale Gerechtigkeit und Anti- Diskriminierung ein.',
     url: 'https://sites.google.com/view/sff-koelnde/startseite',
-    types: [PlaceType.LehreUndWeiterbildung],
+    types: [PlaceType.InitiativenEngagementAngebote],
     mail: '',
     address: 'Universitätsstraße 37<br>50931 Köln',
     coordinates: L.latLng(50.927059612448645, 6.927190657687529)
