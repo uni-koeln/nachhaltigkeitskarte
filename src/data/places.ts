@@ -5,9 +5,9 @@ export enum PlaceType {
   Forschung,
   LehreUndWeiterbildung,
   SozialeNachhaltigkeit,
+  NachhaltigerCampus,
   ZentraleEinrichtungen,
   InitiativenEngagementAngebote,
-  NachhaltigerCampus
 }
 
 // TODO: Milena make it work
