@@ -346,7 +346,7 @@ export const places: Place[] = [
   },
   {
     title:
-      'Institut für Allgemeinmedizin<br>der Universitätsklinik und der UzK, Schwerpunkt: Allgemeinmedizin im Klimawandel',
+      'Institut für Allgemeinmedizin der Universitätsklinik und der UzK<br>Schwerpunkt: Allgemeinmedizin im Klimawandel',
     text: '',
     url: 'https://allgemeinmedizin.uk-koeln.de/',
     types: [PlaceType.Forschung],
