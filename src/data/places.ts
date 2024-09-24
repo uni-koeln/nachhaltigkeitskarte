@@ -46,7 +46,7 @@ export const getTypeName = (type: PlaceType): string => {
     case PlaceType.SozialeNachhaltigkeit:
       return 'Engagement und Transfer'
     case PlaceType.InitiativenEngagementAngebote:
-     return '(Studentische) Initiativen und Angebote'
+     return 'Studentische Initiativen und Angebote'
     case PlaceType.NachhaltigerCampus:
       return 'Nachhaltiger Campus'
     case PlaceType.ZentraleEinrichtungen:
@@ -109,7 +109,7 @@ export const places: Place[] = [
   {
     title: 'AG Nachhaltigkeit der Medizinischen Fakultät',
     text: 'Die AG Nachhaltigkeit der Medizinischen Fakultät und Uniklinik ist zentrale Anlaufstelle für Studierende und Beschäftigte zum Thema Nachhaltigkeit. Ziel ist es Praktische Anregungen und Tipps zu umweltbewusstem Verhalten zu vermitteln und in allen Bereichen der Fakultät und Uniklinik zu verankern.',
-    types: [PlaceType.InitiativenEngagementAngebote],
+    types: [PlaceType.SozialeNachhaltigkeit],
     url: 'https://medfak.uni-koeln.de/fakultaet/ag-nachhaltigkeit',
     mail: 'tomo.saric@uni-koeln.de',
     address: 'Joseph-Stelzmann-Straße 20<br>50931 Köln',
