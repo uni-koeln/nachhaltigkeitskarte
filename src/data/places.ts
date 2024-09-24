@@ -346,12 +346,12 @@ export const places: Place[] = [
   },
   {
     title:
-      'Institutsteam des Institut für Allgemeinmedizin<br>der Universitätsklinik und der UzK, Schwerpunkt: Allgemeinmedizin im Klimawandel',
+      'Institut für Allgemeinmedizin<br>der Universitätsklinik und der UzK, Schwerpunkt: Allgemeinmedizin im Klimawandel',
     text: '',
     url: 'https://allgemeinmedizin.uk-koeln.de/',
     types: [PlaceType.Forschung],
     mail: 'karin.plate@uk-koeln.de',
-    address: 'Kerpener Str. 62<br>50937 Köln<br>Prof.Dr. Beate Müller,<br>Assitenz: Karin Plate',
+    address: 'Kerpener Str. 62<br>50937 Köln<br>Direktorin: Prof. Dr. Beate Müller,<br>Assistenz: Karin Plate',
     coordinates: L.latLng(50.92372629166638, 6.917043502390615)
   },
   {
