@@ -494,7 +494,7 @@ export const places: Place[] = [
     title: 'Institut für Nachhaltigkeit, Unternehmensrecht und Reporting (INUR)',
     text: 'Das Institut INUR (Institut für Nachhaltigkeit, Unternehmensrecht und Reporting) untersucht unternehmensrechtliche Fragen rund um das Thema Nachhaltigkeit, es ist intradisziplinär rechtswissenschaftlich und interdisziplinär an die Nachbardisziplinen angebunden.',
     url: 'https://portal.uni-koeln.de/universitaet/universitaet-auf-einen-blick/nachhaltigkeit/was-kann-ich-machen/fuer-studierende-der-uzk',
-    types: [PlaceType.NachhaltigerCampus],
+    types: [PlaceType.Forschung, PlaceType.LehreUndWeiterbildung,],
     mail: 'post-inur@uni-koeln.de',
     address: 'Bernhard-Feilchenfeld-Straße 9<br>50969 Köln',
     coordinates: L.latLng(50.915486347761295, 6.9427094806825345)
