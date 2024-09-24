@@ -50,7 +50,7 @@ export const getTypeName = (type: PlaceType): string => {
     case PlaceType.NachhaltigerCampus:
       return 'Nachhaltiger Campus'
     case PlaceType.ZentraleEinrichtungen:
-      return 'Governance'    
+      return 'Governance Nachhaltigkeit'    
     default:
       return ''
   }
