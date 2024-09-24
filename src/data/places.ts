@@ -116,16 +116,6 @@ export const places: Place[] = [
     coordinates: L.latLng(50.92431554159669, 6.920873052344106)
   },
   {
-    title:
-      'Institut für Biologiedidaktik: Forschungsprojekt Klimawandel und grüne Fassaden<br>Institut, Ort',
-    text: 'Das Institut für Biologiedidaktik erforscht mit Hilfe des Fassadenbegrünungssystems BILLY GREEN an der Mensa Zülpicher Straße die Effekte von grünen Fassaden auf das Stadtklima und die Optimierung der Gebäudeenergieeffizienz.',
-    types: [PlaceType.Forschung, PlaceType.NachhaltigerCampus], //['Forschung, grüner Campus'],
-    url: 'https://biologiedidaktik.uni-koeln.de/forschungsprojekte/aktuelle-forschungsprojekte/klimawandel-und-gruene-fassaden/billy-green',
-    mail: '',
-    address: 'Herbert-Lewin-Straße 2<br>50931 Köln',
-    coordinates: L.latLng(50.934474105639715, 6.92146466818036)
-  },
-  {
     title: 'ASTA-Fahrradwerkstatt',
     text: 'In der AStA-Fahrradwerkstatt können Fahrräder Selbst repariert werden. Zudem gibt es hier kostenlose hilfe und Ersatzteile zu einem günstigen Preis.',
     url: 'https://www.asta.uni-koeln.de/?tab=angebote-tt-asta-fahrradwerkstatt-mitschraubgelegenheit#angebote',
