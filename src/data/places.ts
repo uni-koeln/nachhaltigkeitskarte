@@ -524,7 +524,7 @@ export const places: Place[] = [
     types: [PlaceType.ZentraleEinrichtungen],
     mail: 'prorektorat-nachhaltigkeit@verw.uni-koeln.de',
     address: 'Albertus-Magnus-Platz 1<br>50923 Köln',
-    coordinates: L.latLng(50.9278367073719, 6.927491053708103)
+    coordinates: L.latLng(50.928378130805996, 6.929425170382793)
   },
   {
     title: 'Photovoltaikanlage auf dem SSC',
