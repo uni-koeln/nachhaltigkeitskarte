@@ -412,7 +412,7 @@ export const places: Place[] = [
     title: 'Ökologische Rheinstation der Universität zu Köln',
     text: 'Die Ökologische Rheinstation befindet sich auf einem ehemaligen Rheinschiff. Die Fließwasserlabore an Bord der Rheinstation bieten Wissenschaftlern und Studenten des Zoologischen Instituts hervorragende Bedingungen, Tiere im Rheinwasser lebensnah zu erforschen und Veränderungen im Ökosystem Rhein zeitnah wahrzunehmen.',
     url: 'https://rheinstation.uni-koeln.de/',
-    types: [PlaceType.LehreUndWeiterbildung, PlaceType.LehreUndWeiterbildung],
+    types: [PlaceType.LehreUndWeiterbildung, PlaceType.Forschung],
     mail: '',
     address: 'Ober­län­der Werft<br>Rhein­ki­lo­me­ter 684,5<br>50968 Köln',
     coordinates: L.latLng(50.907020577583175, 6.978733907813633)
