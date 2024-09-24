@@ -355,7 +355,7 @@ export const places: Place[] = [
     coordinates: L.latLng(50.92372629166638, 6.917043502390615)
   },
   {
-    title: 'Nachhaltigkeitsbüro',
+    title: 'Nachhaltigkeitsbüro der Universität zu Köln',
     text: 'Das Nachhaltigkeitsbüro ist die zentrale Anlaufstelle für das Thema Nachhaltigkeit an der Universität zu Köln. Es bietet Raum für Fragen, Ideen, Anregungen und Diskurse, vernetzt untereinander und hilft mit, das Thema Nachhaltigkeit sichtbar, zugänglich und erlebbar zu machen und begleitet so gemeinsam den Transformationsprozess hin zu einer nachhaltigen Hochschule.',
     url: 'https://portal.uni-koeln.de/universitaet/universitaet-auf-einen-blick/nachhaltigkeit/team-und-kontakt',
     types: [PlaceType.ZentraleEinrichtungen],
@@ -536,7 +536,7 @@ export const places: Place[] = [
     coordinates: L.latLng(50.9278367073719, 6.927491053708103)
   },
   {
-    title: 'Prorektor für Nachhaltigkeit Prof. Kirk W. Junker',
+    title: 'Prorektor für Nachhaltigkeit (Prof. Dr. Kirk W. Junker)',
     text: 'Der Prorektor für Nachhaltigkeit verantwortet in Abstimmung mit dem Rektorat die Integration von Nachhaltigkeit in allen Bereichen der Universität zu Köln. Er ist Vorsitzender des Nachhaltigkeitsrates und wird in seinen Aufgaben durch das Nachhaltigkeitsbüro unterstützt.',
     url: 'https://portal.uni-koeln.de/universitaet/organisation/rektorat/prorektor-nachhaltigkeit',
     types: [PlaceType.ZentraleEinrichtungen],
