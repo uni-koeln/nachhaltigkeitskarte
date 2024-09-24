@@ -91,7 +91,7 @@ export const places: Place[] = [
     title: 'Autonomes Queerreferat der Universität zu Köln (AQUK)',
     text: 'Das Autonome Queerreferat bietet einen Save Space für alle queeren Studierenden. Dabei verfolgt das Queerreferat einen breiten Ansatz, wenn es z.B. um eine diskriminierungsfreie Lehre, Problemen mit der Verwaltung der Uni oder die Vernetzung mit anderen Studierenden geht.',
     url: 'https://aquk.uni-koeln.de/home',
-    types: [PlaceType.SozialeNachhaltigkeit],
+    types: [PlaceType.ZentraleEinrichtungen],
     mail: 'queerreferatunikoeln@gmail.com',
     address: 'Universitätsstraße 16<br>50937 Köln',
     coordinates: L.latLng(50.92394560726894, 6.931505538342777)
@@ -221,7 +221,7 @@ export const places: Place[] = [
     title: 'Service Zentrum Inklusion',
     text: 'Das Servicezentrum Inklusion ist ein gemeinsames Angebot der Zentralen Studienberatung (Universitätsverwaltung) und des Beauftragten für Studierende mit Behinderung oder chronischer Erkrankung. Ziel ist es, Menschen mit Behinderung, chronischer und psychischer Erkrankung zu unterstützen.',
     url: 'https://inklusion.uni-koeln.de/szi/index_ger.html',
-    types: [PlaceType.SozialeNachhaltigkeit],
+    types: [PlaceType.ZentraleEinrichtungen],
     mail: '',
     address: 'Universitätsstraße 22a<br>50937 Köln',
     coordinates: L.latLng(50.92746510773187, 6.9296505108491715)
@@ -267,7 +267,7 @@ export const places: Place[] = [
     title: 'Soziale und wirtschaftliche Beratung für Studierende',
     text: 'Die Sozialberatung des Kölner Studierendenwerks bietet Studierenden Unterstützung bei der Beantragung von Unterstützungsleistungen sowie bei der Wahrnehmung ihrer sozialrechtlichen Ansprüche in verschiedenen Lebensbereichen.',
     url: 'https://www.kstw.de/beratung/sozialberatung',
-    types: [PlaceType.SozialeNachhaltigkeit],
+    types: [PlaceType.ZentraleEinrichtungen],
     mail: '',
     address: 'Luxemburgerstraße 181-183<br>50939 Köln',
     coordinates: L.latLng(50.92033942371612, 6.9326497820135105)
