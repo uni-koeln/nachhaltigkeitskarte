@@ -337,7 +337,7 @@ export const places: Place[] = [
   },
   {
     title: 'SFB 1252 "Prominence in Language"',
-    text: 'Mit seinem Ansatz leistet der Sonderforschungsbereich 1253 Prominence in Language mit einer umfassende Beschreibung von Prominenz wichtige Grundlagenforschung für ein besseres Verständnis von Sprache als einem System zwischen Kommunikation und Kognition.',
+    text: 'Mit seinem Ansatz leistet der Sonderforschungsbereich (SFB) 1253 Prominence in Language mit einer umfassende Beschreibung von Prominenz wichtige Grundlagenforschung für ein besseres Verständnis von Sprache als einem System zwischen Kommunikation und Kognition.',
     url: 'https://sfb1252.uni-koeln.de/',
     types: [PlaceType.Forschung],
     mail: '',
