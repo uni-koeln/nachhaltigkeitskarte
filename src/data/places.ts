@@ -199,15 +199,6 @@ export const places: Place[] = [
     coordinates: L.latLng(50.92798593682843, 6.929006924343601)
   },
   {
-    title: 'M.A. Culture and Environment In Africa',
-    text: 'In diesem Masterprogramm geht es um Kultur und Umwelt in Afrika mit dem Fokus auf prähistorische, historische und zeitgeschichtliche Epochen. Dabei werden globale, nationale sowie regionale Verflechtungen mit einbezogen.',
-    url: 'https://ethnologie.phil-fak.uni-koeln.de/content.php?kid=111',
-    types: [PlaceType.LehreUndWeiterbildung],
-    mail: '',
-    address: 'Universitätsstraße 41<br>50931 Köln',
-    coordinates: L.latLng(50.92830212558933, 6.927578060337458)
-  },
-  {
     title: 'Physics of Earth and Atmosphere',
     text: 'Das Masterstudium "Physics of the Earth and Atmopshere" vertieft die notwendigen Kenntnisse zur Erforschung der Erde und der Atmosphäre. Besondere Schwerpunkte im Studiengang sind Angewandte Geophysik, die Extraterrestrische Geophysik und Seismologie.',
     url: 'https://geomet.uni-koeln.de/studium/master-program',
