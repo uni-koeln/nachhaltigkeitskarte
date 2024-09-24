@@ -557,7 +557,7 @@ export const places: Place[] = [
     title: 'Gateway Exzellenz Start-up Center',
     text: 'Das Gateway Exzellenz Startup Center der Universität zu Köln ist eine Einrichtung, die Studierende, Forschende und Alumni bei der Gründung und Entwicklung innovativer Startups unterstützt. Es bietet umfassende Dienstleistungen wie Beratung, Finanzierung, Netzwerke und Räume, um unternehmerische Ideen erfolgreich umzusetzen.',
     url: 'https://gateway-unikoeln.de/',
-    types: [PlaceType.InitiativenEngagementAngebote],
+    types: [PlaceType.SozialeNachhaltigkeit],
     mail: 'info@gateway-unikoeln.de',
     address: 'Weyertal 109<br>50931 Köln',
     coordinates: L.latLng(50.92552960971788, 6.925655232798734)
