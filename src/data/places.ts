@@ -518,10 +518,10 @@ export const places: Place[] = [
     coordinates: L.latLng(50.92398736755503, 6.9316178825440415)
   },
   {
-    title: 'Nachhaltigkeitspreis (UzK)',
+    title: 'Nachhaltigkeitspreis der UzK',
     text: 'Der Universitätspreis "Nachhaltigkeit" wird jährlich für herausragende Leistungen im Themengebiet der Nachhaltigkeit vergeben.',
-    url: 'https://portal.uni-koeln.de/forschung/interne-forschungsfoerderung-und-auszeichnungen/universitaetspreis/unipreis-nachhaltigkeit',
-    types: [PlaceType.Forschung],
+    url: 'https://portal.uni-koeln.de/forschung/interne-forschungsfoerderung-und-auszeichnungen/universitaetspreis',
+    types: [PlaceType.Forschung, PlaceType.LehreUndWeiterbildung, PlaceType.SozialeNachhaltigkeit, PlaceType.NachhaltigerCampus, PlaceType.InitiativenEngagementAngebote] 
     mail: 'nachhaltigkeit@verw.uni-koeln.de',
     address: 'Albertus-Magnus-Platz 1<br>50923 Köln',
     coordinates: L.latLng(50.9278367073719, 6.927491053708103)
