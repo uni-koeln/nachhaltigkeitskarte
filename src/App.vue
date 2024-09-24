@@ -14,7 +14,7 @@ import { RouterLink, RouterView } from 'vue-router'
         Nachhaltigkeitskarte Universität zu Köln
         <nav class="navigation">
           <RouterLink to="/">Karte</RouterLink>
-          <RouterLink to="/about">Info</RouterLink>
+          <RouterLink to="/about">Impressum</RouterLink>
         </nav>
       </div>
       <div class="header-nachhaltigkeit">
