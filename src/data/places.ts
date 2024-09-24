@@ -392,9 +392,9 @@ export const places: Place[] = [
   },
   {
     title: 'Projekt Food_Fair (Food Saving und Sharing Projekt)',
-    text: 'Im Food Saving und Sharing Projekt „Food_Fair“ des AStAs werden, mit dem Ziel direkt und pragmatisch zu handeln, gemeinsam Lebensmittel vor der Tonne gerettet. Das Projekt möchte für das Probllem der Lebensmittelverschwendung sensibilisieren. Die Food_Beutel sind vor allem für Studierende, die sich gerade in einer Notsituation befinden..',
+    text: 'Im Food Saving und Sharing Projekt „Food_Fair“ des AStAs werden, mit dem Ziel direkt und pragmatisch zu handeln, gemeinsam Lebensmittel vor der Tonne gerettet. Das Projekt möchte für das Problem der Lebensmittelverschwendung sensibilisieren. Die Food_Beutel sind vor allem für Studierende, die sich gerade in einer Notsituation befinden..',
     url: 'https://www.asta.uni-koeln.de/?tab=angebote-tt-food_fair#angebote',
-    types: [PlaceType.SozialeNachhaltigkeit],
+    types: [PlaceType.InitiativenEngagementAngebote],
     mail: 'food-fair@asta.uni-koeln.de',
     address: 'Universitätsstraße 16<br>50935 Köln',
     coordinates: L.latLng(50.92385551851312, 6.931574971165858)
