@@ -42,7 +42,7 @@ export const getTypeName = (type: PlaceType): string => {
     case PlaceType.Forschung:
       return 'Forschung'
     case PlaceType.SozialeNachhaltigkeit:
-      return 'Soziale Nachhaltigkeit'
+      return 'Engagement und Transfer'
     case PlaceType.ZentraleEinrichtungen:
       return 'Zentrale Einrichtungen'
     case PlaceType.InitiativenEngagementAngebote:
