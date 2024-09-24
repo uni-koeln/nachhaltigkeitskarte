@@ -211,7 +211,7 @@ export const places: Place[] = [
     title: 'zdi-Schülerlabor',
     text: 'Im Programm zdi-Schülerlabor haben Schüler der Stufen 5-12 die Möglichkeit, in den Instituten der Physik und der Chemie Praxiserfahrungen zu sammeln.',
     url: 'https://zdi-schuelerlabor.uni-koeln.de/',
-    types: [PlaceType.InitiativenEngagementAngebote],
+    types: [PlaceType.SozialeNachhaltigkeit],
     mail: '',
     address: 'Herbert-Lewin-Str.2<br>50931 Köln',
     coordinates: L.latLng(50.9344482229511, 6.921448639684721)
