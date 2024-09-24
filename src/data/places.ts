@@ -485,7 +485,7 @@ export const places: Place[] = [
     title: 'Green Office Initiative',
     text: 'Das Green Office Köln ist eine studentische Initiative, die das Ziel hat, ein studentisch geführtes Green Office an der Universität zu Köln zu etablieren und Studierende in ihrem Engagement für mehr Nachhaltigkeit zu unterstützen.',
     url: 'https://portal.uni-koeln.de/universitaet/universitaet-auf-einen-blick/nachhaltigkeit/was-kann-ich-machen/fuer-studierende-der-uzk',
-    types: [PlaceType.NachhaltigerCampus],
+    types: [PlaceType.InitiativenEngagementAngebote],
     mail: 'green-office@uni-koeln.de',
     address: 'Universitätsstraße 41<br>50931 Köln',
     coordinates: L.latLng(50.928813775285846, 6.9272989367637985)
