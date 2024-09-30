@@ -84,20 +84,4 @@ h3 {
     display: none;
   }
 }
-
-/* Mobile-Anpassungen für Geräte unter 768px */
-@media (max-width: 768px) {
-  h3 {
-    font-size: 1rem; /* Kleinere Schriftgröße für die mobile Ansicht */
-  }
-
-  .details {
-    margin-left: 0.5rem; /* Weniger Abstand zwischen Icon und Text */
-  }
-
-  i {
-    width: 24px; /* Kleineres Icon für mobile Ansicht */
-    height: 24px;
-  }
-}
 </style>
