@@ -11,7 +11,7 @@ import { RouterLink, RouterView } from 'vue-router'
         /></a>
       </div>
       <div id="title" class="header-content">
-        Orte der Nachhaltigkeit an der Universität zu Köln
+        Orte der Nachhaltigkeit an der Universität zu Köln (Beta-Version)
         <nav class="navigation">
           <RouterLink to="/">Karte</RouterLink>
           <RouterLink to="/about">Impressum</RouterLink>
