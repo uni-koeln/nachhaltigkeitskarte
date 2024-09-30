@@ -79,7 +79,7 @@ export const places: Place[] = [
     coordinates: L.latLng(50.92972, 6.93249)
   },
   {
-    title: 'Bürgerwissenschaften: Lern-, Erlebnis- und Aktivpfaden (LEAPs)',
+    title: 'Bürgerwissenschaften: Lern-, Erlebnis- und Aktivpfade (LEAPs)',
     text: 'Die Sammlung von Lern-, Erlebnis- und Aktiv-Pfaden (LEAPs) ermöglicht es, die Umwelt eigenständig zu erforschen und durch gezielte Beobachtungen Daten zu sammeln. Bisher wurden LEAPS zum Thema Wasser am Flehbach und zum Thema Stadtklima in rechtsrheinischen Köln eingerichtet. An den jeweiligen Standorten der LEAPs können anhand verschiedenen Apps des Geografischen Instituts Beobachtungen dokumentiert und so langfristig Umweltveränderungen festgehalten werden.',
     url: 'https://geographie.uni-koeln.de/oeffentlichkeit/buergerwissenschaften-auf-leaps',
     types: [PlaceType.SozialeNachhaltigkeit],
