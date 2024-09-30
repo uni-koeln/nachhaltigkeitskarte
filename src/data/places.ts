@@ -46,7 +46,7 @@ export const getTypeName = (type: PlaceType): string => {
     case PlaceType.SozialeNachhaltigkeit:
       return 'Engagement und Transfer'
     case PlaceType.InitiativenEngagementAngebote:
-     return 'Student. Initiativen/Angebote'
+     return 'Stud. Initiativen/Angebote'
     case PlaceType.NachhaltigerCampus:
       return 'Nachhaltiger Campus'
     case PlaceType.ZentraleEinrichtungen:
