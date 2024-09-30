@@ -77,11 +77,11 @@ h3 {
   }
 
   .item:first-of-type:before {
-    display: block;
+    display: none;
   }
 
   .item:last-of-type:after {
-    display: block;
+    display: none;
   }
 }
 </style>
