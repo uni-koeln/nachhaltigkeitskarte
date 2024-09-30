@@ -79,6 +79,15 @@ export const places: Place[] = [
     coordinates: L.latLng(50.92972, 6.93249)
   },
   {
+    title: 'Bürgerwissenschaften: Lern-, Erlebnis- und Aktivpfaden (LEAPs),
+    text: Die Sammlung von Lern-, Erlebnis- und Aktiv-Pfaden (LEAPs) ermöglicht es, die Umwelt eigenständig zu erforschen und durch gezielte Beobachtungen Daten zu sammeln. Bisher wurden LEAPS zum Thema Wasser am Flehbach und zum Thema Stadtklima in rechtsrheinischen Köln eingerichtet. An den jeweiligen Standorten der LEAPs können anhand verschiedenen Apps des Geografischen Instituts Beobachtungen dokumentiert und so langfristig Umweltveränderungen festgehalten werden.',
+    url: ' https://geographie.uni-koeln.de/oeffentlichkeit/buergerwissenschaften-auf-leaps',
+    types: [PlaceType.SozialeNachhaltigkeit],
+    mail: 'karl.schneider@uni-koeln.de,
+    address: 'Zülpicher Straße 45<br>50674 Köln',
+    coordinates: L.latLng(50.92757657036141, 6.936269883876549) 
+  },
+  {
     title: ' Arctic Amplification (AC)³',
     text: 'Der transregionale Sonderforschungsbereich (SFB)³ zwischen der Universität Leipzig, der Universität Köln und Bremen wurde 2016 eingerichtet. Beteiligt sind das Alfred-Wegener-Institut, Helmholtz-Zentrum für Polar- und Meeresforschung (AWI) in Bremerhaven und Potsdam sowie das Leibniz-Institut für Troposphärenforschung (TROPOS) in Leipzig. Ziel von (AC)³ ist es, den dramatischen Klimawandel in der Arktis mit verschiedenen Methoden zu beobachten, um die Zuverlässigkeit von Modellen zu verbessern und genauere Vorhersagen über die weitere Erwärmung der Arktis zu ermöglichen.',
     url: ' https://www.ac3-tr.de/',
