@@ -496,7 +496,7 @@ export const places: Place[] = [
     text: 'Die Steuerungsgruppe der „Fairtrade Uni Köln“ organisiert in Zusammenarbeit mit der Studierendeninitiative Faire Uni zu Köln regelmäßig Veranstaltungen und Aktionen zum Thema Fairer Handel und koordiniert das Fairtrade-University-Zertifikat.',
     url: 'https://portal.uni-koeln.de/universitaet/universitaet-auf-einen-blick/nachhaltigkeit/was-unternimmt-die-uni/was-bisher-geschah/fairtrade-university',
     types: [PlaceType.SozialeNachhaltigkeit, PlaceType.InitiativenEngagementAngebote],
-    mail: '',
+    mail: 'l.ester@verw.uni-koeln.de',
     address: 'Albertus-Magnus-Platz 1<br>50923 Köln',
     coordinates: L.latLng(50.9278367073719, 6.927491053708103)
   },
