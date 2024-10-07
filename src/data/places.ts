@@ -501,6 +501,15 @@ export const places: Place[] = [
     coordinates: L.latLng(50.92731596619487, 6.9298621700429655)
   },
   {
+    title: 'Faire Uni zu Köln',
+    text: 'Gemeinsam die Uni Köln fairändern',
+    url: 'https://www.instagram.com/faireunizukoeln/?hl=de',
+    types: [PlaceType.InitiativenEngagementAngebote],
+    mail: '',
+    address: 'Albertus-Magnus-Platz 1<br>50923 Köln',
+    coordinates: L.latLng(50.9279888248009, 6.927362351393091)
+  },
+  {
     title: 'Green Office Initiative',
     text: 'Das Green Office Köln ist eine studentische Initiative, die das Ziel hat, ein studentisch geführtes Green Office an der Universität zu Köln zu etablieren und Studierende in ihrem Engagement für mehr Nachhaltigkeit zu unterstützen.',
     url: 'https://portal.uni-koeln.de/universitaet/universitaet-auf-einen-blick/nachhaltigkeit/was-kann-ich-machen/fuer-studierende-der-uzk',
