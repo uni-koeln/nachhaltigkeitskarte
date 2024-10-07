@@ -52,7 +52,7 @@ const getMarkerIcon = (type: PlaceType): L.Icon<L.IconOptions> => {
 
     case PlaceType.LehreUndWeiterbildung:
       return lehreIcon
-      
+
     case PlaceType.SozialeNachhaltigkeit:
       return sozialeIcon
 
@@ -100,27 +100,27 @@ const addMarkers = () => {
     marker.bindTooltip(place.title ? '<b>' + place.title + '</b>' + '<br>' : place.text)
     marker.bindPopup(
       '<div class="popup-grid"><div class="popup-grid-left">' +
-      (place.title
-        ? place.types
-          .map((type) => {
-            return '<img src="' + getIconName(type) + '.svg" height="20px" />'
-          })
-          .join('') +
-        '<h3>' +
-        place.title +
-        '</h3>'
-        : '') +
-      '<hr class="horizontal">' +
-      place.text +
-      (place.url != ''
-        ? '<br><a href="' + place.url + '" target="_blank">' + 'Mehr erfahren' + '</a>'
-        : '') +
-      '</div><div class="popup-grid-right"><div>' +
-      (place.address != '' ? '<br>' + place.address : '') +
-      (place.mail != ''
-        ? '<br><a href=mailto:"' + place.mail + '" target="_blank">E-Mail</a>'
-        : '') +
-      '</div></div></div></div>',
+        (place.title
+          ? place.types
+              .map((type) => {
+                return '<img src="' + getIconName(type) + '.svg" height="20px" />'
+              })
+              .join('') +
+            '<h3>' +
+            place.title +
+            '</h3>'
+          : '') +
+        '<hr class="horizontal">' +
+        place.text +
+        (place.url != ''
+          ? '<br><a href="' + place.url + '" target="_blank">' + 'Mehr erfahren' + '</a>'
+          : '') +
+        '</div><div class="popup-grid-right"><div>' +
+        (place.address != '' ? '<br>' + place.address : '') +
+        (place.mail != ''
+          ? '<br><a href=mailto:"' + place.mail + '" target="_blank">E-Mail</a>'
+          : '') +
+        '</div></div></div></div>',
       { maxWidth: 500 }
     )
   })
@@ -174,23 +174,55 @@ onMounted(() => {
 <template>
   <main>
     <div>
-      Die Nachhaltigkeitskarte der Universität zu Köln bietet einen umfassenden Überblick über Einrichtungen, Initiativen und Angebote rund um das Thema Nachhaltigkeit auf dem Campus. Sie zeigt vielfältige Projekte, die sich für Umwelt- und Klimaschutz sowie soziale Verantwortung einsetzen, und lädt ein, sich zu informieren und aktiv mitzugestalten.<br /> <br />Das Angebot wurde von Studierenden im Rahmen eines Service-Learning-Projekts umgesetzt und wird fortlaufend erweitert. Für eine Integration/Erwähnung gerne unter nachhaltigkeit@verw.uni-koeln.de melden.<br /> <br />Zur Info: Manchen Orten sind mehrere Kategorien zugeordnet, in der Karte wird aber immer nur das Symbol der zuerst zugewiesenen Kategorie dargestellt.
+      Die Nachhaltigkeitskarte der Universität zu Köln bietet einen umfassenden Überblick über
+      Einrichtungen, Initiativen und Angebote rund um das Thema Nachhaltigkeit auf dem Campus. Sie
+      zeigt vielfältige Projekte, die sich für Umwelt- und Klimaschutz sowie soziale Verantwortung
+      einsetzen, und lädt ein, sich zu informieren und aktiv mitzugestalten.<br />
+      <br />Das Angebot wurde von Studierenden im Rahmen eines Service-Learning-Projekts umgesetzt
+      und wird fortlaufend erweitert. Für eine Integration/Erwähnung gerne unter
+      nachhaltigkeit@verw.uni-koeln.de melden.<br />
+      <br />Zur Info: Manchen Orten sind mehrere Kategorien zugeordnet, in der Karte wird aber immer
+      nur das Symbol der zuerst zugewiesenen Kategorie dargestellt.
     </div>
-    <br><br>
+    <br /><br />
     <div class="grid-container">
       <div class="grid-item-filter">
-        <div :class="`filter ${getAdditionalCssClass(placeType)} grid-button-container`" v-for="placeType in placeTypes"
-          :key="placeType" @click="filterPlaces(placeType)">
-          <img v-if="placeType === PlaceType.ZentraleEinrichtungen" src="@/assets/CENTRAL.svg" height="20px"
-            class="grid-button-icon" />
-          <img v-else-if="placeType === PlaceType.LehreUndWeiterbildung" src="@/assets/LEHRE.svg" height="20px"
-            class="grid-button-icon" />
-          <img v-else-if="placeType === PlaceType.SozialeNachhaltigkeit" src="@/assets/SOCIAL.svg" height="20px"
-            class="grid-button-icon" />
-          <img v-else-if="placeType === PlaceType.InitiativenEngagementAngebote" src="@/assets/INITIATIVE.svg"
-            height="20px" class="grid-button-icon" />
-          <img v-else-if="placeType === PlaceType.NachhaltigerCampus" src="@/assets/NACHCAMPUS.svg" height="20px"
-            class="grid-button-icon" />
+        <div
+          :class="`filter ${getAdditionalCssClass(placeType)} grid-button-container`"
+          v-for="placeType in placeTypes"
+          :key="placeType"
+          @click="filterPlaces(placeType)"
+        >
+          <img
+            v-if="placeType === PlaceType.ZentraleEinrichtungen"
+            src="@/assets/CENTRAL.svg"
+            height="20px"
+            class="grid-button-icon"
+          />
+          <img
+            v-else-if="placeType === PlaceType.LehreUndWeiterbildung"
+            src="@/assets/LEHRE.svg"
+            height="20px"
+            class="grid-button-icon"
+          />
+          <img
+            v-else-if="placeType === PlaceType.SozialeNachhaltigkeit"
+            src="@/assets/SOCIAL.svg"
+            height="20px"
+            class="grid-button-icon"
+          />
+          <img
+            v-else-if="placeType === PlaceType.InitiativenEngagementAngebote"
+            src="@/assets/INITIATIVE.svg"
+            height="20px"
+            class="grid-button-icon"
+          />
+          <img
+            v-else-if="placeType === PlaceType.NachhaltigerCampus"
+            src="@/assets/NACHCAMPUS.svg"
+            height="20px"
+            class="grid-button-icon"
+          />
           <img v-else src="@/assets/FORSCHUNG.svg" height="20px" class="grid-button-icon" />
           <span class="grid-button-text"> {{ getTypeName(placeType as PlaceType) }}</span>
         </div>

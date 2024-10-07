@@ -4,21 +4,18 @@
     <p>Stand: September 2024</p>
     <h2>Herausgeberin</h2>
     <p>Dr. Pamela Kilian</p>
-       <div>
+    <div>
       Nachhaltigkeitsbüro der Universität zu Köln<br />
-      Albertus Magnus Platz<br />50923 Köln<br
+      Albertus Magnus Platz<br />50923 Köln<br />
     </div>
     <p>
       Mail:
-    <a href="mailto:nachhaltigkeit@verw.uni-koeln.de">nachhaltigkeit@verw.uni-koeln.de</a>
+      <a href="mailto:nachhaltigkeit@verw.uni-koeln.de">nachhaltigkeit@verw.uni-koeln.de</a>
     </p>
-         
+
     <p>
       Web:
-      <a
-        href="nachhaltigkeit.uni-koeln.de"
-        target="_blank"
-        rel="noopener noreferrer"
+      <a href="nachhaltigkeit.uni-koeln.de" target="_blank" rel="noopener noreferrer"
         >nachhaltigkeit.uni-koeln.de</a
       >
     </p>

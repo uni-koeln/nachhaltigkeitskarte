@@ -150,10 +150,10 @@ nav a:first-of-type {
   grid-template-rows: 60vh;
   grid-template-areas: 'filter map';
   @media (max-width: 600px) {
-    height: 80vh;
+    height: 90vh;
     text-align: center;
     grid-template-columns: 100%;
-    grid-template-rows: 15% 85%;
+    grid-template-rows: 25% 75%;
     grid-template-areas:
       'filter'
       'map';
@@ -162,8 +162,11 @@ nav a:first-of-type {
 
 .grid-item-filter {
   grid-area: filter;
-  display: table;
-  table-layout: fixed;
+  @media (max-width: 600px) {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 25% 25% 25% 25%;
+  }
 }
 
 .grid-item-map {
@@ -198,10 +201,9 @@ nav a:first-of-type {
   grid-column-gap: 10px;
   grid-template-columns: 10% 90%;
   grid-template-areas: 'icon text';
-  @media (max-width: 600px) {
-    display: inline;
-  }
+  height: fit-content;
 }
+
 .grid-button-icon {
   grid-area: icon;
   @media (max-width: 600px) {
@@ -211,9 +213,6 @@ nav a:first-of-type {
 }
 .grid-button-text {
   grid-area: text;
-  @media (max-width: 600px) {
-    display: none;
-  }
 }
 
 .filter-reset {
@@ -225,7 +224,9 @@ nav a:first-of-type {
     font-weight: bold;
   }
   @media (max-width: 600px) {
-    margin-top: 10px;
+    margin-top: 5px;
+    padding-left: 5px;
+    text-align: left;
   }
 }
 

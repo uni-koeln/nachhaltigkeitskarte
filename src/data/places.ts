@@ -7,7 +7,7 @@ export enum PlaceType {
   SozialeNachhaltigkeit,
   NachhaltigerCampus,
   ZentraleEinrichtungen,
-  InitiativenEngagementAngebote,
+  InitiativenEngagementAngebote
 }
 
 // TODO: Milena make it work
@@ -16,7 +16,7 @@ export const getTypeIcon = (type: PlaceType): string => {
     case PlaceType.Forschung:
       return '@/assets/FORSCHUNG.svg'
 
-     case PlaceType.LehreUndWeiterbildung:
+    case PlaceType.LehreUndWeiterbildung:
       return '@/assets/FORSCHUNG.svg'
 
     case PlaceType.SozialeNachhaltigkeit:
@@ -46,11 +46,11 @@ export const getTypeName = (type: PlaceType): string => {
     case PlaceType.SozialeNachhaltigkeit:
       return 'Engagement und Transfer'
     case PlaceType.InitiativenEngagementAngebote:
-     return 'Stud. Initiativen/Angebote'
+      return 'Stud. Initiativen/Angebote'
     case PlaceType.NachhaltigerCampus:
       return 'Nachhaltiger Campus'
     case PlaceType.ZentraleEinrichtungen:
-      return 'Zentrale Einrichtungen'    
+      return 'Zentrale Einrichtungen'
     default:
       return ''
   }
@@ -85,7 +85,7 @@ export const places: Place[] = [
     types: [PlaceType.SozialeNachhaltigkeit],
     mail: 'karl.schneider@uni-koeln.de',
     address: 'Zülpicher Straße 45<br>50674 Köln',
-    coordinates: L.latLng(50.92757657036141, 6.936269883876549) 
+    coordinates: L.latLng(50.92757657036141, 6.936269883876549)
   },
   {
     title: ' Arctic Amplification (AC)³',
@@ -94,7 +94,7 @@ export const places: Place[] = [
     types: [PlaceType.Forschung],
     mail: 'susanne.crewell@uni-koeln.de',
     address: 'Pohligstraße 3<br>50969 Köln',
-    coordinates: L.latLng(50.91718728970949, 6.941310610304784) 
+    coordinates: L.latLng(50.91718728970949, 6.941310610304784)
   },
   {
     title: 'Global South Studies Center (GSSC)',
@@ -360,7 +360,8 @@ export const places: Place[] = [
     url: 'https://allgemeinmedizin.uk-koeln.de/',
     types: [PlaceType.Forschung],
     mail: 'karin.plate@uk-koeln.de',
-    address: 'Kerpener Str. 62<br>50937 Köln<br>Direktorin: Prof. Dr. Beate Müller,<br>Assistenz: Karin Plate',
+    address:
+      'Kerpener Str. 62<br>50937 Köln<br>Direktorin: Prof. Dr. Beate Müller,<br>Assistenz: Karin Plate',
     coordinates: L.latLng(50.92372629166638, 6.917043502390615)
   },
   {
@@ -512,7 +513,7 @@ export const places: Place[] = [
     title: 'Institut für Nachhaltigkeit, Unternehmensrecht und Reporting (INUR)',
     text: 'Das Institut INUR (Institut für Nachhaltigkeit, Unternehmensrecht und Reporting) untersucht unternehmensrechtliche Fragen rund um das Thema Nachhaltigkeit, es ist intradisziplinär rechtswissenschaftlich und interdisziplinär an die Nachbardisziplinen angebunden.',
     url: 'https://portal.uni-koeln.de/universitaet/universitaet-auf-einen-blick/nachhaltigkeit/was-kann-ich-machen/fuer-studierende-der-uzk',
-    types: [PlaceType.Forschung, PlaceType.LehreUndWeiterbildung,],
+    types: [PlaceType.Forschung, PlaceType.LehreUndWeiterbildung],
     mail: 'post-inur@uni-koeln.de',
     address: 'Bernhard-Feilchenfeld-Straße 9<br>50969 Köln',
     coordinates: L.latLng(50.915486347761295, 6.9427094806825345)
@@ -530,7 +531,13 @@ export const places: Place[] = [
     title: 'Nachhaltigkeitspreis der UzK',
     text: 'Der Universitätspreis "Nachhaltigkeit" wird jährlich für herausragende Leistungen im Themengebiet der Nachhaltigkeit vergeben.',
     url: 'https://portal.uni-koeln.de/forschung/interne-forschungsfoerderung-und-auszeichnungen/universitaetspreis',
-    types: [PlaceType.Forschung, PlaceType.LehreUndWeiterbildung, PlaceType.SozialeNachhaltigkeit, PlaceType.NachhaltigerCampus, PlaceType.InitiativenEngagementAngebote], 
+    types: [
+      PlaceType.Forschung,
+      PlaceType.LehreUndWeiterbildung,
+      PlaceType.SozialeNachhaltigkeit,
+      PlaceType.NachhaltigerCampus,
+      PlaceType.InitiativenEngagementAngebote
+    ],
     mail: 'nachhaltigkeit@verw.uni-koeln.de',
     address: 'Albertus-Magnus-Platz 1<br>50923 Köln',
     coordinates: L.latLng(50.9278367073719, 6.927491053708103)
