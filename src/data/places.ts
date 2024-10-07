@@ -498,7 +498,7 @@ export const places: Place[] = [
     types: [PlaceType.SozialeNachhaltigkeit, PlaceType.InitiativenEngagementAngebote],
     mail: 'l.ester@verw.uni-koeln.de',
     address: 'Albertus-Magnus-Platz 1<br>50923 Köln',
-    coordinates: L.latLng(50.9278367073719, 6.927491053708103)
+    coordinates: L.latLng(50.92731596619487, 6.9298621700429655)
   },
   {
     title: 'Green Office Initiative',
