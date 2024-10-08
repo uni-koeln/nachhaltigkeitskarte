@@ -156,7 +156,7 @@ export const places: Place[] = [
     title: 'Begrünung der Mensa: Hochbeete und Blühwiese',
     text: 'Um die Aufenthaltsqualität der Mensa zu erhöhen, entstanden im Service Learning Projekt „Grün, grün, grün ist meine Mensa“ nach ökologischen Kriterien gestaltete Begrünungen an der Mensa Zülpicher Straße. Diese tragen zu einer Steigerung der Aufenthaltsqualität bei und bieten den Nutzer:innen die Möglichkeit, sich in ihren Pausen hinzusetzen, die sonnige Lage zu genießen und Bienen zu beobachten.',
     url: 'https://www.asta.uni-koeln.de/?tab=angebote-tt-mensa-begruenung#angebote',
-    types: [PlaceType.InitiativenEngagementAngebote],
+    types: [PlaceType.InitiativenEngagementAngebote, PlaceType.NachhaltigerCampus],
     mail: 'green-office@uni-koeln.de, m.wiggers@kstw.de', // Einer der beiden muss drinnen bleiben
     address: 'Hauptmensa<br>Zülpicherstr.70<br>50931 Köln',
     coordinates: L.latLng(50.92772769481757, 6.9332704838606904)
