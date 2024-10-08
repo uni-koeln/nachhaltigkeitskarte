@@ -258,10 +258,10 @@ export const places: Place[] = [
     title: 'Autonomes BIPoC (Black, Indigenous, People of Color) Referat der Uni Köln',
     text: 'Das autonome BIPoC Referat setzt sich für eine Universität ein, die ihre Kolonialgeschichte bewusst dekonstruiert und Verantwortung übernimmt. Ziel des Referates ist es, sich für marginalisierte und rassifizierte Gruppen an der Universität einzusetzen.',
     url: 'https://bipoc.uni-koeln.de/',
-    types: [PlaceType.ZentraleEinrichtungen],
+    types: [PlaceType.InitiativenEngagementAngebote],
     mail: '',
     address: '',
-    coordinates: L.latLng(50.92401441926854, 6.931521324343246)
+    coordinates: L.latLng(50.9237269939905, 6.931371120673142)
   },
   {
     title: 'Soziale und wirtschaftliche Beratung für Studierende',
