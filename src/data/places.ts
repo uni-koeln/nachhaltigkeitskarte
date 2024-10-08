@@ -139,8 +139,8 @@ export const places: Place[] = [
     url: 'https://www.asta.uni-koeln.de/?tab=angebote-tt-asta-fahrradwerkstatt-mitschraubgelegenheit#angebote',
     types: [PlaceType.InitiativenEngagementAngebote],
     mail: '',
-    address: 'Zülpicher Wall Hinterhof der Hauptmensa',
-    coordinates: L.latLng(50.92791453704527, 6.93377283134142)
+    address: 'In der Radstation am Albertus-Magnus-Platz',
+    coordinates: L.latLng(50.92769952411767, 6.927937404774251)
   },
   {
     title:
@@ -630,6 +630,6 @@ export const places: Place[] = [
     types: [PlaceType.NachhaltigerCampus],
     mail: '',
     address: 'Albertus-Magnus-Platz 1<br>50931 Köln',
-    coordinates: L.latLng(50.92769637224157, 6.927345131993593)
+    coordinates: L.latLng(50.927853, 6.927826)
   }
 ]
