@@ -168,22 +168,14 @@ onMounted(() => {
   }).addTo(sustainabilityMap)
 
   addMarkers()
-
-  const script = document.createElement('script')
-  script.type = 'text/javascript'
-  script.src = '//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit'
-  document.body.appendChild(script)
 })
 
-function googleTranslateElementInit() {
-  new window.google.translate.TranslateElement({pageLanguage: 'de'}, 'google_translate_element')
 }
   
 </script>
 
 <template>
   <main>
-    <div id="google_translate_element"></div>
    <div>
       Die Nachhaltigkeitskarte der Universität zu Köln bietet einen umfassenden Überblick über
       Einrichtungen, Initiativen und Angebote rund um das Thema Nachhaltigkeit auf dem Campus. Sie
