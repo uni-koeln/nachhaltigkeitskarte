@@ -1,7 +1,7 @@
 <template>
   <div class="about">
     <h1>Impressum</h1>
-    <p>Stand: September 2024</p>
+    <p>Stand: Oktober 2024</p>
     <h2>Herausgeberin</h2>
     <p>Dr. Pamela Kilian</p>
     <div>
