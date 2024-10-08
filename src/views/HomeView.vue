@@ -168,7 +168,17 @@ onMounted(() => {
   }).addTo(sustainabilityMap)
 
   addMarkers()
+
+  const script = document.createElement('script')
+  script.type = 'text/javascript'
+  script.src = '//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit'
+  document.body.appendChild(script)
 })
+
+function googleTranslateElementInit() {
+  new window.google.translate.TranslateElement({pageLanguage: 'de'}, 'google_translate_element')
+}
+  
 </script>
 
 <template>
@@ -233,10 +243,3 @@ onMounted(() => {
     </div>
   </main>
 </template>
-
-<script type="text/javascript">
-  function googleTranslateElementInit() {
-    new google.translate.TranslateElement({pageLanguage: 'de'}, 'google_translate_element');
-  }
-</script>
-<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
