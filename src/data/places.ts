@@ -356,7 +356,7 @@ export const places: Place[] = [
   {
     title:
       'Institut für Allgemeinmedizin der Universitätsklinik und der UzK<br>Schwerpunkt: Allgemeinmedizin im Klimawandel',
-    text: '',
+    text: 'Der Institutsschwerpunkt liegt auf der Definition und Gestaltung der Rolle der Hausarztpraxis im Klimawandel. Dazu werden qualitativ hochwertige Forschungsprojekte durchgeführt und entwickelt und innovative Konzepte für Praxis und Sprechstunde getestet. Der Transfer dieser Erkenntnisse in die multidisziplinäre Aus-, Weiter- und Fortbildung sowie in die Gesellschaft ist ein wesentlicher Bestandteil der Instituts-Tätigkeit.',
     url: 'https://allgemeinmedizin.uk-koeln.de/',
     types: [PlaceType.Forschung],
     mail: 'karin.plate@uk-koeln.de',
