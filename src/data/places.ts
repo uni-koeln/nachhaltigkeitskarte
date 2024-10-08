@@ -97,19 +97,10 @@ export const places: Place[] = [
     coordinates: L.latLng(50.91718728970949, 6.941310610304784)
   },
   {
-    title: 'Global South Studies Center (GSSC)',
-    text: 'Center<br><br>Telefon: +49 221 470 76645',
-    types: [PlaceType.Forschung],
-    url: 'https://gssc.uni-koeln.de/',
-    mail: 'contact-gssc@uni-koeln.de',
-    address: 'Classen-Kappelmann-Str. 24<br>50931 Köln',
-    coordinates: L.latLng(50.93127760930519, 6.921190240125787)
-  },
-  {
     title: 'Autonomes Queerreferat der Universität zu Köln (AQUK)',
     text: 'Das Autonome Queerreferat bietet einen Save Space für alle queeren Studierenden. Dabei verfolgt das Queerreferat einen breiten Ansatz, wenn es z.B. um eine diskriminierungsfreie Lehre, Problemen mit der Verwaltung der Uni oder die Vernetzung mit anderen Studierenden geht.',
     url: 'https://aquk.uni-koeln.de/home',
-    types: [PlaceType.ZentraleEinrichtungen],
+    types: [PlaceType.InitiativenEngagementAngebote],
     mail: 'queerreferatunikoeln@gmail.com',
     address: 'Universitätsstraße 16<br>50937 Köln',
     coordinates: L.latLng(50.92394560726894, 6.931505538342777)
@@ -118,7 +109,7 @@ export const places: Place[] = [
     title: 'Multidisciplinary Environmental Studies in the Humanities (MESH)',
     text: 'MESH ist ein Forschungszentrum, das sich mit den sozialen, kulturellen und ethischen Dimensionen des globalen Umweltwandels und den damit verbundenen ökologischen, klimatischen und gesundheitlichen Krisen befasst. MESH bringt das historische, philosophische, literarische, linguistische und kulturanthropologische Fachwissen der Geisteswissenschaften mit den Natur- und Sozialwissenschaften ins Gespräch und fördert die Forschung und den Wissensaustausch.',
     url: 'https://mesh.uni-koeln.de/',
-    types: [PlaceType.LehreUndWeiterbildung],
+    types: [PlaceType.Forschung, PlaceType.LehreUndWeiterbildung],
     mail: '',
     address: 'Weyertal 59<br>50937 Köln',
     coordinates: L.latLng(50.92473, 6.92638)
@@ -267,7 +258,7 @@ export const places: Place[] = [
     title: 'Autonomes Queerreferat der Universität zu Köln (AQUK)',
     text: 'Das Autonome Queerreferat bietet einen Save Space für alle queere Studierenden. Dabei verfolgt das Queerreferat einen breiten Ansatz, wenn es z.B. um eine diskriminierungsfreie Lehre, Probleme mit der Verwaltung der Uni oder die Vernetzung mit anderen Studierenden geht.',
     url: 'https://aquk.uni-koeln.de/home',
-    types: [PlaceType.ZentraleEinrichtungen],
+    types: [PlaceType.InitiativenEngagementAngebote],
     mail: '',
     address: 'Universitätsstraße 16<br>50937 Köln',
     coordinates: L.latLng(50.92401441926854, 6.931521324343246)
@@ -345,17 +336,8 @@ export const places: Place[] = [
     coordinates: L.latLng(50.927590095177536, 6.936248426190155)
   },
   {
-    title: 'SFB 1252 "Prominence in Language"',
-    text: 'Mit seinem Ansatz leistet der Sonderforschungsbereich (SFB) 1253 Prominence in Language mit einer umfassende Beschreibung von Prominenz wichtige Grundlagenforschung für ein besseres Verständnis von Sprache als einem System zwischen Kommunikation und Kognition.',
-    url: 'https://sfb1252.uni-koeln.de/',
-    types: [PlaceType.Forschung],
-    mail: '',
-    address: 'Luxemburger Str.299<br>50939 Köln',
-    coordinates: L.latLng(50.91332120351292, 6.925705897354254)
-  },
-  {
     title:
-      'Institut für Allgemeinmedizin der Universitätsklinik und der UzK<br>Schwerpunkt: Allgemeinmedizin im Klimawandel',
+      'Institut für Allgemeinmedizin der Universitätsklinik und der UzK<br>(Schwerpunkt: Allgemeinmedizin im Klimawandel)',
     text: 'Der Institutsschwerpunkt liegt auf der Definition und Gestaltung der Rolle der Hausarztpraxis im Klimawandel. Dazu werden qualitativ hochwertige Forschungsprojekte durchgeführt und entwickelt und innovative Konzepte für Praxis und Sprechstunde getestet. Der Transfer dieser Erkenntnisse in die multidisziplinäre Aus-, Weiter- und Fortbildung sowie in die Gesellschaft ist ein wesentlicher Bestandteil der Instituts-Tätigkeit.',
     url: 'https://allgemeinmedizin.uk-koeln.de/',
     types: [PlaceType.Forschung],
@@ -380,7 +362,7 @@ export const places: Place[] = [
     types: [PlaceType.LehreUndWeiterbildung],
     mail: 'carina.goffart@uni-koeln.de',
     address: 'Universitätsstraße 22a<br>50937 Köln',
-    coordinates: L.latLng(50.917139942250294, 6.940774168519168)
+    coordinates: L.latLng(50.927054288582156, 6.9295003071684045)
   },
   {
     title: 'USB: CLIMATE CLOCK und AGENDA 2030',
@@ -502,7 +484,7 @@ export const places: Place[] = [
   },
   {
     title: 'Faire Uni zu Köln',
-    text: 'Gemeinsam die Uni Köln fairändern',
+    text: 'Die Studierendeninitiative Faire Uni zu Köln will emeinsam die Uni Köln fairändern - durch regelmäßige Veranstaltungen und Aktionen zu Themen wir fairer Handel und nachhaltigen Konsum. Damit auch zukünftig die Ideen von Nachhaltigkeit und fairem Handel weiter vorangetrieben werden, ist die Gruppe stets auf der Suche nach Studierenden, die sich ehrenamtlich engagieren möchten und gemeinsam den Campus fairändern möchten!',
     url: 'https://www.instagram.com/faireunizukoeln/?hl=de',
     types: [PlaceType.InitiativenEngagementAngebote],
     mail: '',
