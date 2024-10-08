@@ -255,15 +255,6 @@ export const places: Place[] = [
     coordinates: L.latLng(50.929242488362156, 6.92583995502549)
   },
   {
-    title: 'Autonomes Queerreferat der Universität zu Köln (AQUK)',
-    text: 'Das Autonome Queerreferat bietet einen Save Space für alle queere Studierenden. Dabei verfolgt das Queerreferat einen breiten Ansatz, wenn es z.B. um eine diskriminierungsfreie Lehre, Probleme mit der Verwaltung der Uni oder die Vernetzung mit anderen Studierenden geht.',
-    url: 'https://aquk.uni-koeln.de/home',
-    types: [PlaceType.InitiativenEngagementAngebote],
-    mail: '',
-    address: 'Universitätsstraße 16<br>50937 Köln',
-    coordinates: L.latLng(50.92401441926854, 6.931521324343246)
-  },
-  {
     title: 'Autonomes BIPoC (Black, Indigenous, People of Color) Referat der Uni Köln',
     text: 'Das autonome BIPoC Referat setzt sich für eine Universität ein, die ihre Kolonialgeschichte bewusst dekonstruiert und Verantwortung übernimmt. Ziel des Referates ist es, sich für marginalisierte und rassifizierte Gruppen an der Universität einzusetzen.',
     url: 'https://bipoc.uni-koeln.de/',
