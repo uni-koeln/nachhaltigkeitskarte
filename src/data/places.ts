@@ -585,7 +585,7 @@ export const places: Place[] = [
     types: [PlaceType.NachhaltigerCampus],
     mail: '',
     address: 'Albertus-Magnus-Platz 1<br>50931 Köln',
-    coordinates: L.latLng(50.927826133342506, 6.927848595305869)
+    coordinates: L.latLng(50.927632, 6.928182)
   },
   {
     title: 'Gateway Exzellenz Start-up Center',
