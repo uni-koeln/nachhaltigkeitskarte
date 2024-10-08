@@ -168,10 +168,7 @@ onMounted(() => {
   }).addTo(sustainabilityMap)
 
   addMarkers()
-})
-
-}
-  
+})  
 </script>
 
 <template>
