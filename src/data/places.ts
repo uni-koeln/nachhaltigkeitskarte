@@ -165,7 +165,7 @@ export const places: Place[] = [
     title: 'Campus Garten',
     url: 'https://www.asta.uni-koeln.de/?tab=angebote-tt-campus-garten#angebote',
     text: 'Der Gemeinschaftsgarten ist ein langjähriges Projekt vom AStA und wird von Studierenden organsiert und gestaltet. Ob entspannen zwischen den Vorlesungen, eigenes Gemüse & Kräuter anbauen oder gemeinsame Aktionen starten – der CampusGarten bietet euch tolle Möglichkeiten für Nachhaltigkeit und Gemeinschaft im Grünen.',
-    types: [PlaceType.InitiativenEngagementAngebote],
+    types: [PlaceType.InitiativenEngagementAngebote, PlaceType.NachhaltigerCampus],
     mail: 'h.daniels@asta.uni-koeln.de',
     address: 'Gyrhofstraße 19<br>50931 Köln',
     coordinates: L.latLng(50.92713127134471, 6.922999455025401)
