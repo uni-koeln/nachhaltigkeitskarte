@@ -180,7 +180,7 @@ onMounted(() => {
       einsetzen, und lädt ein, sich zu informieren und aktiv mitzugestalten.<br />
       <br />Das Angebot wurde von Studierenden im Rahmen eines Service-Learning-Projekts umgesetzt
       und wird fortlaufend erweitert. Für eine Integration/Erwähnung gerne unter
-      nachhaltigkeit@verw.uni-koeln.de melden.<br />
+      <a href="mailto:nachhaltigkeit@verw.uni-koeln.de">nachhaltigkeit@verw.uni-koeln.de</a> melden.<br />
       <br />Zur Info: Manchen Orten sind mehrere Kategorien zugeordnet, in der Karte wird aber immer
       nur das Symbol der zuerst zugewiesenen Kategorie dargestellt.
     </div>
