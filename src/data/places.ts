@@ -137,7 +137,7 @@ export const places: Place[] = [
     title: 'ASTA-Fahrradwerkstatt',
     text: 'In der AStA-Fahrradwerkstatt können Fahrräder Selbst repariert werden. Zudem gibt es hier kostenlose hilfe und Ersatzteile zu einem günstigen Preis.',
     url: 'https://www.asta.uni-koeln.de/?tab=angebote-tt-asta-fahrradwerkstatt-mitschraubgelegenheit#angebote',
-    types: [PlaceType.InitiativenEngagementAngebote],
+    types: [PlaceType.InitiativenEngagementAngebote, PlaceType.NachhaltigerCampus],
     mail: '',
     address: 'In der Radstation am Albertus-Magnus-Platz',
     coordinates: L.latLng(50.92769952411767, 6.927937404774251)
