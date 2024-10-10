@@ -178,7 +178,7 @@ onMounted(() => {
      Überblick über Einrichtungen, Initiativen und Angebote rund um das Thema Nachhaltigkeit auf dem Campus. Sie zeigt vielfältige Projekte, die sich für 
      Umwelt- und Klimaschutz sowie soziale Verantwortung einsetzen, und lädt ein, sich zu informieren und aktiv mitzugestalten.<br />
       <br /> Für die Integration eines noch nicht erfassten Angebots oder Projekts melden Sie sich gerne unter
-      <a href="mailto:nachhaltigkeit@verw.uni-koeln.de">nachhaltigkeit@verw.uni-koeln.de</a> melden.<br />
+      <a href="mailto:nachhaltigkeit@verw.uni-koeln.de">nachhaltigkeit@verw.uni-koeln.de</a><br />
       <br /><i>Zur Info: Manchen Orten sind mehrere Kategorien zugeordnet, in der Karte wird aber immer
       nur das Symbol der zuerst zugewiesenen Kategorie dargestellt.</i>
     </div>
