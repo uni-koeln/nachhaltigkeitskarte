@@ -445,7 +445,42 @@ export const places: Place[] = [
     address: 'Universitätsstraße 41<br>50931 Köln',
     coordinates: L.latLng(50.91701703764391, 6.940641179416769)
   },
-
+   {
+    title: 'SFB TRR341 Plant Ecological Genetics',
+    text: 'Pflanzen sind Teil fast aller Nahrungsnetze und daher ist ihre Fähigkeit, sich an Umweltveränderungen anzupassen, von entscheidender Bedeutung. Der Sonderforschungsbereich TRR341 untersucht die genetischen Mechanismen der Pflanzenanpassung an ihre Umwelt, um zukünftige Bemühungen zur Erhaltung natürlicher Ökosysteme zu unterstützen.',
+    url: 'https://trr341.uni-koeln.de/',
+    types: [PlaceType.Forschung],
+    mail: '',
+    address: 'Zülpicher Str. 47b, 50674 Köln',
+    coordinates: L.latLng(50.926788097276024, 6.935701826205716)
+  },
+  {
+    title: 'Auf dem Weg zu einem lokalen Skills Ecosystem: Nachhaltigkeitskompetenzen in Köln',
+    text: 'Um die nachhaltige Gestaltung von Städten zu gewährleisten, bedarf es entsprechend geschulter Fachkräfte. Das Projekt untersucht das Kölner Green Skills Ecosystem. Insbesondere die Gebäudetechnik steht dabei im Fokus.',
+    url: 'https://wigeo.uni-koeln.de/de/drittmittelprojekte/skillseco',
+    types: [PlaceType.Forschung],
+    mail: '',
+    address: 'Universitätsstraße 24a, 50931 Köln',
+    coordinates: L.latLng(50.93033778123358, 6.927440466255532)
+  },
+  {
+    title: ': Anpassung an den Klimawandel durch Teilhabe: Handlungsbereitschaft und operative Befähigung unterschiedlicher Milieus (AKT@HoMe)',
+    text: 'Das Projekt AKT@HoMe untersucht die Handlungsbereitschaft und Fähigkeiten der Bevölkerung in Kölner Stadtteilen zur Anpassung an den Klimawandel. Ziel ist es, Maßnahmen und Szenarien für nachhaltige und sozial gerechte Klimaanpassungen zu entwickeln und dabei die lokale Bevölkerung aktiv einzubeziehen.',
+    url: 'https://geographie.uni-koeln.de/forschung/arbeitsgruppen/hydrogeographie-und-klimatologie/projektuebersicht/projekte/akthome',
+    types: [PlaceType.Forschung],
+    mail: '',
+    address: 'Zülpicher Str. 45, 50674 Köln',
+    coordinates: L.latLng(50.927721888935174, 6.936237683875967)
+  },
+ {
+    title: 'Kompetenzzentrum Fairer Handel (KFH)',
+    text: 'Das KFH fördert die wissenschaftliche Beschäftigung mit dem Fairen Handel im deutschsprachigen Raum. Neben der Unterstützung von Forschung und Lehre bietet es ein Forum und einen institutionellen Rahmen für fachlichen Austausch und Vernetzung und trägt zum Wissenstransfer bei.',
+    url: 'https://gssc.uni-koeln.de/forschung-1/assoziierte-zentren/kompetenzzentrum-fairer-handel ',
+    types: [PlaceType.Forschung, PlaceType.LehreUndWeiterbildung, PlaceType.SozialeNachhaltigkeit],
+    mail: '',
+    address: 'Classen-Kappelmann-Str. 24, 50931 Köln',
+    coordinates: L.latLng(50.931284509288176, 6.921174826205857)
+  },
   {
     title: 'European University for Well-Being (EUniWell)',
     text: 'Die European University for Well-Being (EuniWell) ist eine intereuropäische Hochschulallianz, die einen ganzheitlichen und handlungsorientierten Ansatz zu „Well-Being” verfolgt. Dabei steht das Wohlergehen des Individuums, der Gemeinschaft und deren Umwelt im Fokus. Innerhalb der Allianz sollen wirkungsvolle und nachhaltige Veränderungen für Studierende, Gesellschaften und Institutionen entwickelt und umgesetzt werden.',
