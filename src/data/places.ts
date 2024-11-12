@@ -464,7 +464,7 @@ export const places: Place[] = [
     coordinates: L.latLng(50.93033778123358, 6.927440466255532)
   },
   {
-    title: ': Anpassung an den Klimawandel durch Teilhabe: Handlungsbereitschaft und operative Befähigung unterschiedlicher Milieus (AKT@HoMe)',
+    title: 'Anpassung an den Klimawandel durch Teilhabe: Handlungsbereitschaft und operative Befähigung unterschiedlicher Milieus (AKT@HoMe)',
     text: 'Das Projekt AKT@HoMe untersucht die Handlungsbereitschaft und Fähigkeiten der Bevölkerung in Kölner Stadtteilen zur Anpassung an den Klimawandel. Ziel ist es, Maßnahmen und Szenarien für nachhaltige und sozial gerechte Klimaanpassungen zu entwickeln und dabei die lokale Bevölkerung aktiv einzubeziehen.',
     url: 'https://geographie.uni-koeln.de/forschung/arbeitsgruppen/hydrogeographie-und-klimatologie/projektuebersicht/projekte/akthome',
     types: [PlaceType.Forschung],
