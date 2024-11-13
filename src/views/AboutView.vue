@@ -1,7 +1,7 @@
 <template>
   <div class="about">
     <h1>Impressum</h1>
-    <p>Stand: Oktober 2024</p>
+    <p>Stand: November 2024</p>
     <h2>Herausgeberin</h2>
     <p>Dr. Pamela Kilian</p>
     <div>
@@ -21,7 +21,7 @@
     </p>
 
     <p>
-      Diese Karte ist im Rahmen eines Service Learning Projektes ( ProfessionalCenter ) entstanden
+      Diese Karte ist im Rahmen eines Service Learning Projektes (ProfessionalCenter) entstanden
       und von Arthur-Muanza Ndiema und Stefan Baumgärtner unter Mithilfe der Dozentin
       <a href="https://growing-excellence.tech/about" target="_blank">Milena-Mercedes May</a>
       umgesetzt worden.
