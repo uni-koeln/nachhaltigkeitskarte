@@ -171,7 +171,7 @@ export const places: Place[] = [
   },
   {
     title: 'SFB 1218: Regulation der zellulären Funktion durch Mitochondrien',
-    text: 'Der Sonderforschungsbereich (SFB) 1218 „Regulation der zellulären Funktion durch Mitochondrien“ ist ein von der DFG gefördertes Forschungsprojekt, das die (Patho-)Physiologie der Mitochondrien untersucht—Organellen, die eine zentrale Rolle bei der Regulierung des zellulären Energiehaushalts spielen. Im Jahr 2024 wurde das Nachhaltigkeits-Board des SFB 1218 ins Leben gerufen. Es fungiert als Beratungsinstanz für die Mitglieder des SFB, unterstützt die Implementierung zentraler Nachhaltigkeitsmaßnahmen innerhalb des Verbunds und fördert das Bewusstsein für nachhaltige Forschungsmethoden.',
+    text: 'Der Sonderforschungsbereich (SFB) 1218 „Regulation der zellulären Funktion durch Mitochondrien“ ist ein von der DFG gefördertes Forschungsprojekt, das die (Patho-)Physiologie der Mitochondrien untersucht - Organellen, die eine zentrale Rolle bei der Regulierung des zellulären Energiehaushalts spielen. Im Jahr 2024 wurde das Nachhaltigkeits-Board des SFB 1218 ins Leben gerufen. Es fungiert als Beratungsinstanz für die Mitglieder des SFB, unterstützt die Implementierung zentraler Nachhaltigkeitsmaßnahmen innerhalb des Verbunds und fördert das Bewusstsein für nachhaltige Forschungsmethoden.',
     url: 'https://sfb1218.uni-koeln.de/',
     types: [PlaceType.Forschung],
     mail: '',
