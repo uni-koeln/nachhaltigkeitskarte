@@ -134,8 +134,7 @@ export const places: Place[] = [
     coordinates: L.latLng(50.92769952411767, 6.927937404774251)
   },
   {
-    title:
-      'Bachelor of Science in Management, Economics and Social Sciences - Driving Sustainable Change',
+    title:'Bachelor of Science in Management, Economics and Social Sciences - Driving Sustainable Change',
     text: 'Mit einer globalen Perspektive bietet der Bachelor of Science in Management Einblicke in gesellschaftliche Herausforderungen und vermittelt die Fähigkeit komplexe wirtschaftliche und gesellschaftliche Zusammenhänge zu analysieren und zu gestalten.',
     url: 'https://wiso.uni-koeln.de/de/studium/bachelor/bachelor-management-economics-social-sciences',
     types: [PlaceType.LehreUndWeiterbildung],
@@ -253,16 +252,6 @@ export const places: Place[] = [
     address: 'Universitätsstraße 37<br>50931 Köln',
     coordinates: L.latLng(50.92727929134766, 6.927104810935677)
   },
-
-  {
-    title: 'Referat Gender & Diversity Management',
-    text: '',
-    url: 'https://gedim.uni-koeln.de/ueber-uns',
-    types: [PlaceType.ZentraleEinrichtungen],
-    mail: '',
-    address: 'Eckertstraße 4<br>50931 Köln',
-    coordinates: L.latLng(50.929242488362156, 6.92583995502549)
-  },
   {
     title: 'Autonomes BIPoC (Black, Indigenous, People of Color) Referat der Uni Köln',
     text: 'Das autonome BIPoC Referat setzt sich für eine Universität ein, die ihre Kolonialgeschichte bewusst dekonstruiert und Verantwortung übernimmt. Ziel des Referates ist es, sich für marginalisierte und rassifizierte Gruppen an der Universität einzusetzen.',
@@ -306,7 +295,7 @@ export const places: Place[] = [
     types: [PlaceType.ZentraleEinrichtungen],
     mail: '',
     address: 'Weyertal 111<br>50931 Köln',
-    coordinates: L.latLng(50.92630449492009, 6.926960268706199)
+    coordinates: L.latLng(50.92616033628637, 6.925216526205639)
   },
   {
     title: 'Refugee Law Clinic Cologne e.V.',
