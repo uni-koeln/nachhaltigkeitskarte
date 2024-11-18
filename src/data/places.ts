@@ -165,11 +165,20 @@ export const places: Place[] = [
     text: 'Im Masterprogramm „Earth System Science“ entwickeln Studierende ein tiefgreifendes Verständnis des Erd-Systems vom Kern bis zur Atmosphäre. Die beteiligten Institute forschen zu allen Aspekten des Erdsystems und sind an interdisziplinären und qualitativ hochwertigen Forschungskooperationen und -projekten beteiligt.',
     url: 'https://computationalsciences.uni-koeln.de/contents/curriculum/earth-system-sciences',
     types: [PlaceType.Forschung, PlaceType.LehreUndWeiterbildung],
-    mail: 'info-compscie@uni-koeln.de', // h.daniels@asta.uni-koeln.de
+    mail: 'info-compscie@uni-koeln.de', 
     address: 'Pohligstr.3<br>50969 Köln',
     coordinates: L.latLng(50.917139942250294, 6.940774168519168)
   },
-
+  {
+    title: 'SFB 1218: Regulation der zellulären Funktion durch Mitochondrien',
+    text: 'Der Sonderforschungsbereich (SFB) 1218 „Regulation der zellulären Funktion durch Mitochondrien“ ist ein von der DFG gefördertes Forschungsprojekt, das die (Patho-)Physiologie der Mitochondrien untersucht—Organellen, die eine zentrale Rolle bei der Regulierung des zellulären Energiehaushalts spielen. Im Jahr 2024 wurde das Nachhaltigkeits-Board des SFB 1218 ins Leben gerufen. 
+    Es fungiert als Beratungsinstanz für die Mitglieder des SFB, unterstützt die Implementierung zentraler Nachhaltigkeitsmaßnahmen innerhalb des Verbunds und fördert das Bewusstsein für nachhaltige Forschungsmethoden.',
+    url: 'https://sfb1218.uni-koeln.de/',
+    types: [PlaceType.Forschung],
+    mail: '',
+    address: 'SFB 1218 Office im CECAD Forschungszentrum R. 4025<br>Joseph-Stelzmann-Straße 26<br>50931 Köln',
+    coordinates: L.latLng(50.925623837612214, 6.9203765550410425)
+  },
   {
     title: 'Information Systems for Sustainable Society',
     text: 'Im Department „Information Systems for Sustainable Society“ wird zum Thema nachhaltige Gesellschaften geforscht, gelehrt und publiziert. Die Forschung beschäftigt sich mit der Frage, wie Informationssysteme so gestaltet werden können, dass sie den Herausforderungen der Nachhaltigkeit in der Gesellschaft gerecht werden.',
