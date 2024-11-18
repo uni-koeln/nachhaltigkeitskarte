@@ -175,7 +175,7 @@ export const places: Place[] = [
     url: 'https://sfb1218.uni-koeln.de/',
     types: [PlaceType.Forschung],
     mail: '',
-    address: 'SFB 1218 Office im CECAD Forschungszentrum R. 4025<br>Joseph-Stelzmann-Straße 26<br>50931 Köln',
+    address: 'SFB 1218 Office<br>im CECAD Forschungszentrum<br>Raum 4025<br>Joseph-Stelzmann-Straße 26<br>50931 Köln',
     coordinates: L.latLng(50.925623837612214, 6.9203765550410425)
   },
   {
