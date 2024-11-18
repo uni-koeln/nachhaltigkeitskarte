@@ -207,6 +207,15 @@ export const places: Place[] = [
     address: 'Hauptgebäude<br>50923 Köln',
     coordinates: L.latLng(50.92798593682843, 6.929006924343601)
   },
+ {
+    title: 'Gender Studies in Köln (GeStiK)',
+    text: 'Die Gender Studies untersuchen die Konstruktionen von Geschlecht und Geschlechterverhältnissen sowie deren Verflechtungen mit sozialen, kulturellen und wissenschaftlichen Ordnungsmustern und hinterfragen dichotome Kategorien, die Ungleichheiten und Ausschlüsse begünstigen. An der Universität zu Köln wurde das Zentrum Gender Studies in Köln (GeStiK) gegründet, um interdisziplinäre Forschung und Zusammenarbeit in diesem Bereich zu fördern. Zu den Schwerpunkten gehören Themen wie Intersektionalität, Queer Theory, Geschlechtergerechtigkeit, Männlichkeitskonstruktionen sowie Bildung und Kompetenzen.',
+    url: 'https://gestik.uni-koeln.de/',
+    types: [PlaceType.Forschung],
+    mail: '',
+    address: 'Aachener Str. 217<br>50931 Köln',
+    coordinates: L.latLng(50.936558593953514, 6.921845012712389)
+  },
   {
     title: 'Physics of Earth and Atmosphere',
     text: 'Das Masterstudium "Physics of the Earth and Atmopshere" vertieft die notwendigen Kenntnisse zur Erforschung der Erde und der Atmosphäre. Besondere Schwerpunkte im Studiengang sind Angewandte Geophysik, die Extraterrestrische Geophysik und Seismologie.',
@@ -274,12 +283,30 @@ export const places: Place[] = [
   },
   {
     title: 'Gleichstellungsbeauftragte',
-    text: 'Die Gleichstellungsbeauftragte berät und unterstützt die Dienststelle in Belangen des Gender Mainstreaming. Daneben besteht ein umfassender Beratungsauftrag zugunsten aller Angehörigen und Mitgliedern der Universität zum Thema Gleichstellung der Geschlechter..',
+    text: 'Die Gleichstellungsbeauftragte berät und unterstützt die Dienststelle in Belangen des Gender Mainstreaming. Daneben besteht ein umfassender Beratungsauftrag zugunsten aller Angehörigen und Mitgliedern der Universität zum Thema Gleichstellung der Geschlechter.',
     url: 'https://gb.uni-koeln.de/index_ger.html',
     types: [PlaceType.ZentraleEinrichtungen],
     mail: '',
     address: 'Eckertstraße 4<br>50931 Köln',
     coordinates: L.latLng(50.9291883909956, 6.925786310849203)
+  },
+ {
+    title: 'Referat Chancengerechtigkeit',
+    text: 'Das Referat für Chancengerechtigkeit schafft Rahmenbedingungen dafür, dass die Universität allen Menschen mit entsprechenden Zugangsberechtigungen unabhängig von ihren Lebenslagen und ihren sozialen Hintergründen offen steht. Es fördert eine Organisationskultur, in der individuelle, soziale und kulturelle Vielfalt wertgeschätzt und sensibilisiert für Chancen(un)gerechtigkeit insbesondere in den Bereichen Gleichstellung, Familienfreundlichkeit, Internationalisierung bzw. Interkulturalität, Barrierefreiheit und Bildungsgerechtigkeit.',
+    url: 'https://referat-change.uni-koeln.de/ueber-uns',
+    types: [PlaceType.ZentraleEinrichtungen],
+    mail: '',
+    address: 'Eckertstraße 4<br>50931 Köln',
+    coordinates: L.latLng(50.92920191534301, 6.92588287038284)
+  },
+ {
+    title: 'Kindertagesstätte Paramecium',
+    text: 'Die Kindertagesstätte Paramecium bietet Plätze für Kinder von Universitätsangehörigen im Alter von vier Monaten bis zum Schuleintritt und legt besonderen Wert auf pädagogische Qualität sowie eine familienfreundliche Atmosphäre. Die Kita unterstützt die Vereinbarkeit von Beruf, Studium und Familie.',
+    url: 'https://kita.uni-koeln.de/',
+    types: [PlaceType.ZentraleEinrichtungen],
+    mail: '',
+    address: 'Weyertal 111<br>50931 Köln',
+    coordinates: L.latLng(50.92630449492009, 6.926960268706199)
   },
   {
     title: 'Refugee Law Clinic Cologne e.V.',
