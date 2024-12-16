@@ -175,7 +175,7 @@ onMounted(() => {
   <main>
    <div>
      Die Nachhaltigkeitskarte der Universität zu Köln wurde von Studierenden als Pilotprojekt umgesetzt und bietet einen 
-     Überblick zu Einrichtungen, Initiativen und Angeboten rund um das Thema Nachhaltigkeit auf dem Campus. Sie zeigt und verortet vielfältige Projekte, die sich für 
+     Überblick über Einrichtungen, Initiativen und Angeboten rund um das Thema Nachhaltigkeit auf dem Campus. Sie zeigt und verortet vielfältige Projekte, die sich für 
      Umwelt- und Klimaschutz sowie soziale Verantwortung einsetzen, und lädt ein, sich zu informieren und mitzugestalten.<br />
       <br /> Für die Integration eines noch nicht erfassten Angebots oder Projekts melden Sie sich gerne unter
       <a href="mailto:nachhaltigkeit@verw.uni-koeln.de">nachhaltigkeit@verw.uni-koeln.de</a><br />
