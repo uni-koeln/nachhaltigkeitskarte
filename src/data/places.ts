@@ -371,8 +371,8 @@ export const places: Place[] = [
     coordinates: L.latLng(50.92558720842824, 6.925659999998462)
   },
   {
-    title: 'Weiterbildung Nachhaltigkeitsmanager*in',
-    text: 'Das Professional Center bietet in Zusammenarbeit mit der IHK eine Weiterbildung zum Nachhaltigkeitsmanager (IHK Zertifikat) an. Der digitale Lehrgang bietet eine Einführung in die Handlungsfelder unternehmerischer Nachhaltigkeit. .',
+    title: 'ProfessionalCenter: Nachhaltigkeitsmanager*in (IHK)',
+    text: 'Das Professional Center bietet in Zusammenarbeit mit der IHK Köln eine Weiterbildung zum/zur "Nachhaltigkeitsmanager*in (IHK)" an. Der digitale Zertifikatslehrgang bietet eine Einführung in die Handlungsfelder unternehmerischer Nachhaltigkeit.',
     url: 'https://professionalcenter.uni-koeln.de/lehre/nachhaltigkeitsmanagerin-ihk',
     types: [PlaceType.LehreUndWeiterbildung],
     mail: 'carina.goffart@uni-koeln.de',
