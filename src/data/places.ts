@@ -145,10 +145,10 @@ export const places: Place[] = [
   {
     title: 'Food Security Netzwerk',
     text: ' Das fächerübergreifende Food Security Netzwerk der Universität zu Köln fördert den Wissenstransfer im Bereich nachhaltige und globale Ernährungssicherung mit dem Ziel globale Ernährungsfragen stärker in den gesellschaftspolitischen Fokus zu rücken. Um dies zu erreichen, werden unterschiedliche Veranstaltungsformate angeboten, bei denen Beteiligte aus Forschung, Wirtschaft, Politik, Nichtregierungsorganisationen und der Gesellschaft zusammengebracht werden.',
-    url: 'www.food-security.uni-koeln.de',
+    url: 'https://www.food-security.uni-koeln.de',
     types: [PlaceType.SozialeNachhaltigkeit, PlaceType.LehreUndWeiterbildung],
     mail: '',
-    address: 'COPT-Gebäude<br>Luxemburger Straße 90<br>50939 Köln (Gebäude 315)',
+    address: 'COPT-Gebäude<br>Luxemburger Straße 90<br>50939 Köln<br>(Gebäude 315)',
     coordinates: L.latLng(50.925285589491196, 6.936819483876435)
   },
   {
