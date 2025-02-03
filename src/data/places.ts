@@ -143,6 +143,15 @@ export const places: Place[] = [
     coordinates: L.latLng(50.93021817443361, 6.928134068519783)
   },
   {
+    title: 'Food Security Netzwerk',
+    text: ' Das fächerübergreifende Food Security Netzwerk der Universität zu Köln fördert den Wissenstransfer im Bereich nachhaltige und globale Ernährungssicherung mit dem Ziel globale Ernährungsfragen stärker in den gesellschaftspolitischen Fokus zu rücken. Um dies zu erreichen, werden unterschiedliche Veranstaltungsformate angeboten, bei denen Beteiligte aus Forschung, Wirtschaft, Politik, Nichtregierungsorganisationen und der Gesellschaft zusammengebracht werden.',
+    url: 'www.food-security.uni-koeln.de',
+    types: [PlaceType.SozialeNachhaltigkeit, PlaceType.LehreUndWeiterbildung],
+    mail: '',
+    address: 'COPT-Gebäude<br>Luxemburger Straße 90<br>50939 Köln (Gebäude 315)',
+    coordinates: L.latLng(50.925285589491196, 6.936819483876435)
+  },
+  {
     title: 'Begrünung der Mensa: Hochbeete und Blühwiese',
     text: 'Um die Aufenthaltsqualität der Mensa zu erhöhen, entstanden im Service Learning Projekt „Grün, grün, grün ist meine Mensa“ nach ökologischen Kriterien gestaltete Begrünungen an der Mensa Zülpicher Straße. Diese tragen zu einer Steigerung der Aufenthaltsqualität bei und bieten den Nutzer:innen die Möglichkeit, sich in ihren Pausen hinzusetzen, die sonnige Lage zu genießen und Bienen zu beobachten.',
     url: 'https://www.asta.uni-koeln.de/?tab=angebote-tt-mensa-begruenung#angebote',
