@@ -97,9 +97,9 @@ export const places: Place[] = [
     coordinates: L.latLng(50.93129509492627, 6.9211057820288735)
   },
  {
-    title: 'Arctic Amplification (AC)³'',
+    title: 'Arctic Amplification (AC)³',
     text: 'Der transregionale Sonderforschungsbereich (SFB)³ zwischen der Universität Leipzig, der Universität Köln und Bremen wurde 2016 eingerichtet. Beteiligt sind das Alfred-Wegener-Institut, Helmholtz-Zentrum für Polar- und Meeresforschung (AWI) in Bremerhaven und Potsdam sowie das Leibniz-Institut für Troposphärenforschung (TROPOS) in Leipzig. Ziel von (AC)³ ist es, den dramatischen Klimawandel in der Arktis mit verschiedenen Methoden zu beobachten, um die Zuverlässigkeit von Modellen zu verbessern und genauere Vorhersagen über die weitere Erwärmung der Arktis zu ermöglichen.',
-    url: ' https://www.ac3-tr.de/',
+    url: 'https://www.ac3-tr.de/',
     types: [PlaceType.Forschung],
     mail: 'susanne.crewell@uni-koeln.de',
     address: 'Pohligstraße 3<br>50969 Köln',
