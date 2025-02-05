@@ -94,7 +94,7 @@ export const places: Place[] = [
     types: [PlaceType.Forschung],
     mail: '',
     address: 'Classen-Kappelmann-Str. 24, 50931 Köln',
-    coordinates: L.latLng(50.93103093847738, 6.9212338348095646)
+    coordinates: L.latLng(50.93112890312104, 6.9211855905909386)
   },
  {
     title: 'Arctic Amplification (AC)³',
