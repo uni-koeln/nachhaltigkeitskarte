@@ -88,7 +88,16 @@ export const places: Place[] = [
     coordinates: L.latLng(50.92757657036141, 6.936269883876549)
   },
   {
-    title: ' Arctic Amplification (AC)³',
+    title: 'UNESCO-MOST BRIDGES Thematic Hub for Planetary Wellbeing',
+    text: 'Focused on Planetary Wellbeing, the Cologne <a href="https://bridges.earth/" target="_blank">UNESCO-MOST BRIDGES</a> Thematic Hub addresses the interconnections amongst human health and wellbeing, climate change mitigation and adaptation, biodiversity conservation and ecological regeneration. Anchored in two leading research institutions at the University of Cologne (UoC): the research hub for <a href="https://mesh.uni-koeln.de/" target="_blank">Multidisciplinary Environmental Studies in the Humanities (MESH)</a> and the <a href="https://gssc.uni-koeln.de/" target="_blank">Global South Studies Center (GSSC)</a>, it is also supported by the <a href="https://portal.uni-koeln.de/international/global-responsibility" target="_blank">Global Responsibility Unit</a> at UoC and the <a href="https://www.euniwell.eu/" target="_blank">European University for Wellbeing (EUniWell)</a>.',
+    url: 'https://bridges-hub.cologne/',
+    types: [PlaceType.Forschung],
+    mail: '',
+    address: 'Classen-Kappelmann-Str. 24<br>50931 Köln',
+    coordinates: L.latLng(50.93129509492627, 6.9211057820288735)
+  },
+ {
+    title: 'Arctic Amplification (AC)³'',
     text: 'Der transregionale Sonderforschungsbereich (SFB)³ zwischen der Universität Leipzig, der Universität Köln und Bremen wurde 2016 eingerichtet. Beteiligt sind das Alfred-Wegener-Institut, Helmholtz-Zentrum für Polar- und Meeresforschung (AWI) in Bremerhaven und Potsdam sowie das Leibniz-Institut für Troposphärenforschung (TROPOS) in Leipzig. Ziel von (AC)³ ist es, den dramatischen Klimawandel in der Arktis mit verschiedenen Methoden zu beobachten, um die Zuverlässigkeit von Modellen zu verbessern und genauere Vorhersagen über die weitere Erwärmung der Arktis zu ermöglichen.',
     url: ' https://www.ac3-tr.de/',
     types: [PlaceType.Forschung],
