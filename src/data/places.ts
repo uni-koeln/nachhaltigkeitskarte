@@ -93,8 +93,8 @@ export const places: Place[] = [
     url: 'https://bridges-hub.cologne/',
     types: [PlaceType.Forschung],
     mail: '',
-    address: 'Classen-Kappelmann-Str. 24<br>50931 Köln',
-    coordinates: L.latLng(50.93129509492627, 6.9211057820288735)
+    address: 'Classen-Kappelmann-Str. 24, 50931 Köln',
+    coordinates: L.latLng(50.93103093847738, 6.9212338348095646)
   },
  {
     title: 'Arctic Amplification (AC)³',
