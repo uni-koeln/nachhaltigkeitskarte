@@ -602,6 +602,15 @@ export const places: Place[] = [
     coordinates: L.latLng(50.9278367073719, 6.927491053708103)
   },
   {
+    title: 'Photovoltaikanlage auf dem Philosophikum',
+    text: 'Die Photovoltaikanlage auf dem Gebäude des Philosophikums (174 kWp) an der Universitätsstraße erzeugt mit knapp 400 Photovoltaikmodulen 156.000 Kilowattstunden an elektrischer Energie im Jahr und verringert damit den CO2-Ausstoß der Universität um ungefähr 60.000 Kilogramm. Der Ausbau nachhaltiger Energiequellen ist Teil der universitären Nachhaltigkeitsstrategie.',
+    url: 'https://www.uni-koeln.de/universitaet/aktuell/koelner-universitaetsmagazin/unimag-einzelansicht/solarstrom-fuer-forschung-und-lehre#news11443',
+    types: [PlaceType.NachhaltigerCampus],
+    mail: 'j.huwer@verw.uni-koeln.de',
+    address: 'Universitätsstraße 41<br>50931 Köln',
+    coordinates: L.latLng(50.92829450637169, 6.928179054482375)
+  },
+  {
     title: 'Prorektor für Nachhaltigkeit (Prof. Dr. Kirk W. Junker)',
     text: 'Der Prorektor für Nachhaltigkeit verantwortet in Abstimmung mit dem Rektorat die Integration von Nachhaltigkeit in allen Bereichen der Universität zu Köln. Er ist Vorsitzender des Nachhaltigkeitsrates und wird in seinen Aufgaben durch das Nachhaltigkeitsbüro unterstützt.',
     url: 'https://portal.uni-koeln.de/universitaet/organisation/rektorat/prorektor-nachhaltigkeit',
