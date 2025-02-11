@@ -608,7 +608,7 @@ export const places: Place[] = [
     types: [PlaceType.NachhaltigerCampus],
     mail: 'j.huwer@verw.uni-koeln.de',
     address: 'Universitätsstraße 41<br>50931 Köln',
-    coordinates: L.latLng(50.92829450637169, 6.928179054482375)
+    coordinates: L.latLng(50.92815926008101, 6.926955967245957)
   },
   {
     title: 'Prorektor für Nachhaltigkeit (Prof. Dr. Kirk W. Junker)',
